@@ -1,0 +1,79 @@
+:root {
+  --bg-color: silver;
+}
+
+.header {
+  background-color: var(--bg-color);
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-image-logo {
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.header-text {
+  color: wheat;
+  margin: 0 0 0 20px;
+}
+
+.header-logo {
+  color: wheat;
+  margin-left: 20px;
+  font-size: 31px;
+}
+
+.header-wrap {
+  align-items: center;
+  display: flex;
+}
+
+.header-menu {
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.hero {
+  background-color: var(--bg-color);
+  position: relative;
+}
+
+.wrap {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+}
+
+.hero-img {
+  text-align: center;
+}
+
+.hero-content {
+  backdrop-filter: blur(30px);
+  border: 1px solid wheat;
+  border-radius: 12px;
+  max-width: 300px;
+  margin-right: -50%;
+  padding: 20px;
+  position: absolute;
+  top: 380px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.hero-title {
+  color: #fff;
+  margin-top: 0;
+  font-size: 13.5px;
+}
+
+.hero-btn {
+  background-color: wheat;
+  width: 100%;
+  padding: 10px;
+}
+/*# sourceMappingURL=index.77a9bc14.css.map */
