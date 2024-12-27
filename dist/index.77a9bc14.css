@@ -1,12 +1,12 @@
 :root {
-  --bg-color: silver;
+  --bg-color: #002;
 }
 
 .header {
   background-color: var(--bg-color);
   z-index: 1;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .header-image-logo {
@@ -22,7 +22,8 @@
 .header-logo {
   color: wheat;
   margin-left: 20px;
-  font-size: 31px;
+  font-size: 26px;
+  font-weight: 700;
 }
 
 .header-wrap {
@@ -39,17 +40,19 @@
 
 .hero {
   background-color: var(--bg-color);
-  position: relative;
 }
 
-.wrap {
+.hero-wrap {
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  gap: 25px;
   display: flex;
 }
 
 .hero-img {
   text-align: center;
+  border-radius: 49% 51% 55% 45% / 30% 27% 73% 70%;
 }
 
 .hero-content {
@@ -57,12 +60,15 @@
   border: 1px solid wheat;
   border-radius: 12px;
   max-width: 300px;
-  margin-right: -50%;
+  margin-bottom: 30px;
   padding: 20px;
-  position: absolute;
-  top: 380px;
-  left: 50%;
-  transform: translate(-50%);
+}
+
+.hero-title-0 {
+  text-align: center;
+  color: wheat;
+  margin: 0;
+  font-size: 16px;
 }
 
 .hero-title {
