@@ -1,14 +1,11 @@
 .service {
   background-color: $bg-color;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .service__title {
-  text-align: center;
-  font-size: 45px;
-  text-transform: uppercase;
-  color: $accent-text;
+  @extend %title;
 }
 
 .service__list {
@@ -19,7 +16,7 @@
 }
 
 .service__item {
-  width: 350px;
+  width: 366px;
   padding: 15px;
   border: 1px solid $accent-text;
   border-radius: 10px;

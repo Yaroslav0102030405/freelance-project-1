@@ -1,10 +1,12 @@
 .header {
   position: relative;
   padding-top: 20px;
-  padding-bottom: 20px;
+  // padding-top: 5px;
+  // padding-bottom: 20px;
   // background-color: $bg-color;
   z-index: 1;
-  padding-bottom: 30px;
+  // padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .header__wrap {
@@ -14,10 +16,18 @@
 }
 
 .header__logo {
-  font-size: 44px;
+  text-align: center;
+  text-shadow: 1px 0 10px #49453866;
+  font-size: 42px;
   color: $accent-text;
   font-weight: 700;
   // text-transform: uppercase;
+}
+
+.header__logo--description {
+  font-size: 14.6px;
+  color: $accent-text;
+  margin-bottom: 0;
 }
 
 .header__menu {
@@ -44,5 +54,7 @@
 
 .header__menu li a:hover,
 .header__menu li a:focus {
-  background-color: $accent-text;
+  // background-color: $accent-text;
+  color: $accent-text;
+  text-shadow: #fc0 1px 0 10px;
 }

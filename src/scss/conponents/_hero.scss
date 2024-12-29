@@ -1,15 +1,15 @@
-.hero {
-  // position: relative;
-  padding-top: 40px;
-  // padding-bottom: 40px;
-  // background-color: $bg-color;
-  // border-bottom: 1px solid $accent-text;
-}
+// .hero {
+//   // position: relative;
+//   padding-top: 40px;
+//   // padding-bottom: 40px;
+//   // background-color: $bg-color;
+//   // border-bottom: 1px solid $accent-text;
+// }
 
 .hero__wrap {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 25px;
 }
@@ -31,7 +31,7 @@
 .hero__pre-title {
   text-align: center;
   color: white;
-  font-size: 26px;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
@@ -55,15 +55,11 @@
 }
 
 .button {
-  padding: 15px;
-  background-color: $accent-text;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  color: $bg-color;
+  @extend %button;
 }
 
 .expand__button {
+  @extend %button;
   padding-right: 44px;
   padding-left: 44px;
   background-color: $bg-color;
@@ -75,10 +71,11 @@
   top: 0;
   left: 0;
   max-width: 1600px;
-  height: 800px;
+  height: 735px;
   min-width: auto;
   margin-right: auto;
-  background: url('image/11.jpeg');
+  // background: url('image/11.jpeg');
+  background: url('image/new33.jpg');
   // linear-gradient(to right, red, blue)
   // background: linear-gradient(to right, red, blue), url('image/22.jpg');
   background-repeat: no-repeat;
@@ -89,61 +86,68 @@
 }
 
 .hero__content {
+  // max-width: 600px;
   backdrop-filter: blur(3px);
-  padding: 30px;
+  padding: 10px;
   background-color: #22324ba3;
   // border: 1px solid $accent-text;
   box-shadow:
     rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  padding: 30px;
 }
 
-.hero__overlay-2 {
-  position: absolute;
-  top: 6%;
-  left: 7%;
-  max-width: 100px;
-  height: 100px;
-  width: 100%;
-  z-index: -1;
+.hero__maps {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.hero__overlay-3 {
-  position: absolute;
-  top: 13%;
-  left: 54%;
-  max-width: 100px;
-  height: 100px;
-  width: 100%;
-  z-index: -1;
-}
+// .hero__overlay-2 {
+//   position: absolute;
+//   top: 6%;
+//   left: 7%;
+//   max-width: 100px;
+//   height: 100px;
+//   width: 100%;
+//   z-index: -1;
+// }
 
-.hero__overlay-4 {
-  position: absolute;
-  top: 1%;
-  left: 30%;
-  max-width: 100px;
-  height: 100px;
-  width: 100%;
-  z-index: -1;
-}
+// .hero__overlay-3 {
+//   position: absolute;
+//   top: 13%;
+//   left: 54%;
+//   max-width: 100px;
+//   height: 100px;
+//   width: 100%;
+//   z-index: -1;
+// }
 
-.hero__overlay-5 {
-  position: absolute;
-  top: 17%;
-  left: 71%;
-  max-width: 100px;
-  height: 100px;
-  width: 100%;
-  z-index: -1;
-}
+// .hero__overlay-4 {
+//   position: absolute;
+//   top: 1%;
+//   left: 30%;
+//   max-width: 100px;
+//   height: 100px;
+//   width: 100%;
+//   z-index: -1;
+// }
 
-.hero__overlay-6 {
-  position: absolute;
-  top: 30%;
-  left: 87%;
-  max-width: 100px;
-  height: 100px;
-  width: 100%;
-  z-index: -1;
-}
+// .hero__overlay-5 {
+//   position: absolute;
+//   top: 17%;
+//   left: 71%;
+//   max-width: 100px;
+//   height: 100px;
+//   width: 100%;
+//   z-index: -1;
+// }
+
+// .hero__overlay-6 {
+//   position: absolute;
+//   top: 30%;
+//   left: 87%;
+//   max-width: 100px;
+//   height: 100px;
+//   width: 100%;
+//   z-index: -1;
+// }

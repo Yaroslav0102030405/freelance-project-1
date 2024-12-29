@@ -1,0 +1,22 @@
+%button {
+  font-weight: 600;
+  padding: 15px;
+  background-color: $accent-text;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: $bg-color;
+}
+
+%title {
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: $accent-text;
+  margin-bottom: 60px;
+}
+
+%section-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
