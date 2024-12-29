@@ -1,5 +1,6 @@
 :root {
-  --bg-color: #002;
+  --bg-color: #22324b;
+  --accent-text: #e4c9a2;
 }
 
 .header {
@@ -15,14 +16,16 @@
 }
 
 .header-text {
-  color: wheat;
-  margin: 0 0 0 20px;
+  color: var(--accent-text);
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 20.5px;
 }
 
 .header-logo {
-  color: wheat;
-  margin-left: 20px;
-  font-size: 26px;
+  color: var(--accent-text);
+  text-transform: uppercase;
+  font-size: 60px;
   font-weight: 700;
 }
 
@@ -40,6 +43,8 @@
 
 .hero {
   background-color: var(--bg-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .hero-wrap {
@@ -56,30 +61,36 @@
 }
 
 .hero-content {
-  backdrop-filter: blur(30px);
-  border: 1px solid wheat;
-  border-radius: 12px;
-  max-width: 300px;
-  margin-bottom: 30px;
   padding: 20px;
 }
 
 .hero-title-0 {
   text-align: center;
-  color: wheat;
-  margin: 0;
-  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 26px;
 }
 
 .hero-title {
   color: #fff;
+  text-transform: uppercase;
   margin-top: 0;
-  font-size: 13.5px;
+  font-size: 19px;
 }
 
 .hero-btn {
-  background-color: wheat;
-  width: 100%;
+  background-color: var(--accent-text);
+  text-transform: uppercase;
   padding: 10px;
+}
+
+.btn {
+  padding-top: 11.5px;
+  padding-bottom: 11.5px;
+}
+
+.btn-2 {
+  padding-left: 22px;
+  padding-right: 22px;
 }
 /*# sourceMappingURL=index.77a9bc14.css.map */

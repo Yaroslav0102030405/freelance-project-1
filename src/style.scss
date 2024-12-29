@@ -1,0 +1,61 @@
+// .splide__list {
+//   //   display: flex;
+//   gap: 30px;
+//   //   width: 350px;
+// }
+
+.splide__slide {
+  //   max-width: 350px;
+  min-height: 230px;
+  background-color: green;
+  //   color: white;
+}
+
+.my-slider-progress {
+  background: #ccc;
+}
+
+.my-slider-progress-bar {
+  background: greenyellow;
+  height: 2px;
+  transition: width 400ms ease;
+  width: 0;
+}
+
+.splide__arrow--prev {
+  background: #e4c9a2;
+}
+
+.splide__arrow--next {
+  background: #e4c9a2;
+}
+
+.splide__page-2 {
+  background: #e4c9a2;
+}
+
+.splide__pagination--2 {
+  background: #22324b;
+}
+
+.splide__arrow {
+  opacity: 1;
+  background: #e4c9a2;
+}
+
+.splide__pagination__page {
+  opacity: 1;
+  background: #e4c9a2;
+}
+
+.splide__pagination__page.is-active {
+  background: #22324b;
+}
+
+@import './scss/variables/variables';
+@import './scss/base/base';
+@import './scss/base/personal-normalization';
+@import './scss/base/container';
+@import './scss/conponents/header';
+@import './scss/conponents/hero';
+@import './scss/conponents/services';

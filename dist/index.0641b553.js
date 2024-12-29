@@ -596,11 +596,11 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"bNKaB":[function(require,module,exports,__globalThis) {
-var _1 = require("./js/1");
-console.log("\u041F\u0440\u0438\u0432\u0456\u0442!");
-
-},{"./js/1":"9FsGo"}],"9FsGo":[function(require,module,exports,__globalThis) {
-console.log("\u0422\u0440\u0435\u0431\u0430 \u043B\u043E\u0436\u0438\u0442\u0438\u0441\u044F \u0441\u043F\u0430\u0442\u0438");
+// const mySlider = new Splide('#mySlider');
+// mySlider.mount();
+new Splide('#slider1').mount();
+new Splide('#slider2').mount();
+new Splide('#slider3').mount();
 
 },{}]},["9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
 

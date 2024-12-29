@@ -1,0 +1,36 @@
+.service {
+  background-color: $bg-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.service__title {
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  color: $accent-text;
+}
+
+.service__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.service__item {
+  width: 350px;
+  padding: 15px;
+  border: 1px solid $accent-text;
+  border-radius: 10px;
+}
+
+.service__pre-title {
+  padding-top: 10px;
+  color: $accent-text;
+  text-transform: uppercase;
+}
+
+.service__description {
+  color: white;
+}
