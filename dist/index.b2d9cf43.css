@@ -33,6 +33,8 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: 17px;
+  line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,27 +80,29 @@ img {
 .service__button, .expand__button, .button {
   cursor: pointer;
   text-transform: uppercase;
-  color: #22324b;
+  color: #3e4464;
   background-color: #e4c9a2;
   border: none;
+  border-radius: 6px;
   padding: 15px;
   font-weight: 600;
 }
 
-.advantages__title, .service__title {
+.about__title, .advantages__title, .service__title {
   text-align: center;
   text-transform: uppercase;
   color: #e4c9a2;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
   font-size: 45px;
 }
 
-.advantages {
+.about, .advantages, .service {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .service__button {
+  margin-top: auto;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -141,7 +145,7 @@ img {
 }
 
 .header__menu li a {
-  color: #22324b;
+  color: #3e4464;
   border: 1px solid #0000;
   padding: 10px;
   font-size: 19px;
@@ -153,7 +157,8 @@ img {
 }
 
 .hero__wrap {
-  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  grid-template-columns: 1fr 577px;
   align-items: center;
   gap: 25px;
   display: grid;
@@ -207,14 +212,14 @@ img {
 
 .expand__button {
   color: #e4c9a2;
-  background-color: #22324b;
+  background-color: #3e4464;
   padding-left: 44px;
   padding-right: 44px;
 }
 
 .hero__overlay {
   z-index: -1;
-  background: url("new33.8da760e3.jpg") center / cover no-repeat;
+  background: url("1q.9e96af6c.jpg") center / cover no-repeat;
   width: 100%;
   min-width: auto;
   max-width: 1600px;
@@ -238,13 +243,12 @@ img {
 }
 
 .service {
-  background-color: #22324b;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  background-color: #3e4464;
 }
 
 .service__list {
   grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
   gap: 30px;
   display: grid;
 }
@@ -262,9 +266,13 @@ img {
 }
 
 .service__item {
-  border: 1px solid #e4c9a2;
+  background-color: #454d71;
   border-radius: 10px;
+  grid-template-rows: auto auto 1fr;
+  height: 100%;
   padding: 15px;
+  display: grid;
+  box-shadow: 0 3px 8px #0000003d;
 }
 
 .service__pre-title {
@@ -279,8 +287,13 @@ img {
   margin-bottom: 20px;
 }
 
+.service__button:hover, .service__hover:focus {
+  transform: translateY(-2px);
+  box-shadow: 1px 0 10px #fc0;
+}
+
 .advantages {
-  background-color: #22324b;
+  background-color: #3e4464;
   padding-bottom: 120px;
 }
 
@@ -328,5 +341,21 @@ img {
   margin-bottom: 0;
   font-size: 20px;
   font-weight: 700;
+}
+
+.about {
+  background-color: #3e4464;
+}
+
+.about__wrap {
+  grid-template-columns: 1fr 1fr;
+  place-items: center end;
+  gap: 30px;
+  display: grid;
+}
+
+.about__text {
+  color: #e4c9a2;
+  font-size: 20px;
 }
 /*# sourceMappingURL=index.b2d9cf43.css.map */

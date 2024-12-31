@@ -1,0 +1,23 @@
+.about {
+  @extend %section-padding;
+  background-color: $bg-color;
+}
+
+.about__wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  //   place-items: center;
+  align-items: center;
+  justify-items: end;
+  // justify-items: center;
+  gap: 30px;
+}
+
+.about__title {
+  @extend %title;
+}
+
+.about__text {
+  color: $accent-text;
+  font-size: 20px;
+}

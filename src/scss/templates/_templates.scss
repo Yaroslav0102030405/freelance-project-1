@@ -6,6 +6,7 @@
   cursor: pointer;
   text-transform: uppercase;
   color: $bg-color;
+  border-radius: 6px;
 }
 
 %title {
@@ -13,7 +14,7 @@
   font-size: 45px;
   text-transform: uppercase;
   color: $accent-text;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 %section-padding {
@@ -25,4 +26,5 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
 }
