@@ -34,6 +34,7 @@
 }
 
 .service__pre-title {
+  font-size: 17px;
   padding-top: 10px;
   color: $accent-text;
   text-transform: uppercase;
@@ -41,4 +42,10 @@
 
 .service__description {
   color: white;
+  margin-bottom: 20px;
+}
+
+.service__button {
+  @extend %button;
+  @extend %margin;
 }

@@ -75,7 +75,7 @@ img {
   }
 }
 
-.expand__button, .button {
+.service__button, .expand__button, .button {
   cursor: pointer;
   text-transform: uppercase;
   color: #22324b;
@@ -96,6 +96,12 @@ img {
 .advantages {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.service__button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .header {
@@ -265,10 +271,12 @@ img {
   color: #e4c9a2;
   text-transform: uppercase;
   padding-top: 10px;
+  font-size: 17px;
 }
 
 .service__description {
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .advantages {
