@@ -9,14 +9,25 @@
 }
 
 .service__list {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  // display: flex;
+  // justify-content: center;
+  // flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
+
+  @media screen and (max-width: 769px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: 1fr;
+    // background-color: aqua;
+  }
 }
 
 .service__item {
-  width: 366px;
+  // width: 366px;
   padding: 15px;
   border: 1px solid $accent-text;
   border-radius: 10px;

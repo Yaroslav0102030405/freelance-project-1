@@ -1,6 +1,5 @@
 .splide__slide {
   background-color: green;
-  min-height: 230px;
 }
 
 .my-slider-progress {
@@ -70,21 +69,9 @@ img {
   padding-right: 20px;
 }
 
-@media screen and (width >= 480px) {
+@media screen and (width >= 1440px) {
   .container {
-    width: 480px;
-  }
-}
-
-@media screen and (width >= 768px) {
-  .container {
-    width: 768px;
-  }
-}
-
-@media screen and (width >= 1240px) {
-  .container {
-    width: 1200px;
+    width: 1440px;
   }
 }
 
@@ -102,7 +89,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #e4c9a2;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   font-size: 45px;
 }
 
@@ -160,11 +147,16 @@ img {
 }
 
 .hero__wrap {
-  flex-wrap: wrap;
-  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 25px;
-  display: flex;
+  display: grid;
+}
+
+@media screen and (width <= 500px) {
+  .hero__wrap .hero__wrap {
+    grid-template-columns: 1fr;
+  }
 }
 
 .hero__title {
@@ -246,16 +238,26 @@ img {
 }
 
 .service__list {
-  flex-wrap: wrap;
-  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
-  display: flex;
+  display: grid;
+}
+
+@media screen and (width <= 769px) {
+  .service__list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (width <= 580px) {
+  .service__list {
+    grid-template-columns: 1fr;
+  }
 }
 
 .service__item {
   border: 1px solid #e4c9a2;
   border-radius: 10px;
-  width: 366px;
   padding: 15px;
 }
 
@@ -275,17 +277,36 @@ img {
 }
 
 .advantages__list {
-  color: #e4c9a2;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  gap: 30px;
+  justify-content: center;
+  gap: 70px 30px;
   display: flex;
 }
 
 .advantages__item {
+  width: 31.2%;
+}
+
+@media screen and (width <= 1024px) {
+  .advantages__item {
+    width: 48%;
+  }
+}
+
+@media screen and (width <= 788px) {
+  .advantages__item {
+    width: 47%;
+  }
+}
+
+@media screen and (width <= 580px) {
+  .advantages__item {
+    width: 100%;
+  }
+}
+
+.advantages__item {
   text-align: center;
-  width: 365px;
 }
 
 .advantages__image {
@@ -295,6 +316,7 @@ img {
 }
 
 .advantages__text {
+  color: #e4c9a2;
   margin-bottom: 0;
   font-size: 20px;
   font-weight: 700;
