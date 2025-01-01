@@ -17,7 +17,29 @@
   @extend %title;
 }
 
+.about__logo {
+  display: inline-block;
+  border-radius: 50px;
+  margin-right: 10px;
+  border: 5px solid $accent-text;
+}
+
+.about__pre-title {
+  display: inline-block;
+  color: $accent-text;
+  font-size: 50px;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px pink;
+  // margin-bottom: 25px;
+}
+
 .about__text {
   color: $accent-text;
+  text-shadow: 1px 1px 2px pink;
   font-size: 20px;
+}
+
+.about__image img {
+  border: 10px solid $accent-text;
+  border-radius: 6px;
 }

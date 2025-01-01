@@ -54,10 +54,17 @@
 .hero__wrap-buttons {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
 
 .button {
   @extend %button;
+}
+
+.button:hover,
+.button:focus {
+  transform: translateY(-2px);
+  box-shadow: #fc0 1px 0 10px;
 }
 
 .expand__button {
@@ -76,11 +83,14 @@
   height: 735px;
   min-width: auto;
   margin-right: auto;
-  // background: url('image/s1.jpg');
-  background: url('image/1q.jpg');
+  // background: url('image/hero-1.jpg');
+  // background: url('image/1q.jpg');
   // background: url('image/new33.jpg');
   // linear-gradient(to right, red, blue)
   // background: linear-gradient(to right, red, blue), url('image/22.jpg');
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
+    url('image/hero-1.jpg');
+
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

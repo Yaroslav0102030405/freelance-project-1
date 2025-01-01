@@ -206,8 +206,14 @@ img {
 }
 
 .hero__wrap-buttons {
+  justify-content: center;
   gap: 10px;
   display: flex;
+}
+
+.button:hover, .button:focus {
+  transform: translateY(-2px);
+  box-shadow: 1px 0 10px #fc0;
 }
 
 .expand__button {
@@ -219,7 +225,10 @@ img {
 
 .hero__overlay {
   z-index: -1;
-  background: url("1q.9e96af6c.jpg") center / cover no-repeat;
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("hero-1.3e07c967.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   min-width: auto;
   max-width: 1600px;
@@ -354,8 +363,29 @@ img {
   display: grid;
 }
 
+.about__logo {
+  border: 5px solid #e4c9a2;
+  border-radius: 50px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.about__pre-title {
+  color: #e4c9a2;
+  text-shadow: 1px 1px 2px pink;
+  font-size: 50px;
+  font-weight: 600;
+  display: inline-block;
+}
+
 .about__text {
   color: #e4c9a2;
+  text-shadow: 1px 1px 2px pink;
   font-size: 20px;
+}
+
+.about__image img {
+  border: 10px solid #e4c9a2;
+  border-radius: 6px;
 }
 /*# sourceMappingURL=index.b2d9cf43.css.map */
