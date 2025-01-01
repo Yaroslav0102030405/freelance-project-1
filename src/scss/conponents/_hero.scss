@@ -65,6 +65,7 @@
 .button:focus {
   transform: translateY(-2px);
   box-shadow: #fc0 1px 0 10px;
+  // color: $accent-text;
 }
 
 .expand__button {
@@ -102,7 +103,8 @@
   // max-width: 600px;
   backdrop-filter: blur(3px);
   padding: 10px;
-  background-color: #22324ba3;
+  // background-color: #22324ba3;
+  background-color: #22324b66;
   // border: 1px solid $accent-text;
   box-shadow:
     rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
