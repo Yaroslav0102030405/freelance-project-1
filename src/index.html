@@ -15,6 +15,7 @@
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
       rel="stylesheet"
     />
+  
 
     <link rel="stylesheet" href="style.scss" />
   </head>
@@ -25,13 +26,13 @@
           <div class="logo__wrap">
             <a class="logo" href="./index.html"> <img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a>
         </div>
-          <nav>
+          <nav class="nav">
             <ul class="header__menu">
-              <li><a href="#header">Головна</a></li>
+              <li><a class="active" href="#header">Головна</a></li>
               <li><a href="#service">Послуги</a></li>
               <li><a href="#advantages">Переваги</a></li>
               <li><a href="#about">Про мене</a></li>
-              <li><a href="">Контакти</a></li>
+              <li><a href="#contacts">Контакти</a></li>
             </ul>
           </nav>
         </div>
@@ -39,14 +40,8 @@
     </header>
     <main>
       <div class="hero__overlay"></div>
-      <!-- <img class="hero__overlay-2" src="./image/qqq.png" alt="" />
-      <img class="hero__overlay-3" src="./image/qqq.png" alt="" />
-      <img class="hero__overlay-4" src="./image/qqq.png" alt="" />
-      <img class="hero__overlay-5" src="./image/qqq.png" alt="" />
-      <img class="hero__overlay-6" src="./image/qqq.png" alt="" /> -->
-      <section class="hero">
+      <section class="hero scroll">
         <div class="container">
-        
           <div class="hero__wrap">
             <div>
               <img
@@ -56,48 +51,26 @@
                 alt=""
               />
             </div>
-
             <div class="hero__content">
               <h1 class="hero__title">Юрій Бухтій</h1>
               <p class="hero__description">
                 Брокер комерційної нерухомості в Варшаві
               </p>
-              <!-- <div class="hero__conteiner--text">
-
-              <img
-                class="hero__maps"
-                width="400"
-                src="./image/maps.png"
-                alt=""
-              />
-              <h2 class="hero__pre-title">
-                Я безкоштовно знайду для Вас
-                <br />
-                в будь-якому районі Варшави <br />
-                оренду під офіс або склад
-              </h2>
-              <!-- </div> -->
               <h2 class="hero__pre-title">Я безкоштовно знайду для Вас</h2>
               <p class="hero__advantages">✓ оренду під офіс в Варшаві</p>
               <p class="hero__advantages">✓ приміщення під склад в Варшаві</p>
               <p class="hero__advantages">✓ допоможу в реєстрації фірми в Польщі</p>
-              <!-- <p class="hero__advantages">
-                в будь-якому районі Варшави оренду під офіс обо склад
-              </p> -->
               <div class="hero__wrap-buttons">
                 <button class="button" type="button">
-                  <!-- Безкоштовна консультація -->
-                  Знайти накращій варіант оренди ⭢
+                  Безкоштовна консультація
                 </button>
-                <!-- <a class="button expand__button"> Подзвонити </a> -->
-                <!-- </div> -->
-                <!-- <a class="button expand__button"> Подзвонити </a> -->
+                <a href="tel:+48735775810" class="button expand__button"> Подзвонити</a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section id="service" class="service">
+      <section id="service" class="service scroll">
         <div class="container">
           <h2 class="service__title">Послуги</h2>
 
@@ -121,8 +94,6 @@
                 </div>
               </div>
               <!-- Slider -->
-
-              <!-- <img width="350" src="./image/service-1.jpg" alt="" /> -->
               <h3 class="service__pre-title">
                 оренда приміщення під офіс в варшаві
               </h3>
@@ -133,7 +104,7 @@
                 або без меблів, а також я можу зробити індивідуальний ремонт під
                 ваши побажання
               </p>
-              <button class="service__button">Знайти приміщення</button>
+              <button class="service__button">Безкоштовна консультація</button>
             </li>
             <li class="service__item">
               <!-- Slider -->
@@ -154,7 +125,6 @@
                 </div>
               </div>
               <!-- Slider -->
-              <!-- <img width="350" src="./image/service-2.jpg" alt="" /> -->
               <h3 class="service__pre-title">
                 оренда приміщення під склад в варшаві
               </h3>
@@ -164,7 +134,7 @@
                 міста і за його межами з різними розмірами та різною
                 інфраструктурою поблизу.
               </p>
-              <button class="service__button">Знайти приміщення</button>
+              <button class="service__button">Безкоштовна консультація</button>
             </li>
 
             <li class="service__item">
@@ -185,7 +155,6 @@
                 </div>
               </div>
               <!-- Slider -->
-              <!-- <img width="350" src="./image/service-3.jpeg" alt="" /> -->
               <h3 class="service__pre-title">
                 реєстрації фірми в Польщі та супровід
               </h3>
@@ -198,37 +167,9 @@
               <button class="service__button">Безкоштовна консультація</button>
             </li>
           </ul>
-
-          <!-- <section
-            id="slider1"
-            class="splide"
-            aria-label="Splide Basic HTML Example"
-          >
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">Slide 01</li>
-                <li class="splide__slide">Slide 02</li>
-                <li class="splide__slide">Slide 03</li>
-              </ul>
-            </div>
-          </section> -->
-
-          <!-- <section
-            id="slider2"
-            class="splide"
-            aria-label="Splide Basic HTML Example"
-          >
-            <div class="splide__track">
-              <ul class="splide__list">
-                <li class="splide__slide">Slide 01</li>
-                <li class="splide__slide">Slide 02</li>
-                <li class="splide__slide">Slide 03</li>
-              </ul>
-            </div>
-          </section> -->
         </div>
       </section>
-      <section id="advantages" class="advantages">
+      <section id="advantages" class="advantages scroll">
         <div class="container">
           <h2 class="advantages__title">Переваги</h2>
           <ul class="advantages__list">
@@ -243,17 +184,6 @@
                 Досвід в комерційній нерухомості
               </p></lu
             >
-            <!-- <lu class="advantages__item"
-              ><img
-                class="advantages__image"
-                width="120"
-                src="./image/adven-2.png"
-                alt=""
-              />
-              <p class="advantages__text">
-                Більше 1000 задоволених клієнтів з гарними відгуками
-              </p></lu
-            > -->
             <lu class="advantages__item"
               ><img
                 class="advantages__image"
@@ -280,7 +210,6 @@
                 alt=""
               />
               <p class="advantages__text">
-                <!-- Аналіз фінансових умов контракту -->
                 Калькуляція місячної оренди
               </p></lu
             >
@@ -298,7 +227,7 @@
           </ul>
         </div>
       </section>
-      <section id="about" class="about">
+      <section id="about" class="about scroll">
         <div class="container">
           <h2 class="about__title">Про мене</h2>
           <div class="about__wrap">
@@ -313,19 +242,37 @@
                 тонкості ринку комерційної нерухомості і в своїй роботі
                 використовую сучасні технології для пошуку найкращіх варіантів. В мене з клієнтами надійні та прозорі
                 відносини, також я маю доступ до великої бази нерухомості і це
-                дозволяє мені швидко знаходити потрібні запити для клієнтів.
+                дозволяє мені швидко знаходити приміщення для оренди які потрібні клієнтам.
+                Я проживаю в Варшаві і ви можете приїхати до мене в офіс або ми можемо зустрітися де вам дуже зручно.
                 Я готовий допомогти вам знайти ідеальне місце для вашої
                   діяльності!
-              </p>
-
-             
-                
+              </p>       
               </p>
             </div>
             <div class="about__image">
-              <img width="550" src="./image/about.webp" alt="" />
+              <img width="600" src="./image/abou2t.jpg" alt="" />
             </div>
           </div>
+        </div>
+      </section>
+      <section id="contacts" class="contacts scroll">
+        <div class="container">
+          <h2 class="contacts__title">Контакти</h2>
+<div class="contacts__wrap">
+  <div class="contacts__image">
+    <img width="800" src="./image/contacts.jpg" alt="">
+  </div>
+  <div class="contacts__form">
+    <form id="form">
+      <h3 class="form__title">Безкоштовна консультація</h3>
+      <label><input type="name" id="name" placeholder="Ім'я" required></label>
+    <label><input type="tel" id="tel" placeholder="Номер телефону" required></label>
+    <textarea name="comment" id="comment" rows="10" placeholder="Коментар" ></textarea>
+      
+     <button class="button form__button">Відправити</button>
+    </form>
+  </div>
+</div>
         </div>
       </section>
     </main>
@@ -334,17 +281,10 @@
         <div class="footer__line"></div>
 <div class="footer__wrap">
   <div class="logo__wrap">
-    <a class="logo" href=""><img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a>
+    <a class="logo" href="">
+      <img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a>
       </div>
-      <!-- <div class="footer__links">
-        <ul >
-          <li><a href="#header">Головна</a></li>
-          <li><a href="#service">Послуги</a></li>
-          <li><a href="#advantages">Переваги</a></li>
-          <li><a href="#about">Про мене</a></li>
-          <li><a href="">Контакти</a></li>
-        </ul>
-      </div> -->
+     <div class="footer__tel"><a class="tel" href="tel:+48735775810">Мій номер +48 735-775-810</a></div>
       <ul class="footer__icons">
         <li> <svg class="icon" width="40" height="40">
           <use href="./image/icons-sprite.svg#icon-facebook2"></use>
@@ -364,5 +304,42 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script type="module" src="app.js"></script>
+    
+    <script src="./js/scrollPage.js"></script>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+    integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    SmoothScroll({
+      // Время скролла 400 = 0.4 секунды
+      animationTime: 800,
+      // Размер шага в пикселях
+      stepSize: 75,
+
+      // Дополнительные настройки:
+
+      // Ускорение
+      accelerationDelta: 30,
+      // Максимальное ускорение
+      accelerationMax: 2,
+
+      // Поддержка клавиатуры
+      keyboardSupport: true,
+      // Шаг скролла стрелками на клавиатуре в пикселях
+      arrowScroll: 50,
+
+      // Pulse (less tweakable)
+      // ratio of "tail" to "acceleration"
+      pulseAlgorithm: true,
+      pulseScale: 4,
+      pulseNormalize: 1,
+
+      // Поддержка тачпада
+      touchpadSupport: true,
+    });
+  </script>
+    
   </body>
 </html>

@@ -41,11 +41,13 @@
 .splide__arrow {
   opacity: 1;
   background: #e4c9a2;
+  cursor: url('image/cursor/cursor-2.png'), auto;
 }
 
 .splide__pagination__page {
   opacity: 1;
   background: #e4c9a2;
+  cursor: url('image/cursor/cursor-2.png'), auto;
 }
 
 .splide__pagination__page.is-active {
@@ -54,6 +56,7 @@
 
 @import './scss/variables/variables';
 @import './scss/base/base';
+@import './scss/base/scrollbar';
 @import './scss/base/personal-normalization';
 @import './scss/base/container';
 @import './scss/templates/templates';
@@ -62,4 +65,5 @@
 @import './scss/conponents/services';
 @import './scss/conponents/advantages';
 @import './scss/conponents/about';
+@import './scss/conponents/contacts';
 @import './scss/conponents/footer';

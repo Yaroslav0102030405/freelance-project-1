@@ -1,3 +1,8 @@
+// планий скрол
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -5,4 +10,9 @@ body {
   // font-family: Roboto, sans-serif;
   font-size: 17px;
   line-height: 1.4;
+  cursor: url('image/cursor/cursor-1.png'), auto;
+}
+
+a {
+  cursor: url('image/cursor/cursor-2.png'), auto;
 }

@@ -1,0 +1,58 @@
+.contacts {
+  //   @extend %section-padding;
+  background-color: $bg-color;
+}
+
+.contacts__wrap {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  align-items: center;
+  gap: 30px;
+}
+
+.contacts__form {
+  justify-items: end;
+}
+
+.contacts__title {
+  @extend %title;
+}
+
+form {
+  max-width: 500px;
+  border: 1px solid $accent-text;
+  padding: 26.5px;
+  border-radius: 6px;
+}
+
+.form__title {
+  text-align: center;
+  font-size: 34px;
+  color: $accent-text;
+}
+
+form input {
+  display: block;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 6px;
+}
+
+textarea {
+  height: 120px;
+  margin-bottom: 20px;
+  padding: 12px 15px;
+  resize: none;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.form__button {
+  width: 100%;
+}
+
+.contacts__image img {
+  border: 10px solid #e4c9a2;
+  border-radius: 6px;
+}
