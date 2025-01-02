@@ -1,9 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <!-- <link rel="manifest" href="favicon/site.webmanifest"> -->
+    <title data-lang="home_page-title">Юрій Бухтій</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -20,19 +24,26 @@
     <link rel="stylesheet" href="style.scss" />
   </head>
   <body>
+    <div class="container">
+      <!-- <button class="header__btn" data-btn="ua">Ua</button>
+      <button class="header__btn" data-btn="ru">Ru</button>
+      <button class="header__btn" data-btn="pl">Pl</button>
+      <button class="header__btn" data-btn="de">De</button> -->
+    </div>
     <header id="header" class="header">
       <div class="container">
         <div class="header__wrap">
           <div class="logo__wrap">
-            <a class="logo" href="./index.html"> <img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a>
+            <a class="logo" data-lang="header_logo-title" href="./index.html"> 
+              <!-- <img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a> -->
         </div>
           <nav class="nav">
             <ul class="header__menu">
-              <li><a class="active" href="#header">Головна</a></li>
-              <li><a href="#service">Послуги</a></li>
-              <li><a href="#advantages">Переваги</a></li>
-              <li><a href="#about">Про мене</a></li>
-              <li><a href="#contacts">Контакти</a></li>
+              <li><a class="active" data-lang="header_menu-home" href="#header">Головна</a></li>
+              <li><a href="#service" data-lang="header_menu-service">Послуги</a></li>
+              <li><a href="#advantages" data-lang="header_menu-advantages">Переваги</a></li>
+              <li><a href="#about" data-lang="header_menu-about">Про мене</a></li>
+              <li><a href="#contacts" data-lang="header_menu-contacts">Контакти</a></li>
             </ul>
           </nav>
         </div>
@@ -52,19 +63,19 @@
               />
             </div>
             <div class="hero__content">
-              <h1 class="hero__title">Юрій Бухтій</h1>
-              <p class="hero__description">
+              <h1 class="hero__title" data-lang="header_banner-name">Юрій Бухтій</h1>
+              <p class="hero__description" data-lang="header_banner-title">
                 Брокер комерційної нерухомості в Варшаві
               </p>
-              <h2 class="hero__pre-title">Я безкоштовно знайду для Вас</h2>
-              <p class="hero__advantages">✓ оренду під офіс в Варшаві</p>
-              <p class="hero__advantages">✓ приміщення під склад в Варшаві</p>
-              <p class="hero__advantages">✓ допоможу в реєстрації фірми в Польщі</p>
+              <h2 class="hero__pre-title" data-lang="header_banner-pre-title">Я безкоштовно знайду для Вас</h2>
+              <p class="hero__advantages" data-lang="header_banner-advantages-1">✓ оренду під офіс в Варшаві</p>
+              <p class="hero__advantages" data-lang="header_banner-advantages-2">✓ приміщення під склад в Варшаві</p>
+              <p class="hero__advantages" data-lang="header_banner-advantages-3">✓ допоможу в реєстрації фірми в Польщі</p>
               <div class="hero__wrap-buttons">
-                <button class="button" type="button">
+                <button class="button" type="button" data-lang="header_banner-button">
                   Безкоштовна консультація
                 </button>
-                <a href="tel:+48735775810" class="button expand__button"> Подзвонити</a>
+                <a href="tel:+48735775810" class="button expand__button" data-lang="header_banner-link"> Подзвонити</a>
               </div>
             </div>
           </div>
@@ -72,7 +83,7 @@
       </section>
       <section id="service" class="service scroll">
         <div class="container">
-          <h2 class="service__title">Послуги</h2>
+          <h2 class="service__title" data-lang="service_title">Послуги</h2>
 
           <ul class="service__list">
             <li class="service__item">
@@ -94,17 +105,17 @@
                 </div>
               </div>
               <!-- Slider -->
-              <h3 class="service__pre-title">
+              <h3 class="service__pre-title" data-lang="service_pre-title-1">
                 оренда приміщення під офіс в варшаві
               </h3>
-              <p class="service__description">
+              <p class="service__description" data-lang="service_description-1">
                 Для вас я знайду приміщення під офіс в будь-якому районі
                 Варшави. Воно може бути як маленьким, середнім так і великим по
                 розміру від 100 до 30000 квм. Приміщення може бути мебльованим
                 або без меблів, а також я можу зробити індивідуальний ремонт під
                 ваши побажання
               </p>
-              <button class="service__button">Безкоштовна консультація</button>
+              <button class="service__button" data-lang="service_button-1">Безкоштовна консультація</button>
             </li>
             <li class="service__item">
               <!-- Slider -->
@@ -125,16 +136,16 @@
                 </div>
               </div>
               <!-- Slider -->
-              <h3 class="service__pre-title">
+              <h3 class="service__pre-title" data-lang="service_pre-title-2">
                 оренда приміщення під склад в варшаві
               </h3>
-              <p class="service__description">
+              <p class="service__description" data-lang="service_description-2">
                 Я також займаюся орендою приміщень під склад в Варшаві і для вас
                 можу знайти чудовий варіант. В мене є багато приміщень в центрі
                 міста і за його межами з різними розмірами та різною
                 інфраструктурою поблизу.
               </p>
-              <button class="service__button">Безкоштовна консультація</button>
+              <button class="service__button" data-lang="service_button-2">Безкоштовна консультація</button>
             </li>
 
             <li class="service__item">
@@ -155,23 +166,23 @@
                 </div>
               </div>
               <!-- Slider -->
-              <h3 class="service__pre-title">
+              <h3 class="service__pre-title" data-lang="service_pre-title-3">
                 реєстрації фірми в Польщі та супровід
               </h3>
-              <p class="service__description">
+              <p class="service__description" data-lang="service_description-3">
                 Допоможу відкрити фірму в Польщі і можу бути вашим помічником в
                 вирішенні різних питань та нестандартних ситуацій пов'язаних з
                 супроводом фірми так і індивідуальних ваших запитів. Звертайтеся
                 я з радістю вам допоможу
               </p>
-              <button class="service__button">Безкоштовна консультація</button>
+              <button class="service__button" data-lang="service_button-3">Безкоштовна консультація</button>
             </li>
           </ul>
         </div>
       </section>
       <section id="advantages" class="advantages scroll">
         <div class="container">
-          <h2 class="advantages__title">Переваги</h2>
+          <h2 class="advantages__title" data-lang="advantages_title">Переваги</h2>
           <ul class="advantages__list">
             <lu class="advantages__item"
               ><img
@@ -180,7 +191,7 @@
                 src="./image/adven-11.png"
                 alt=""
               />
-              <p class="advantages__text">
+              <p class="advantages__text" data-lang="advantages_pre-title-1">
                 Досвід в комерційній нерухомості
               </p></lu
             >
@@ -191,7 +202,7 @@
                 src="./image/adven-2.png"
                 alt=""
               />
-              <p class="advantages__text">Турбота про клієнта</p></lu
+              <p class="advantages__text" data-lang="advantages_pre-title-2">Турбота про клієнта</p></lu
             >
             <lu class="advantages__item"
               ><img
@@ -200,7 +211,7 @@
                 src="./image/adven-3.png"
                 alt=""
               />
-              <p class="advantages__text">Відсутність комісії за послуги</p></lu
+              <p class="advantages__text" data-lang="advantages_pre-title-3">Відсутність комісії за послуги</p></lu
             >
             <lu class="advantages__item"
               ><img
@@ -209,7 +220,7 @@
                 src="./image/adven-4.png"
                 alt=""
               />
-              <p class="advantages__text">
+              <p class="advantages__text" data-lang="advantages_pre-title-4">
                 Калькуляція місячної оренди
               </p></lu
             >
@@ -220,7 +231,7 @@
                 src="./image/adven-5.png"
                 alt=""
               />
-              <p class="advantages__text">
+              <p class="advantages__text" data-lang="advantages_pre-title-5">
                 Доступ до усіх офісних будинків в Варшаві
               </p></lu
             >
@@ -229,13 +240,14 @@
       </section>
       <section id="about" class="about scroll">
         <div class="container">
-          <h2 class="about__title">Про мене</h2>
+          <h2 class="about__title" data-lang="about_title">Про мене</h2>
           <div class="about__wrap">
             <div class="about__content">
               <div class="logo__wrap">
-                <a class="logo" href=""><img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a>
+                <a class="logo" href="" data-lang="about_name">
+                  <!-- <img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a> -->
                   </div>
-              <p class="about__text">
+              <p class="about__text" data-lang="about_description">
                 Привіт! Я брокер комерційної нерухомості в Варшаві. Моя робота полягає у тому, щоб
                 допомогти інвесторам, підприємцям та організаціям знайти
                 ідеальне місце для їхньої діяльності. Я знаю усі нюанси та
@@ -257,19 +269,26 @@
       </section>
       <section id="contacts" class="contacts scroll">
         <div class="container">
-          <h2 class="contacts__title">Контакти</h2>
+          <h2 class="contacts__title" data-lang="contacts_title">Контакти</h2>
 <div class="contacts__wrap">
   <div class="contacts__image">
     <img width="800" src="./image/contacts.jpg" alt="">
   </div>
   <div class="contacts__form">
     <form id="form">
-      <h3 class="form__title">Безкоштовна консультація</h3>
-      <label><input type="name" id="name" placeholder="Ім'я" required></label>
-    <label><input type="tel" id="tel" placeholder="Номер телефону" required></label>
-    <textarea name="comment" id="comment" rows="10" placeholder="Коментар" ></textarea>
-      
-     <button class="button form__button">Відправити</button>
+      <h3 class="form__title" data-lang="contacts_title-form">Безкоштовна консультація</h3>
+      <!-- <label > -->
+        <p class="form__input-name" data-lang="contacts_input-name">Ім`я</p>
+        <input type="name" id="name" required>
+      <!-- </label> -->
+    <!-- <label> -->
+      <p class="form__input-name" data-lang="contacts_input-tel">Number</p>
+      <input type="tel" id="tel" required>
+    <!-- </label> -->
+    <p class="form__input-name" data-lang="contacts_input-teaxarea">Коментар</p>
+    <textarea name="comment" id="comment" rows="10"  placeholder="" ></textarea>   
+
+    <button class="button form__button" data-lang="contacts_form-button">Відправити</button>
     </form>
   </div>
 </div>
@@ -281,10 +300,11 @@
         <div class="footer__line"></div>
 <div class="footer__wrap">
   <div class="logo__wrap">
-    <a class="logo" href="">
-      <img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a>
+    <a class="logo" href="" data-lang="footer_name">
+      Юрій Бухтій
+      <!-- <img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a> -->
       </div>
-     <div class="footer__tel"><a class="tel" href="tel:+48735775810">Мій номер +48 735-775-810</a></div>
+     <div class="footer__tel"><a class="tel" href="tel:+48735775810">+48 735-775-810</a></div>
       <ul class="footer__icons">
         <li> <svg class="icon" width="40" height="40">
           <use href="./image/icons-sprite.svg#icon-facebook2"></use>
@@ -302,6 +322,22 @@
       </div>
       </div>
     </footer>
+
+    <div class="backdrop js-backdrop">
+      <div class="modal js-modal">
+        <!-- <div class="modal__background"> -->
+        <h2 lang="en" class="modal__title">Select language</h2>
+      <!-- </div> -->
+        <ul class="modal__menu-btn">
+          <li class="mb"><button class="modal__btn btn" data-btn="ua">UA</button></li>
+        <li><button class="modal__btn btn" data-btn="ru">RU</button></li>
+        <li> <button class="modal__btn btn" data-btn="pl">PL</button></li>
+        <li><button class="modal__btn btn" data-btn="de">DE</button></li>
+      </ul>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/lang.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script type="module" src="app.js"></script>
     

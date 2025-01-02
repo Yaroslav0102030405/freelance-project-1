@@ -43,6 +43,10 @@ body {
   line-height: 1.4;
 }
 
+.show-modal {
+  overflow: hidden;
+}
+
 a {
   cursor: url("cursor-2.770b4bf4.png"), auto;
 }
@@ -163,7 +167,7 @@ img {
 }
 
 .header__menu {
-  z-index: 999;
+  z-index: 10;
   backdrop-filter: blur(30px);
   gap: 20px;
   padding: 0;
@@ -210,14 +214,14 @@ img {
   color: #e4c9a2;
   text-transform: uppercase;
   margin-bottom: 0;
-  font-size: 68px;
+  font-size: 67px;
 }
 
 .hero__description {
   color: #e4c9a2;
   margin-top: 0;
   margin-bottom: 40px;
-  font-size: 23.2px;
+  font-size: 20.2px;
 }
 
 .hero__pre-title {
@@ -436,26 +440,33 @@ img {
 }
 
 .contacts__form {
-  justify-items: end;
+  justify-items: center;
 }
 
 form {
   border: 1px solid #e4c9a2;
   border-radius: 6px;
   max-width: 500px;
-  padding: 26.5px;
+  padding: 20px;
+}
+
+.form__input-name {
+  color: #e4c9a2;
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
 .form__title {
   text-align: center;
   color: #e4c9a2;
+  margin-bottom: 20px;
   font-size: 34px;
 }
 
 form input {
   border-radius: 6px;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   padding: 15px;
   display: block;
 }
@@ -533,5 +544,59 @@ textarea {
   filter: drop-shadow(1px 0 10px #fc0);
   cursor: url("cursor-2.770b4bf4.png"), auto;
   transform: translateY(-2px);
+}
+
+.backdrop {
+  backdrop-filter: blur(10px);
+  z-index: 21;
+  background-color: #ffa50080;
+  width: 100%;
+  height: 100%;
+  transition: opacity .25s linear;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal {
+  z-index: 999;
+  background-color: #3e4464;
+  border-radius: 6px;
+  min-width: 200px;
+  padding: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal__title {
+  color: #e4c9a2;
+  font-size: 45px;
+}
+
+.modal__menu-btn {
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+}
+
+.modal__btn {
+  color: #3e4464;
+  cursor: url("cursor-2.770b4bf4.png"), auto;
+  background-color: #e4c9a2;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 30px;
+}
+
+.modal__btn:hover, .modal__btn:focus {
+  background-color: bisque;
 }
 /*# sourceMappingURL=index.b2d9cf43.css.map */

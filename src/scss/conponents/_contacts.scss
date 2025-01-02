@@ -11,7 +11,7 @@
 }
 
 .contacts__form {
-  justify-items: end;
+  justify-items: center;
 }
 
 .contacts__title {
@@ -21,21 +21,28 @@
 form {
   max-width: 500px;
   border: 1px solid $accent-text;
-  padding: 26.5px;
+  padding: 20px;
   border-radius: 6px;
+}
+
+.form__input-name {
+  color: $accent-text;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .form__title {
   text-align: center;
   font-size: 34px;
   color: $accent-text;
+  margin-bottom: 20px;
 }
 
 form input {
   display: block;
   padding: 15px;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   border-radius: 6px;
 }
 
