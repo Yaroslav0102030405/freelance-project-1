@@ -14,12 +14,8 @@
 
     <link rel="stylesheet" href="/index.b2d9cf43.css">
   </head>
-  <body>
+  <body class="show-modal">
     <div class="container">
-      <!-- <button class="header__btn" data-btn="ua">Ua</button>
-      <button class="header__btn" data-btn="ru">Ru</button>
-      <button class="header__btn" data-btn="pl">Pl</button>
-      <button class="header__btn" data-btn="de">De</button> -->
     </div>
     <header id="header" class="header">
       <div class="container">
@@ -58,7 +54,7 @@
               <p class="hero__advantages" data-lang="header_banner-advantages-2">✓ приміщення під склад в Варшаві</p>
               <p class="hero__advantages" data-lang="header_banner-advantages-3">✓ допоможу в реєстрації фірми в Польщі</p>
               <div class="hero__wrap-buttons">
-                <button class="button" type="button" data-lang="header_banner-button">
+                <button class="button js-button" type="button" data-lang="header_banner-button">
                   Безкоштовна консультація
                 </button>
                 <a href="tel:+48735775810" class="button expand__button" data-lang="header_banner-link"> Подзвонити</a>
@@ -87,16 +83,15 @@
               </div>
               <!-- Slider -->
               <h3 class="service__pre-title" data-lang="service_pre-title-1">
-                оренда приміщення під офіс в варшаві
+                1 Оренда офісу в Варшаві
               </h3>
               <p class="service__description" data-lang="service_description-1">
-                Для вас я знайду приміщення під офіс в будь-якому районі
-                Варшави. Воно може бути як маленьким, середнім так і великим по
-                розміру від 100 до 30000 квм. Приміщення може бути мебльованим
-                або без меблів, а також я можу зробити індивідуальний ремонт під
-                ваши побажання
+                Для Вас я знайду офіс в різних районах Варшави.
+                Офіс може бути як готовий мебльований, так і запроєктований згідно Ваших побажань. 
               </p>
-              <button class="service__button" data-lang="service_button-1">Безкоштовна консультація</button>
+              <p class="service__price" data-lang="service__price-1">Метраж від 100 до 30 000 мкв.</p>
+              <p class="service__price-1" data-lang="service__price-2"></p>
+              <button class="service__button js-button" data-lang="service_button-1">Безкоштовна консультація</button>
             </li>
             <li class="service__item">
               <!-- Slider -->
@@ -116,12 +111,12 @@
                 оренда приміщення під склад в варшаві
               </h3>
               <p class="service__description" data-lang="service_description-2">
-                Я також займаюся орендою приміщень під склад в Варшаві і для вас
-                можу знайти чудовий варіант. В мене є багато приміщень в центрі
-                міста і за його межами з різними розмірами та різною
-                інфраструктурою поблизу.
+                Я також займаюся орендою складів в Польщі. 
               </p>
-              <button class="service__button" data-lang="service_button-2">Безкоштовна консультація</button>
+              <p class="service__price"> В доступі є база власників/операторів Складів в Польщі з офісними приміщеннями.</p>
+              <p class="service__price">Добра поблизу інфраструктура і доїзд.</p>
+              <p class="service__price-1" data-lang="service__price-2">Метраж від 500 до 30 000 мкв.</p>
+              <button class="service__button js-button" data-lang="service_button-2">Безкоштовна консультація</button>
             </li>
 
             <li class="service__item">
@@ -146,7 +141,8 @@
                 супроводом фірми так і індивідуальних ваших запитів. Звертайтеся
                 я з радістю вам допоможу
               </p>
-              <button class="service__button" data-lang="service_button-3">Безкоштовна консультація</button>
+              <p class="service__price-1" data-lang="service__price-2"></p>
+              <button class="service__button js-button" data-lang="service_button-3">Безкоштовна консультація</button>
             </li>
           </ul>
         </div>
@@ -183,19 +179,14 @@
                 <a class="logo" href="" data-lang="about_name">
                   <!-- <img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a> -->
                   </a></div>
-              <p class="about__text" data-lang="about_description">
-                Привіт! Я брокер комерційної нерухомості в Варшаві. Моя робота полягає у тому, щоб
-                допомогти інвесторам, підприємцям та організаціям знайти
-                ідеальне місце для їхньої діяльності. Я знаю усі нюанси та
-                тонкості ринку комерційної нерухомості і в своїй роботі
-                використовую сучасні технології для пошуку найкращіх варіантів. В мене з клієнтами надійні та прозорі
-                відносини, також я маю доступ до великої бази нерухомості і це
-                дозволяє мені швидко знаходити приміщення для оренди які потрібні клієнтам.
-                Я проживаю в Варшаві і ви можете приїхати до мене в офіс або ми можемо зустрітися де вам дуже зручно.
-                Я готовий допомогти вам знайти ідеальне місце для вашої
-                  діяльності!
-              </p>       
-              <p></p>
+              <p class="about__text" data-lang="about_description">Привіт!</p>    
+              <p class="about__text" data-lang="about_description2">Я брокер комерційної нерухомості в Варшаві. </p>   
+              <p class="about__text" data-lang="about_description3"> Моя робота полягає у тому, щоб допомогти інвесторам, підприємцям та організаціям знайти ідеальний офіс для їхньої діяльності. </p>   
+              <p class="about__text" data-lang="about_description4">Я проводжу Вас через цілий процес найму комерційної нерухомості до підпису договору найкращого для Вас офісу. </p>   
+              <p class="about__text" data-lang="about_description5"> В мене з клієнтами надійні та прозорі відносини, також я маю доступ до великої бази нерухомості і це дозволяє мені швидко знаходити приміщення для оренди які потрібні моїм клієнтам.  </p>       
+              <p class="about__text" data-lang="about_description6"> Проживаю в Варшаві і Ви можете приїхати до мене в офіс або ми можемо зустрітися де Вам буде зручніше. </p>    
+              <p class="about__text" data-lang="about_description7">  Я готовий допомогти Вам знайти ідеальну Локалізацію!</p>   
+            
             </div>
             <div class="about__image">
               <img width="600" src="/abou2t.52a8cfcd.jpg" alt="">
@@ -211,18 +202,18 @@
     <img width="800" src="/contacts.9d06cf96.jpg" alt="">
   </div>
   <div class="contacts__form">
-    <form id="form">
+    <form id="form" class="form-1">
       <h3 class="form__title" data-lang="contacts_title-form">Безкоштовна консультація</h3>
       <!-- <label > -->
         <p class="form__input-name" data-lang="contacts_input-name">Ім`я</p>
-        <input type="name" id="name" required="">
+        <input class="form__1-input" type="name" id="name" required="">
       <!-- </label> -->
     <!-- <label> -->
       <p class="form__input-name" data-lang="contacts_input-tel">Number</p>
-      <input type="tel" id="tel" required="">
+      <input class="form__1-input" type="tel" id="tel" required="">
     <!-- </label> -->
     <p class="form__input-name" data-lang="contacts_input-teaxarea">Коментар</p>
-    <textarea name="comment" id="comment" rows="10" placeholder=""></textarea>   
+    <textarea class="form__1-textarea" name="comment" id="comment" rows="10" placeholder=""></textarea>   
 
     <button class="button form__button" data-lang="contacts_form-button">Відправити</button>
     </form>
@@ -261,18 +252,43 @@
 
     <div class="backdrop js-backdrop">
       <div class="modal js-modal">
-        <!-- <div class="modal__background"> -->
         <h2 lang="en" class="modal__title">Select language</h2>
-      <!-- </div> -->
         <ul class="modal__menu-btn">
-          <li class="mb"><button class="modal__btn btn" data-btn="ua">UA</button></li>
+        <li><button class="modal__btn btn" data-btn="ua">UA</button></li>
         <li><button class="modal__btn btn" data-btn="ru">RU</button></li>
         <li> <button class="modal__btn btn" data-btn="pl">PL</button></li>
-        <li><button class="modal__btn btn" data-btn="de">DE</button></li>
+        <li><button class="modal__btn btn" data-btn="en">EN</button></li>
       </ul>
       </div>
     </div>
+
+    <!-- модалька 2 -->
+    <div class="backdrop-2 js-backdrop-2 is-hidden-2 ">
+      <div class="modal-2 js-modal-2">
+        <div class="contacts__form">
+          <form id="form" class="form-1">
+            <button class="js-close-modal" type="button">
+              <img width="20" src="/close.d6da030c.png" alt="">
+            </button>
+            <h3 class="form__title" data-lang="contacts_title-form">Безкоштовна консультація</h3>
+            <!-- <label > -->
+              <p class="form__input-name" data-lang="contacts_input-name">Ім`я</p>
+              <input class="form__1-input" type="name" id="name" required="">
+            <!-- </label> -->
+          <!-- <label> -->
+            <p class="form__input-name" data-lang="contacts_input-tel">Number</p>
+            <input class="form__1-input" type="tel" id="tel" required="">
+          <!-- </label> -->
+          <p class="form__input-name" data-lang="contacts_input-teaxarea">Коментар</p>
+          <textarea class="form__1-textarea" name="comment" id="comment" rows="10" placeholder=""></textarea>   
+      
+          <button class="button form__button" data-lang="contacts_form-button">Відправити</button>
+          </form>
+        </div>
+      </div>
+    </div>
     <script src="/index.ba4f3a9f.js"></script>
+    <script src="/index.68f4e494.js"></script>
     <script src="/index.7db180b2.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script src="/index.0641b553.js" defer=""></script>

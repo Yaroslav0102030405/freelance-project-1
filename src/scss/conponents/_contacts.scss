@@ -1,5 +1,4 @@
 .contacts {
-  //   @extend %section-padding;
   background-color: $bg-color;
 }
 
@@ -18,7 +17,7 @@
   @extend %title;
 }
 
-form {
+.form-1 {
   max-width: 500px;
   border: 1px solid $accent-text;
   padding: 20px;
@@ -38,7 +37,7 @@ form {
   margin-bottom: 20px;
 }
 
-form input {
+.form__1-input {
   display: block;
   padding: 15px;
   width: 100%;
@@ -46,7 +45,7 @@ form input {
   border-radius: 6px;
 }
 
-textarea {
+.form__1-textarea {
   height: 120px;
   margin-bottom: 20px;
   padding: 12px 15px;

@@ -1,11 +1,7 @@
 .header {
   position: relative;
   padding-top: 20px;
-  // padding-top: 5px;
-  // padding-bottom: 20px;
-  // background-color: $bg-color;
   z-index: 1;
-  // padding-bottom: 30px;
   padding-bottom: 10px;
 }
 
@@ -21,7 +17,6 @@
   font-size: 42px;
   color: $accent-text;
   font-weight: 700;
-  // text-transform: uppercase;
 }
 
 .header__logo--description {
@@ -39,10 +34,7 @@
   list-style: none;
   padding: 0;
   gap: 20px;
-  // border: 1px solid $accent-text;
   backdrop-filter: blur(30px);
-  // box-shadow: 10px;
-  // box-shadow: 0px 0px 1px 1px;
   box-shadow:
     rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
@@ -53,20 +45,19 @@
   color: $bg-color;
   padding: 10px;
   border: 1px solid transparent;
-  // border-radius: 12px;
+  transition:
+    color 250ms linear,
+    text-shadow 250ms linear;
 }
 
 .header__menu li a:hover,
 .header__menu li a:focus {
-  // background-color: $accent-text;
   color: $accent-text;
   text-shadow: #fc0 1px 0 10px;
 }
 
 .header__menu li a.active {
-  // border-radius: 12px;
   padding: 10px;
-  // color: black;
   color: $accent-text;
-  // background-color: $accent-text;
+  text-shadow: #fc0 1px 0 10px;
 }
