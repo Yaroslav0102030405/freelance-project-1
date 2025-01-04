@@ -5,9 +5,14 @@
 
 .footer__wrap {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
+  justify-content: center;
   gap: 20px;
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: auto;
+  }
 }
 
 .logo__wrap {
@@ -29,15 +34,15 @@
   border-radius: 50%;
 }
 
-.footer__tel {
-  font-size: 20px;
-  font-weight: 600;
-  justify-items: center;
-}
+// .footer__tel {
+//   font-size: 20px;
+//   font-weight: 600;
+//   justify-items: center;
+// }
 
-.tel {
-  color: $accent-text;
-}
+// .tel {
+//   color: $accent-text;
+// }
 
 .footer__icons {
   display: flex;
@@ -47,6 +52,7 @@
 
 .icon {
   fill: #e4c9a2;
+  transition: fill 250ms linear;
 }
 
 .icon:hover,

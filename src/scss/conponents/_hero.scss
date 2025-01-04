@@ -1,6 +1,12 @@
+.hero {
+  @media screen and (max-width: 580px) {
+    background-color: $bg-color;
+  }
+}
+
 .hero__wrap {
   display: grid;
-  grid-template-columns: 1fr 577px;
+  grid-template-columns: 1fr 41.2%;
   align-items: center;
   gap: 25px;
   text-align: center;
@@ -10,35 +16,77 @@
       grid-template-columns: 1fr;
     }
   }
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: auto;
+    gap: 0;
+  }
 }
 
 .hero__title {
-  font-size: 67px;
+  font-size: 32px;
   color: $accent-text;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   margin-bottom: 0;
 }
 
 .hero__description {
   color: $accent-text;
   margin-top: 0;
-  margin-bottom: 40px;
-  font-size: 20.2px;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
 .hero__pre-title {
   text-align: center;
-  color: white;
-  font-size: 24px;
-  text-transform: uppercase;
+  color: $accent-text;
+  // font-size: 37px;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 1243px) {
+    font-size: 37px;
+  }
+
+  @media screen and (max-width: 1242px) {
+    font-size: 25px;
+  }
+
+  @media screen and (max-width: 876px) {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 723px) {
+    font-size: 17px;
+  }
+
+  @media screen and (max-width: 631px) {
+    font-size: 15px;
+  }
 }
 
 .hero__advantages {
-  font-size: 19px;
+  margin-bottom: 20px;
+  font-size: 26px;
   font-weight: 700;
   color: white;
   margin-top: 0;
-  text-transform: uppercase;
+
+  @media screen and (max-width: 1243px) {
+    font-size: 20px;
+  }
+
+  @media screen and (max-width: 876px) {
+    font-size: 18px;
+  }
+
+  @media screen and (max-width: 723px) {
+    font-size: 15px;
+  }
+
+  @media screen and (max-width: 631px) {
+    font-size: 13px;
+    // margin-bottom: 10px;
+  }
 }
 
 .hero-btn {
@@ -55,12 +103,14 @@
 
 .button {
   @extend %button;
+  // transition: all 250ms linear;
 }
 
 .button:hover,
 .button:focus {
   transform: translateY(-2px);
   box-shadow: #fc0 1px 0 10px;
+  // background-color: white;
 }
 
 .expand__button {
@@ -71,8 +121,6 @@
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  // padding-right: 44px;
-  // padding-left: 44px;
   background-color: $bg-color;
   color: $accent-text;
 }
@@ -91,13 +139,17 @@
   // linear-gradient(to right, red, blue)
   // background: linear-gradient(to right, red, blue), url('image/22.jpg');
   background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
-    url('image/hero-1.jpg');
+    url('image/hero-1-10.jpeg');
 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
   z-index: -1;
+
+  @media screen and (max-width: 580px) {
+    display: none;
+  }
 }
 
 .hero__content {
@@ -107,6 +159,11 @@
     rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   padding: 15px;
+
+  @media screen and (max-width: 580px) {
+    border: 1px solid $accent-text;
+    border-radius: 6px;
+  }
 }
 
 .hero__maps {

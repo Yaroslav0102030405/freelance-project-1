@@ -7,6 +7,10 @@
   grid-template-columns: 1.5fr 1fr;
   align-items: center;
   gap: 30px;
+
+  @media screen and (max-width: 580px) {
+    grid-template-columns: auto;
+  }
 }
 
 .contacts__form {
@@ -18,10 +22,14 @@
 }
 
 .form-1 {
-  max-width: 500px;
+  min-width: 300px;
   border: 1px solid $accent-text;
   padding: 20px;
   border-radius: 6px;
+  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
+  //   url('image/form-3.jpeg');
+  // background-repeat: no-repeat;
+  // background-position: center;
 }
 
 .form__input-name {

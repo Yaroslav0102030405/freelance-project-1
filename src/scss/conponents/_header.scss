@@ -3,12 +3,20 @@
   padding-top: 20px;
   z-index: 1;
   padding-bottom: 10px;
+
+  @media screen and (max-width: 580px) {
+    background-color: $bg-color;
+  }
 }
 
 .header__wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (max-width: 580px) {
+    display: none;
+  }
 }
 
 .header__logo {
@@ -38,6 +46,14 @@
   box-shadow:
     rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+  @media screen and (max-width: 837px) {
+    gap: 5px;
+  }
+
+  @media screen and (max-width: 580px) {
+    display: none;
+  }
 }
 
 .header__menu li a {
@@ -48,6 +64,11 @@
   transition:
     color 250ms linear,
     text-shadow 250ms linear;
+
+  @media screen and (max-width: 837px) {
+    padding: 5px;
+    font-size: 13px;
+  }
 }
 
 .header__menu li a:hover,
@@ -60,4 +81,8 @@
   padding: 10px;
   color: $accent-text;
   text-shadow: #fc0 1px 0 10px;
+
+  @media screen and (max-width: 837px) {
+    padding: 5px;
+  }
 }
