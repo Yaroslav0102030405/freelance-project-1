@@ -404,7 +404,7 @@ img {
 
 .hero__overlay {
   z-index: -1;
-  background-image: url("header-1.9e972457.jpeg");
+  background-image: image-set("header-1.9e972457.jpeg" 1x);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

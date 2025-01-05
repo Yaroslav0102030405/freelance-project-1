@@ -160,7 +160,7 @@
   //   url('image/hero-1-10.jpeg');
   // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
   //   url('image/header-1.jpeg');
-  background-image: url('image/header-1.jpeg');
+  background-image: image-set(url('image/header-1.jpeg'));
 
   background-repeat: no-repeat;
   background-size: cover;
