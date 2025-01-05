@@ -7,7 +7,9 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p"
   },
   "keywords": [],
   "author": "",

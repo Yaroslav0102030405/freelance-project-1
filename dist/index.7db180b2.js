@@ -324,6 +324,7 @@ const homeTexts = {
         en: 'Contacts'
     }
 };
+// const html = document.querySelector('.html');
 const langButtons = document.querySelectorAll('[data-btn]');
 const allLangs = [
     'ua',

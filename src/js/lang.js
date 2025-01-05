@@ -361,6 +361,8 @@ const homeTexts = {
   // },
 };
 
+// const html = document.querySelector('.html');
+
 const langButtons = document.querySelectorAll('[data-btn]');
 const allLangs = ['ua', 'ru', 'pl', 'en'];
 const currentPathName = window.location.pathname;
