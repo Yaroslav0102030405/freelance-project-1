@@ -1,6 +1,8 @@
 .hero {
+  padding-bottom: 154px;
   @media screen and (max-width: 580px) {
     background-color: $bg-color;
+    padding-bottom: 10px;
   }
 }
 
@@ -23,6 +25,14 @@
   }
 }
 
+.hero__img {
+  display: none;
+  @media screen and (max-width: 580px) {
+    display: grid;
+    justify-items: center;
+  }
+}
+
 .hero__title {
   font-size: 32px;
   color: $accent-text;
@@ -35,6 +45,10 @@
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 15px;
+
+  @media screen and (max-width: 580px) {
+    font-size: 12px;
+  }
 }
 
 .hero__pre-title {
@@ -62,6 +76,10 @@
   @media screen and (max-width: 631px) {
     font-size: 15px;
   }
+
+  @media screen and (max-width: 580px) {
+    font-size: 19px;
+  }
 }
 
 .hero__advantages {
@@ -85,7 +103,10 @@
 
   @media screen and (max-width: 631px) {
     font-size: 13px;
-    // margin-bottom: 10px;
+  }
+
+  @media screen and (max-width: 580px) {
+    font-size: 17px;
   }
 }
 
@@ -95,15 +116,8 @@
   text-transform: uppercase;
 }
 
-// .hero__wrap-buttons {
-//   display: flex;
-//   gap: 10px;
-//   justify-content: center;
-// }
-
 .button {
   @extend %button;
-  // transition: all 250ms linear;
 }
 
 .button:hover,
@@ -115,21 +129,25 @@
 
 .expand__button {
   @extend %button;
-  width: 100%;
+
   text-align: center;
-  max-width: 282px;
+
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
   background-color: $bg-color;
   color: $accent-text;
+
+  // @media screen and (max-width: 580px) {
+  //   max-width: 244px;
+  // }
 }
 
 .hero__overlay {
   position: absolute;
   top: 0;
   left: 0;
-  max-width: 1600px;
+  // max-width: 1600px;
   height: 735px;
   min-width: auto;
   margin-right: auto;
@@ -138,8 +156,11 @@
   // background: url('image/new33.jpg');
   // linear-gradient(to right, red, blue)
   // background: linear-gradient(to right, red, blue), url('image/22.jpg');
-  background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
-    url('image/hero-1-10.jpeg');
+  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
+  //   url('image/hero-1-10.jpeg');
+  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
+  //   url('image/header-1.jpeg');
+  background-image: url('image/header-1.jpeg');
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,8 +174,9 @@
 }
 
 .hero__content {
+  max-width: 520px;
   backdrop-filter: blur(3px);
-  background-color: #22324b66;
+  background-color: #74819630;
   box-shadow:
     rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;

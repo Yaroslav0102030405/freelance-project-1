@@ -111,9 +111,17 @@ img {
   background-color: #e4c9a2;
   border: none;
   border-radius: 6px;
+  width: 100%;
+  max-width: 287px;
   padding: 15px;
   font-weight: 600;
   transition: box-shadow .25s linear, translateY .25s linear;
+}
+
+@media screen and (width <= 580px) {
+  .service__button, .expand__button, .button {
+    font-size: 14px;
+  }
 }
 
 .contacts__title, .about__title, .advantages__title, .service__title {
@@ -139,13 +147,13 @@ img {
 .header {
   z-index: 1;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 45px;
   position: relative;
 }
 
 @media screen and (width <= 580px) {
   .header {
-    background-color: #3e4464;
+    display: none;
   }
 }
 
@@ -232,9 +240,14 @@ img {
   }
 }
 
+.hero {
+  padding-bottom: 154px;
+}
+
 @media screen and (width <= 580px) {
   .hero {
     background-color: #3e4464;
+    padding-bottom: 10px;
   }
 }
 
@@ -259,6 +272,17 @@ img {
   }
 }
 
+.hero__img {
+  display: none;
+}
+
+@media screen and (width <= 580px) {
+  .hero__img {
+    justify-items: center;
+    display: grid;
+  }
+}
+
 .hero__title {
   color: #e4c9a2;
   margin-bottom: 0;
@@ -270,6 +294,12 @@ img {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 15px;
+}
+
+@media screen and (width <= 580px) {
+  .hero__description {
+    font-size: 12px;
+  }
 }
 
 .hero__pre-title {
@@ -308,6 +338,12 @@ img {
   }
 }
 
+@media screen and (width <= 580px) {
+  .hero__pre-title {
+    font-size: 19px;
+  }
+}
+
 .hero__advantages {
   color: #fff;
   margin-top: 0;
@@ -340,6 +376,12 @@ img {
   }
 }
 
+@media screen and (width <= 580px) {
+  .hero__advantages {
+    font-size: 17px;
+  }
+}
+
 .hero-btn {
   text-transform: uppercase;
   background-color: #e4c9a2;
@@ -355,8 +397,6 @@ img {
   text-align: center;
   color: #e4c9a2;
   background-color: #3e4464;
-  width: 100%;
-  max-width: 282px;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -364,13 +404,12 @@ img {
 
 .hero__overlay {
   z-index: -1;
-  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("hero-1-10.3e767f52.jpeg");
+  background-image: url("header-1.9e972457.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   min-width: auto;
-  max-width: 1600px;
   height: 735px;
   margin-right: auto;
   position: absolute;
@@ -386,7 +425,8 @@ img {
 
 .hero__content {
   backdrop-filter: blur(3px);
-  background-color: #22324b66;
+  background-color: #74819630;
+  max-width: 520px;
   padding: 15px;
   box-shadow: 0 4px 8px -2px #091e4240, 0 0 0 1px #091e4214;
 }
@@ -429,7 +469,7 @@ img {
 .service__item {
   background-color: #454d71;
   border-radius: 10px;
-  grid-template-rows: auto auto auto 1fr;
+  grid-template-rows: auto auto auto auto auto 1fr;
   height: 100%;
   padding: 15px;
   display: grid;
@@ -443,14 +483,13 @@ img {
   font-size: 17px;
 }
 
-.service__description, .service__price {
+.service__description, .service__price, .service__price-1 {
   color: #fff;
   margin-bottom: 0;
 }
 
-.service__price-1 {
-  color: #fff;
-  margin-bottom: 20px;
+.service__price-2 {
+  color: #e4c9a2;
 }
 
 .service__button:hover, .service__hover:focus {
@@ -575,13 +614,14 @@ img {
 .form-1 {
   border: 1px solid #e4c9a2;
   border-radius: 6px;
+  width: 100%;
   min-width: 300px;
   padding: 20px;
 }
 
 .form__input-name {
   color: #e4c9a2;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 20px;
 }
 
@@ -592,25 +632,39 @@ img {
   font-size: 34px;
 }
 
+@media screen and (width <= 613px) {
+  .form__title {
+    font-size: 31px;
+  }
+}
+
 .form__1-input {
+  color: #3e4464;
+  border: 1px solid #e4c9a2;
   border-radius: 6px;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding: 15px;
   display: block;
 }
 
+.form__1-input::placeholder, .form__1-textarea::placeholder {
+  color: #e4c9a2;
+}
+
 .form__1-textarea {
   resize: none;
+  color: #3e4464;
+  border: 1px solid #e4c9a2;
   border-radius: 6px;
   width: 100%;
-  height: 120px;
   margin-bottom: 20px;
   padding: 12px 15px;
 }
 
 .form__button {
   width: 100%;
+  max-width: 506px;
 }
 
 .contacts__image img {
@@ -693,18 +747,20 @@ img {
 .modal {
   z-index: 999;
   background-color: #3e4464;
+  border: 1px solid #e4c9a2;
   border-radius: 6px;
-  min-width: 200px;
-  padding: 25px;
+  padding: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 1px 0 10px #fc0;
 }
 
 .modal__title {
   color: #e4c9a2;
-  font-size: 45px;
+  text-align: center;
+  font-size: 36px;
 }
 
 .modal__menu-btn {
@@ -719,7 +775,7 @@ img {
   background-color: #e4c9a2;
   border: none;
   border-radius: 6px;
-  padding: 10px 20px;
+  padding: 7px 10px;
   font-size: 30px;
   transition: background-color .25s linear;
 }

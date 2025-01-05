@@ -30,7 +30,7 @@
 
 .service__item {
   display: grid;
-  grid-template-rows: auto auto auto 1fr;
+  grid-template-rows: auto auto auto auto auto 1fr;
   padding: 15px;
   // border: 1px solid #5c4e68;
   // box-shadow: 0px 0px 3px #8490a0;
@@ -62,13 +62,13 @@
 
 .service__price-1 {
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
-// .service__price-2 {
-//   color: $accent-text;
-//   margin-bottom: 20px;
-// }
+.service__price-2 {
+  color: $accent-text;
+  // margin-bottom: 20px;
+}
 
 .service__button {
   @extend %button;
