@@ -403,12 +403,6 @@ img {
 }
 
 .hero__overlay {
-  z-index: -1;
-  background-image: image-set("header-1.9e972457.jpeg" 1x);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
   min-width: auto;
   height: 735px;
   margin-right: auto;
