@@ -1,5 +1,5 @@
 .hero {
-  padding-bottom: 154px;
+  // padding-bottom: 154px;
   @media screen and (max-width: 580px) {
     background-color: $bg-color;
     padding-bottom: 10px;
@@ -26,7 +26,7 @@
 }
 
 .hero__img {
-  display: none;
+  // display: none;
   @media screen and (max-width: 580px) {
     display: grid;
     justify-items: center;
@@ -147,27 +147,18 @@
   position: absolute;
   top: 0;
   left: 0;
+  // margin-left: auto;
+  // margin-right: auto;
   // max-width: 1600px;
   height: 735px;
-  min-width: auto;
-  margin-right: auto;
-  // background: url('image/hero-1.jpg');
-  // background: url('image/1q.jpg');
-  // background: url('image/new33.jpg');
-  // linear-gradient(to right, red, blue)
-  // background: linear-gradient(to right, red, blue), url('image/22.jpg');
-  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
-  //   url('image/hero-1-10.jpeg');
-  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
-  //   url('image/header-1.jpeg');
-  // background-image: image-set(url('image/header-1.jpeg'));
-
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
-  // width: 100%;
-  // z-index: -1;
-
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
+    url('./image/hero-1-2.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  z-index: -1;
   @media screen and (max-width: 580px) {
     display: none;
   }

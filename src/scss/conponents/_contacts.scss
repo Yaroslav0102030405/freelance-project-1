@@ -37,15 +37,17 @@
 }
 
 .form__input-name {
-  color: $accent-text;
+  // color: $accent-text;
+  color: $bg-color;
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .form__title {
   text-align: center;
   font-size: 34px;
-  color: $accent-text;
+  // color: $accent-text;
+  color: $bg-color;
   margin-bottom: 20px;
   @media screen and (max-width: 613px) {
     font-size: 31px;
@@ -85,6 +87,8 @@
 .form__button {
   width: 100%;
   max-width: 506px;
+  background-color: $bg-color;
+  color: $accent-text;
 }
 
 .contacts__image img {
