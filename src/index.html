@@ -647,9 +647,10 @@
       <div class="modal-2 js-modal-2">
         <div class="contacts__form">
           <form id="form2" class="form-1">
-            <a class="form__logo-1" href="javascript:void(0);">
-              <picture>
-                <source srcset="./image/image-logo.webp" />
+            <div class="form2__wrap-logo">
+              <a class="form__logo-1" href="javascript:void(0);">
+                <!-- <picture>
+                  <source srcset="./image/image-logo.webp" /> -->
                 <img
                   loading="lazy"
                   class="logo__image"
@@ -657,19 +658,21 @@
                   src="./image/image-logo.jpg"
                   alt="брокер комерційної нерухопомті"
                 />
-              </picture>
-              Yurii Bukhtii
-            </a>
-            <button class="js-close-modal" type="button">
-              <img
-                loading="lazy"
-                aria-label="логотип закриття модального вікна"
-                class="icon"
-                width="30"
-                src="./image/close1.png"
-                alt="логотип закриття модального вікна"
-              />
-            </button>
+                <!-- </picture> -->
+                Yurii Bukhtii
+              </a>
+              <button class="js-close-modal" type="button">
+                <img
+                  loading="lazy"
+                  aria-label="логотип закриття модального вікна"
+                  class="icon"
+                  width="30"
+                  src="./image/close1.png"
+                  alt="логотип закриття модального вікна"
+                />
+              </button>
+            </div>
+
             <h3 class="form__title">Free consultation</h3>
             <p class="form__input-name">Name:</p>
             <input
@@ -701,20 +704,13 @@
         </div>
       </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script
-      async
-      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"
-    ></script>
-    <script
-      async
       src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
       integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
       crossorigin="anonymous"
     ></script>
-    <script
-      async
-      src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <script type="module" src="app.js"></script>
   </body>
 </html>

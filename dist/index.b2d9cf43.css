@@ -663,6 +663,10 @@ img {
   display: flex;
 }
 
+.form2__wrap-logo {
+  display: flex;
+}
+
 .form__logo-2 {
   color: #3e4464;
 }
