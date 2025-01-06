@@ -144,6 +144,13 @@ img {
   display: block;
 }
 
+.form__logo-1 {
+  color: #e4c9a2;
+  align-items: center;
+  font-size: 25px;
+  display: inline-flex;
+}
+
 .header {
   z-index: 1;
   padding-top: 20px;
@@ -601,11 +608,16 @@ img {
 }
 
 .form-1 {
+  background-color: #e4c9a2;
   border: 1px solid #e4c9a2;
   border-radius: 6px;
   width: 100%;
   min-width: 300px;
   padding: 20px;
+}
+
+.form__logo-1 {
+  color: #3e4464;
 }
 
 .form__input-name {
@@ -629,6 +641,7 @@ img {
 
 .form__1-input {
   color: #3e4464;
+  background-color: #3e446424;
   border: 1px solid #e4c9a2;
   border-radius: 6px;
   width: 100%;
@@ -644,6 +657,7 @@ img {
 .form__1-textarea {
   resize: none;
   color: #3e4464;
+  background-color: #3e446424;
   border: 1px solid #e4c9a2;
   border-radius: 6px;
   width: 100%;
