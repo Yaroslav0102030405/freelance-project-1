@@ -10,6 +10,7 @@
 
   @media screen and (max-width: 580px) {
     grid-template-columns: auto;
+    gap: 0;
   }
 }
 
@@ -24,21 +25,15 @@
 .form-1 {
   background-color: $accent-text;
   width: 100%;
-  min-width: 300px;
+  min-width: 280px;
   border: 1px solid $accent-text;
   padding: 20px;
   border-radius: 6px;
-  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
-  //   url('image/form-3.jpeg');
-  // background-repeat: no-repeat;
-  // background-position: center;
-  // @media screen and (max-width: 580px) {
-  //   width: 300px;
-  // }
 }
 
 .form__logo-1 {
   @extend %logo;
+  font-size: 23px;
   color: #3e4464;
   display: flex;
   align-items: center;
@@ -51,7 +46,6 @@
 }
 
 .form__input-name {
-  // color: $accent-text;
   color: $bg-color;
   font-size: 20px;
   margin-bottom: 5px;
@@ -60,11 +54,10 @@
 .form__title {
   text-align: center;
   font-size: 34px;
-  // color: $accent-text;
   color: $bg-color;
   margin-bottom: 20px;
   @media screen and (max-width: 613px) {
-    font-size: 31px;
+    font-size: 30px;
   }
 }
 
@@ -110,4 +103,8 @@
 .contacts__image img {
   border: 10px solid #e4c9a2;
   border-radius: 6px;
+
+  @media screen and (max-width: 580px) {
+    display: none;
+  }
 }

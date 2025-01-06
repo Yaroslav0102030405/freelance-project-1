@@ -47,7 +47,7 @@
   font-size: 15px;
 
   @media screen and (max-width: 580px) {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
@@ -79,6 +79,7 @@
 
   @media screen and (max-width: 580px) {
     font-size: 19px;
+    margin-bottom: 5px;
   }
 }
 
@@ -106,7 +107,8 @@
   }
 
   @media screen and (max-width: 580px) {
-    font-size: 17px;
+    font-size: 15px;
+    margin-bottom: 5px;
   }
 }
 
@@ -174,7 +176,7 @@
   padding: 15px;
 
   @media screen and (max-width: 580px) {
-    border: 1px solid $accent-text;
+    border: 2px solid $accent-text;
     border-radius: 6px;
   }
 }
