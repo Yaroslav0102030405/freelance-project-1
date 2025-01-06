@@ -11,13 +11,7 @@
 .advantages__list {
   display: flex;
   flex-wrap: wrap;
-  // align-items: center;
   justify-content: center;
-
-  // display: grid;
-  // grid-template-columns: 1fr 1fr 1fr;
-  // place-content: center;
-  column-gap: 30px;
   row-gap: 70px;
 }
 
@@ -36,7 +30,7 @@
     width: 47%;
   }
   @media screen and (max-width: 580) {
-    width: 100%;
+    width: 50%;
   }
 }
 

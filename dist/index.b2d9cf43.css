@@ -500,7 +500,7 @@ img {
 .advantages__list {
   flex-wrap: wrap;
   justify-content: center;
-  gap: 70px 30px;
+  row-gap: 70px;
   display: flex;
 }
 
@@ -522,7 +522,7 @@ img {
 
 @media screen and (width <= 580px) {
   .advantages__item {
-    width: 100%;
+    width: 50%;
   }
 }
 
