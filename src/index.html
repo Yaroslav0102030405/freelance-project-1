@@ -29,12 +29,16 @@
     />
     <!-- <link rel="manifest" href="favicon/site.webmanifest"> -->
     <title data-lang="home_page-title">Yurii Bukhtii</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+    href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    rel="stylesheet"
+  />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -42,11 +46,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
-      rel="stylesheet"
-    />
-
     <link rel="stylesheet" href="style.scss" />
   </head>
   <body class="show-modal">
@@ -292,7 +291,7 @@
                     <li class="splide__slide">
                       <picture>
                         <source srcset="./image/service-3.webp">
-                        <img loading="lazy" width="550" src="./image/service-3.jpeg" alt="регістрація фірми в польщі" />
+                        <img loading="lazy" width="550" src="./image/service-3.jpg" alt="регістрація фірми в польщі" />
                       </picture>                 
                     </li>
                     <!-- <li class="splide__slide">Slide 03</li> -->
@@ -581,48 +580,13 @@
         </div>
       </div>
     </div>
-    <script src="./js/modal.js" type="module"></script>
-    <script src="./js/modal-2.js" type="module"></script>
-    <script src="./js/lang.js" type="module"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <script type="module" src="app.js"></script>
-    <script src="./js/scrollPage.js"></script>
-    <script
+    <script async src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script async
       src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
       integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
       crossorigin="anonymous"
     ></script>
-    <script>
-      SmoothScroll({
-        // Время скролла 400 = 0.4 секунды
-        animationTime: 800,
-        // Размер шага в пикселях
-        stepSize: 75,
-
-        // Дополнительные настройки:
-
-        // Ускорение
-        accelerationDelta: 30,
-        // Максимальное ускорение
-        accelerationMax: 2,
-
-        // Поддержка клавиатуры
-        keyboardSupport: true,
-        // Шаг скролла стрелками на клавиатуре в пикселях
-        arrowScroll: 50,
-
-        // Pulse (less tweakable)
-        // ratio of "tail" to "acceleration"
-        pulseAlgorithm: true,
-        pulseScale: 4,
-        pulseNormalize: 1,
-
-        // Поддержка тачпада
-        touchpadSupport: true,
-      });
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-     <script src="./js/telegram-1.js" type="module"></script>
-     <script src="./js/telegram-2.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+     <script type="module" src="app.js"></script>
   </body>
 </html>
