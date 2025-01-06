@@ -190,7 +190,6 @@
               <p class="service__price-2" data-lang="service_description-1-4">
                 *Послуга повністю безкоштовна і немає прихованих комісій
               </p>
-              <!-- <p class="service__price-1" data-lang="service__price-2"></p> -->
               <button
                 class="service__button js-button"
                 data-lang="service_button-1"
@@ -384,7 +383,6 @@
             <div class="about__content">
               <div class="logo__wrap">
                 <a class="logo" href="./index.html">Yurii Bukhtii</a>
-                <!-- <img class="logo__image" width="50" src="./image/image-logo.jpg" alt="">Юрій Бухтій</a> -->
               </div>
               <p class="about__text" data-lang="about_description">Привіт!</p>
               <p class="about__text" data-lang="about_description2">
@@ -425,7 +423,7 @@
               <img width="800" src="./image/contacts.jpg" alt="" />
             </div>
             <div class="contacts__form">
-              <form class="form-1">
+              <form id="form1" class="form-1">
                 <a class="form__logo-2" href="./index.html">
                   <img
                     class="logo__image"
@@ -436,18 +434,19 @@
                 >
                 <h3 class="form__title">Free consultation</h3>
                 <p class="form__input-name">Name:</p>
-                <input class="form__1-input" type="text" id="name" required />
+                <input class="form__1-input" type="text" name="name" autocomplete="off" required />
                 <p class="form__input-name">Phone number:</p>
-                <input class="form__1-input" type="tel" id="tel" required />
-                <p class="form__input-name">Note:</p>
+                <input class="form__1-input" type="tel" name="tel" autocomplete="off" required />
+                <p class="form__input-name">Message:</p>
                 <textarea
                   class="form__1-textarea"
                   name="comment"
                   id="comment"
                   rows="5"
+                  autocomplete="off"
                 ></textarea>
 
-                <button class="button form__button">Send</button>
+                <button class="button form__button" type="submit">Send</button>
               </form>
             </div>
           </div>
@@ -471,18 +470,9 @@
 
           <ul class="footer__icons">
             <li>
-              <!-- <svg class="icon" width="40" height="40">
-                <use href="./image/icons.svg#icon-phone"></use>
-              </svg> -->
               <img class="icon" width="40" src="./image/call-1.png" alt="" />
             </li>
-            <!-- <li><svg class="icon" width="40" height="40">
-          <use href="./image/icons.svg#icon-location2"></use>
-         </svg></li> -->
             <li>
-              <!-- <svg class="icon" width="40" height="40">
-                <use href="./image/icons.svg#icon-facebook2"></use>
-              </svg> -->
               <img
                 class="icon"
                 width="40"
@@ -491,9 +481,6 @@
               />
             </li>
             <li>
-              <!-- <svg class="icon" width="40" height="40">
-                <use href="./image/icons.svg#icon-telegram"></use>
-              </svg> -->
               <img
                 class="icon"
                 width="40"
@@ -522,7 +509,7 @@
     <div class="backdrop-2 js-backdrop-2 is-hidden-2">
       <div class="modal-2 js-modal-2">
         <div class="contacts__form">
-          <form id="form-2" class="form-1">
+          <form id="form2" class="form-1">
             <a class="form__logo-1" href="javascript:void(0);">
               <img
                 class="logo__image"
@@ -532,29 +519,23 @@
               />Yurii Bukhtii
               <button class="js-close-modal" type="button">
                 <img class="icon" width="30" src="./image/close1.png" alt="" />
-                <!-- <svg class="icon" width="25" height="25">
-                  <use href="./image/icons.svg#icon-cross"></use>
-                </svg> -->
               </button></a
             >
             <h3 class="form__title">Free consultation</h3>
-            <!-- <label > -->
             <p class="form__input-name">Name:</p>
-            <input class="form__1-input" type="text" id="name-2" required />
-            <!-- </label> -->
-            <!-- <label> -->
+            <input class="form__1-input" type="text" name="name" autocomplete="off" required />
             <p class="form__input-name">Phone number:</p>
-            <input class="form__1-input" type="tel" id="tel-2" required />
-            <!-- </label> -->
-            <p class="form__input-name">Note:</p>
+            <input class="form__1-input" type="tel" name="tel" autocomplete="off" required />
+            <p class="form__input-name">Message:</p>
             <textarea
               class="form__1-textarea"
               name="comment"
               id="comment-2"
               rows="5"
+              autocomplete="off"
             ></textarea>
 
-            <button class="button form__button">Send</button>
+            <button class="button form__button" type="submit">Send</button>
           </form>
         </div>
       </div>
@@ -564,7 +545,6 @@
     <script src="./js/lang.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script type="module" src="app.js"></script>
-
     <script src="./js/scrollPage.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
@@ -600,5 +580,8 @@
         touchpadSupport: true,
       });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+     <script src="./js/telegram-1.js" type="module"></script>
+     <script src="./js/telegram-2.js"></script>
   </body>
 </html>
