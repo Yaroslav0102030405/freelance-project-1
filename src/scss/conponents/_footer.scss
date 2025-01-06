@@ -34,16 +34,6 @@
   border-radius: 50%;
 }
 
-// .footer__tel {
-//   font-size: 20px;
-//   font-weight: 600;
-//   justify-items: center;
-// }
-
-// .tel {
-//   color: $accent-text;
-// }
-
 .footer__icons {
   display: flex;
   place-self: end;
@@ -51,14 +41,29 @@
 }
 
 .icon {
-  fill: #e4c9a2;
+  // fill: #e4c9a2;
+  // fill: orangered;
+  // fill: $bg-color;
   transition: fill 250ms linear;
+  // width: 30px;
+  // height: 30px;
+  border: 1px solid $accent-text;
+  // padding: 2px;
+  border-radius: 50%;
+  // background-color: $bg-color;
 }
 
 .icon:hover,
 .icon:focus {
   transform: translateY(-2px);
-  fill: white;
-  filter: drop-shadow(#fc0 1px 0 10px);
+  // fill: white;
+  // filter: drop-shadow(#fc0 1px 0 10px);
   cursor: url('image/cursor/cursor-2.png'), auto;
+  // border: 3px solid white;
+  box-shadow:
+    rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
