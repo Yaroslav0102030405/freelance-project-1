@@ -145,8 +145,12 @@
   // margin-right: auto;
   // max-width: 1600px;
   height: 735px;
+  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
+  //   url('./image/hero-1-2.jpg');
+
+  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b), image-set(url('./image/hero-1-2.jpg');
   background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
-    url('./image/hero-1-2.jpg');
+    image-set(url('./image/hero-1-2.jpg'));
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
