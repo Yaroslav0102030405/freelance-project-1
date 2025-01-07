@@ -181,7 +181,7 @@ img {
 .header {
   z-index: 1;
   padding-top: 20px;
-  padding-bottom: 45px;
+  padding-bottom: 15px;
   position: relative;
 }
 
@@ -431,7 +431,7 @@ img {
 
 .hero__overlay {
   z-index: -1;
-  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), image-set("hero-1-2.2278c914.jpg" 1x);
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("hero-bg.104d8a79.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
