@@ -431,7 +431,7 @@ img {
 
 .hero__overlay {
   z-index: -1;
-  background-image: -webkit-image-set(url("hero-1-2.2278c914.jpg") 1x type("image/jpg"));
+  background-image: url("hero-1-2.2278c914.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
