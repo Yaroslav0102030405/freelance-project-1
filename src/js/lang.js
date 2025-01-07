@@ -121,7 +121,7 @@ const homeTexts = {
   },
   'service_description-1-4': {
     ua: '*Послуга повністю безкоштовна і немає прихованих комісій',
-    ru: '*Услуга полностью бесплатна и нет скрытых комиссий',
+    ru: '*Услуга полностью бесплатная и нет скрытых комиссий',
     pl: '*Usługa jest całkowicie bezpłatna i nie zawiera żadnych ukrytych opłat',
     en: '*The service is completely free and there are no hidden fees',
   },
@@ -276,10 +276,10 @@ const homeTexts = {
   //   en: 'Yurii Bukhtii',
   // },
   about_description: {
-    ua: 'Привіт! ',
-    ru: 'Привет! ',
-    pl: 'Pozdrowienia!',
-    en: 'Greetings!',
+    ua: 'Привіт! Мене звати Yurii Bukhtii.',
+    ru: 'Привет! Меня зовут Yurii Bukhtii.',
+    pl: 'Cześć! Nazywam się Yurii Bukhtii.',
+    en: 'Hello! My name is Yurii Bukhtii.',
   },
   about_description2: {
     ua: 'Я брокер комерційної нерухомості в Варшаві.',

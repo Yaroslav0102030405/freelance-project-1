@@ -11,7 +11,7 @@
   gap: 20px;
 
   @media screen and (max-width: 580px) {
-    grid-template-columns: auto;
+    gap: 0;
   }
 }
 
@@ -25,6 +25,10 @@
   color: $accent-text;
   font-size: 25px;
   font-weight: 600;
+
+  @media screen and (max-width: 580px) {
+    font-size: 16px;
+  }
 }
 
 .logo__image {
@@ -36,8 +40,13 @@
 
 .footer__icons {
   display: flex;
-  place-self: end;
+  // place-self: end;
+  margin-left: auto;
   gap: 20px;
+
+  @media screen and (max-width: 580px) {
+    gap: 10px;
+  }
 }
 
 .icon {
