@@ -181,7 +181,7 @@ img {
 .header {
   z-index: 1;
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 68px;
   position: relative;
 }
 
@@ -284,7 +284,7 @@ img {
 .hero__wrap {
   text-align: center;
   grid-template-columns: 1fr 41.2%;
-  align-items: center;
+  align-items: start;
   gap: 25px;
   display: grid;
 }
@@ -440,7 +440,7 @@ img {
   background-origin: padding-box, padding-box;
   background-clip: border-box, border-box;
   width: 100%;
-  height: 735px;
+  height: 753px;
   position: absolute;
   top: 0;
   left: 0;
