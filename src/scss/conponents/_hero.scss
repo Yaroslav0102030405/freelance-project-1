@@ -153,8 +153,10 @@
   //   linear-gradient(to right, #3e446457, #e4c9a23b),
   //   - webkit-image-set(url('./image/hero-1-2.jpg'));
   // background-image: image-set('./image/hero-1-2.jpg' type('image/jpg'));
-  // background-image: -webkit-image-set('./image/hero-1-2.jpg' type('image/jpg'));
-  background-image: url('./image/hero-1-2.jpg');
+  background-image:
+    linear-gradient(to right, #3e446457, #e4c9a23b),
+    - webkit-image-set('./image/hero-1-2.jpg' type('image/jpg'));
+  // background-image: url('./image/hero-1-2.jpg');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;

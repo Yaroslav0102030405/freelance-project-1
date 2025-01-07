@@ -431,7 +431,9 @@ img {
 
 .hero__overlay {
   z-index: -1;
-  background-image: url("hero-1-2.2278c914.jpg");
+  background-image: -webkit-linear-gradient(right, #3e446457, #e4c9a23b), -webkit-image-set(url("hero-1-2.2278c914.jpg") 1x type("image/jpg"));
+  background-image: -webkit-linear-gradient(right, #3e446457, #e4c9a23b), -webkit-image-set(url("hero-1-2.2278c914.jpg") 1x type("image/jpg"));
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), -webkit-image-set(url("hero-1-2.2278c914.jpg") 1x type("image/jpg"));
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
