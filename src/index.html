@@ -91,12 +91,14 @@
           <div class="hero__wrap">
             <div class="hero__img">
               <picture>
-                <source srcset="./image/250.png" media="(max-width: 580px)" />
+                <source
+                  srcset="./image/250.png?as=webp&width=402"
+                  media="(max-width: 580px)"
+                />
                 <img
                   loading="lazy"
-                  class="hero__image"
                   width="402"
-                  height="628"
+                  class="hero__image"
                   src="./image/broker-1.png"
                   alt="брокер в піджаку на фоні міста Варшави"
                 />
@@ -165,7 +167,10 @@
                   <ul class="splide__list">
                     <li class="splide__slide">
                       <picture>
-                        <source srcset="./image/service-1.webp" />
+                        <source
+                          srcset="./image/service-1.webp?as=webp&width=550"
+                          type="image/webp"
+                        />
                         <img
                           loading="lazy"
                           width="550"
@@ -176,7 +181,10 @@
                     </li>
                     <li class="splide__slide">
                       <picture>
-                        <source srcset="./image/s-3.webp" />
+                        <source
+                          srcset="./image/s-3.webp?as=webp&width=550"
+                          type="image/webp"
+                        />
                         <img
                           loading="lazy"
                           width="550"
@@ -232,7 +240,10 @@
                   <ul class="splide__list">
                     <li class="splide__slide">
                       <picture>
-                        <source srcset="./image/service-2.webp" />
+                        <source
+                          srcset="./image/service-2.webp?as=webp&width=550"
+                          type="image/webp"
+                        />
                         <img
                           width="550"
                           src="./image/service-2.jpg"
@@ -242,7 +253,10 @@
                     </li>
                     <li class="splide__slide">
                       <picture>
-                        <source srcset="./image/s-3.webp" />
+                        <source
+                          srcset="./image/s-3.webp?as=webp&width=550"
+                          type="image/webp"
+                        />
                         <img
                           loading="lazy"
                           width="550"
@@ -301,7 +315,10 @@
                   <ul class="splide__list s__pagination">
                     <li class="splide__slide">
                       <picture>
-                        <source srcset="./image/s-3.webp" />
+                        <source
+                          srcset="./image/s-3.webp?as=webp&width=550"
+                          type="image/webp"
+                        />
                         <img
                           loading="lazy"
                           width="550"
@@ -312,7 +329,10 @@
                     </li>
                     <li class="splide__slide">
                       <picture>
-                        <source srcset="./image/service-3.webp" />
+                        <source
+                          srcset="./image/service-3.webp?as=webp&width=550"
+                          type="image/webp"
+                        />
                         <img
                           loading="lazy"
                           width="550"
@@ -473,7 +493,10 @@
             </div>
             <div class="about__image">
               <picture>
-                <source srcset="./image/about.webp" />
+                <source
+                  srcset="./image/about.webp?as=webp&width=700"
+                  type="image/webp"
+                />
                 <img
                   loading="lazy"
                   width="700"
@@ -492,7 +515,10 @@
           <div class="contacts__wrap">
             <div class="contacts__image">
               <picture>
-                <source srcset="./image/contacts.webp" />
+                <source
+                  srcset="./image/contacts.webp?as=webp&width=800"
+                  type="image/webp"
+                />
                 <img
                   loading="lazy"
                   width="800"
@@ -506,7 +532,10 @@
               <form id="form1" class="form-1">
                 <a lang="en" class="form__logo-2" href="./index.html">
                   <picture>
-                    <source srcset="./image/image-logo.webp" />
+                    <source
+                      srcset="./image/image-logo.webp?as=webp&width=50"
+                      type="image/webp"
+                    />
                     <img
                       loading="lazy"
                       class="logo__image"
@@ -560,7 +589,10 @@
           <div class="logo__wrap">
             <a class="logo" href="./index.html">
               <picture>
-                <source srcset="./image/image-logo.webp" />
+                <source
+                  srcset="./image/image-logo.webp?as=webp&width=50"
+                  type="image/webp"
+                />
                 <img
                   loading="lazy"
                   class="logo__image"
@@ -576,37 +608,46 @@
 
           <ul class="footer__icons">
             <li>
-              <img
-                loading="lazy"
-                aria-label="логотип телефоної трубки"
-                class="icon"
-                width="40"
-                height="40"
-                src="./image/call-1.png"
-                alt="логотип телефоної трубки"
-              />
+              <a aria-label="логотип телефоної трубки" href="tel:+48735775810">
+                <img
+                  loading="lazy"
+                  class="icon"
+                  width="40"
+                  height="40"
+                  src="./image/call-1.png"
+                  alt="логотип телефоної трубки"
+                />
+              </a>
             </li>
             <li>
-              <img
-                loading="lazy"
+              <a
                 aria-label="логотип фейсбук"
-                class="icon"
-                width="40"
-                height="40"
-                src="./image/facebook-1.png"
-                alt="логотип фейсбук"
-              />
+                href="https://www.facebook.com/yurii.bukhtii.52/"
+              >
+                <img
+                  loading="lazy"
+                  class="icon"
+                  width="40"
+                  height="40"
+                  src="./image/facebook-1.png"
+                  alt="логотип фейсбук"
+                />
+              </a>
             </li>
             <li>
-              <img
-                loading="lazy"
+              <a
                 aria-label="логотип телеграм"
-                class="icon"
-                width="40"
-                height="40"
-                src="./image/telegram-1.png"
-                alt="логотип телеграм"
-              />
+                href="https://telegram.im/@officeinwarsaw"
+              >
+                <img
+                  loading="lazy"
+                  class="icon"
+                  width="40"
+                  height="40"
+                  src="./image/telegram-1.png"
+                  alt="логотип телеграм"
+                />
+              </a>
             </li>
           </ul>
         </div>
@@ -667,17 +708,20 @@
           <form id="form2" class="form-1">
             <div class="form2__wrap-logo">
               <a lang="en" class="form__logo-1" href="javascript:void(0);">
-                <!-- <picture>
-                  <source srcset="./image/image-logo.webp" /> -->
-                <img
-                  loading="lazy"
-                  class="logo__image"
-                  width="50"
-                  height="50"
-                  src="./image/image-logo.jpg"
-                  alt="брокер комерційної нерухопомті"
-                />
-                <!-- </picture> -->
+                <picture>
+                  <source
+                    srcset="./image/image-logo.webp?as=webp&width=50"
+                    type="image/webp"
+                  />
+                  <img
+                    loading="lazy"
+                    class="logo__image"
+                    width="50"
+                    height="50"
+                    src="./image/image-logo.jpg"
+                    alt="брокер комерційної нерухопомті"
+                  />
+                </picture>
                 Yurii Bukhtii
               </a>
               <button class="js-close-modal" type="button">
