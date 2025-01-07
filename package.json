@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel src/index.html --lazy",
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build index.html --public-url prod",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
     "deploy": "netlify deploy -p"
