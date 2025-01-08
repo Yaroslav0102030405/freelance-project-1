@@ -1,4 +1,5 @@
 .contacts {
+  @extend %section-padding;
   background-color: $bg-color;
 }
 
@@ -112,4 +113,31 @@
   @media screen and (max-width: 580px) {
     display: none;
   }
+}
+
+// input:focus:invalid,
+// textarea:focus:invalid {
+//   border: solid 2px #f5192f;
+// }
+
+// input:focus:valid,
+// textarea:focus:valid {
+//   border: solid 2px #18e109;
+//   background-color: #fff;
+// }
+
+input:focus {
+  outline: none;
+  border: 2px solid white;
+}
+
+input:focus:invalid,
+textarea:focus:invalid {
+  border: solid 2px #f5192f;
+}
+
+input:focus:valid,
+textarea:focus:valid {
+  border: solid 2px #18e109;
+  background-color: #fff;
 }
