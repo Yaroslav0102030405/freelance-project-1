@@ -3,7 +3,7 @@
   font-weight: 600;
   padding: 15px;
   background-color: $accent-text;
-  border: none;
+  border: 1px solid $bg-color;
   cursor: pointer;
   text-transform: uppercase;
   color: $bg-color;
@@ -12,9 +12,11 @@
   width: 100%;
   max-width: 287px;
 
-  transition:
-    box-shadow 250ms linear,
-    translateY 250ms linear;
+  // transition:
+  //   box-shadow 250ms linear,
+  //   translateY 250ms linear;
+
+  transition: background-color 250ms linear;
 
   @media screen and (max-width: 959px) {
     font-size: 14px;
@@ -27,6 +29,12 @@
   @media screen and (max-width: 580px) {
     font-size: 14px;
   }
+}
+
+%button__hover {
+  background-color: $text-color;
+  color: $bg-color;
+  border: 1px solid $bg-color;
 }
 
 %title {

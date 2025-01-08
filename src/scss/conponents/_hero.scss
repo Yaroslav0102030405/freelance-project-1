@@ -38,7 +38,7 @@
 }
 
 .hero__description {
-  color: #ffffff;
+  color: $text-color;
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 15px;
@@ -84,7 +84,7 @@
   margin-bottom: 20px;
   font-size: 26px;
   font-weight: 700;
-  color: white;
+  color: $text-color;
   margin-top: 0;
 
   @media screen and (max-width: 1243px) {
@@ -121,20 +121,28 @@
 
 .button:hover,
 .button:focus {
-  transform: translateY(-2px);
-  box-shadow: #fc0 1px 0 10px;
+  @extend %button__hover;
+  // transform: translateY(-2px);
+  // box-shadow: #fc0 1px 0 10px;
+  // background-color: $text-color;
+  // color: $bg-color;
+  // border: 1px solid $bg-color;;
 }
 
 .expand__button {
   @extend %button;
-
   text-align: center;
-
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
   background-color: $bg-color;
   color: $accent-text;
+  transition: background-color 250ms linear;
+}
+
+.expand__button:hover,
+.expand__button:focus {
+  @extend %button__hover;
 }
 
 .hero__overlay {

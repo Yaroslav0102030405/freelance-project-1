@@ -109,14 +109,14 @@ img {
   color: #3e4464;
   cursor: url("cursor-2.770b4bf4.png"), auto;
   background-color: #e4c9a2;
-  border: none;
+  border: 1px solid #3e4464;
   border-radius: 6px;
   width: 100%;
   max-width: 287px;
   padding: 15px;
   font-size: 15px;
   font-weight: 600;
-  transition: box-shadow .25s linear, translateY .25s linear;
+  transition: background-color .25s linear;
 }
 
 @media screen and (width <= 959px) {
@@ -135,6 +135,12 @@ img {
   .service__button, .expand__button, .button {
     font-size: 14px;
   }
+}
+
+.expand__button:hover, .expand__button:focus, .button:hover, .button:focus {
+  color: #3e4464;
+  background-color: #f7f8ff;
+  border: 1px solid #3e4464;
 }
 
 .contacts__title, .about__title, .advantages__title, .service__title {
@@ -314,7 +320,7 @@ img {
 }
 
 .hero__description {
-  color: #fff;
+  color: #f7f8ff;
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 15px;
@@ -371,7 +377,7 @@ img {
 }
 
 .hero__advantages {
-  color: #fff;
+  color: #f7f8ff;
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 26px;
@@ -415,11 +421,6 @@ img {
   padding: 10px;
 }
 
-.button:hover, .button:focus {
-  transform: translateY(-2px);
-  box-shadow: 1px 0 10px #fc0;
-}
-
 .expand__button {
   text-align: center;
   color: #e4c9a2;
@@ -427,6 +428,7 @@ img {
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
+  transition: background-color .25s linear;
 }
 
 .hero__overlay {
@@ -513,7 +515,7 @@ img {
 }
 
 .service__description, .service__price, .service__price-1 {
-  color: #fff;
+  color: #f7f8ff;
   margin-bottom: 0;
 }
 
@@ -522,8 +524,8 @@ img {
 }
 
 .service__button:hover, .service__hover:focus {
-  transform: translateY(-2px);
-  box-shadow: 1px 0 10px #fc0;
+  background-color: #f7f8ff;
+  border: 1px solid #0000;
 }
 
 .advantages {
@@ -762,7 +764,7 @@ img {
 }
 
 input:focus {
-  border: 2px solid #fff;
+  border: 2px solid #f7f8ff;
   outline: none;
 }
 
@@ -771,7 +773,7 @@ input:focus:invalid, textarea:focus:invalid {
 }
 
 input:focus:valid, textarea:focus:valid {
-  background-color: #fff;
+  background-color: #f7f8ff;
   border: 2px solid #18e109;
 }
 
@@ -925,7 +927,7 @@ input:focus:valid, textarea:focus:valid {
 }
 
 .modal__btn:hover, .modal__btn:focus {
-  background-color: #fff;
+  background-color: #f7f8ff;
   transform: translateY(-2px);
   box-shadow: 1px 0 10px #fc0;
 }

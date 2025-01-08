@@ -57,7 +57,7 @@
 .modal__btn:hover,
 .modal__btn:focus {
   // background-color: bisque;
-  background-color: white;
+  background-color: $text-color;
   transform: translateY(-2px);
   box-shadow: 1px 0 10px #fc0;
 }

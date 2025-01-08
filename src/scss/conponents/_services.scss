@@ -1,8 +1,6 @@
 .service {
   @extend %section-padding;
   background-color: $bg-color;
-  // padding-top: 100px;
-  // padding-bottom: 50px;
 }
 
 .service__title {
@@ -10,9 +8,6 @@
 }
 
 .service__list {
-  // display: flex;
-  // justify-content: center;
-  // flex-wrap: wrap;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
@@ -24,7 +19,6 @@
 
   @media screen and (max-width: 580px) {
     grid-template-columns: 1fr;
-    // background-color: aqua;
   }
 }
 
@@ -32,9 +26,6 @@
   display: grid;
   grid-template-rows: auto auto auto auto auto 1fr;
   padding: 15px;
-  // border: 1px solid #5c4e68;
-  // box-shadow: 0px 0px 3px #8490a0;
-  // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   border-radius: 10px;
@@ -50,18 +41,17 @@
 }
 
 .service__description {
-  color: white;
-  // margin-bottom: 20px;
+  color: $text-color;
   margin-bottom: 0;
 }
 
 .service__price {
-  color: white;
+  color: $text-color;
   margin-bottom: 0;
 }
 
 .service__price-1 {
-  color: white;
+  color: $text-color;
   margin-bottom: 0;
 }
 
@@ -77,6 +67,8 @@
 
 .service__button:hover,
 .service__hover:focus {
-  transform: translateY(-2px);
-  box-shadow: #fc0 1px 0 10px;
+  // transform: translateY(-2px);
+  // box-shadow: #fc0 1px 0 10px;
+  border: 1px solid transparent;
+  background-color: $text-color;
 }

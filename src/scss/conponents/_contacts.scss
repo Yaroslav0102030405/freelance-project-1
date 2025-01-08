@@ -129,7 +129,7 @@
 
 input:focus {
   outline: none;
-  border: 2px solid white;
+  border: 2px solid $text-color;
 }
 
 input:focus:invalid,
@@ -140,7 +140,7 @@ textarea:focus:invalid {
 input:focus:valid,
 textarea:focus:valid {
   border: solid 2px #18e109;
-  background-color: #fff;
+  background-color: $text-color;
 }
 
 .contacts__overlay {
