@@ -657,20 +657,6 @@ img {
   position: relative;
 }
 
-.contacts__wrap {
-  grid-template-columns: 1.5fr 1fr;
-  align-items: center;
-  gap: 30px;
-  display: grid;
-}
-
-@media screen and (width <= 580px) {
-  .contacts__wrap {
-    grid-template-columns: auto;
-    gap: 0;
-  }
-}
-
 .contacts__form {
   justify-items: center;
 }
@@ -680,7 +666,8 @@ img {
   border: 1px solid #e4c9a2;
   border-radius: 6px;
   width: 100%;
-  min-width: 280px;
+  max-width: 520px;
+  margin-left: auto;
   padding: 20px;
 }
 
