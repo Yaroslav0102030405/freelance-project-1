@@ -962,7 +962,7 @@ input:focus:valid, textarea:focus:valid {
   display: block;
 }
 
-.success-1 {
-  background-color: #0f0;
+.form-2 {
+  min-width: 280px;
 }
 /*# sourceMappingURL=index.b2d9cf43.css.map */
