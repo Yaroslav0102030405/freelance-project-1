@@ -527,7 +527,7 @@ img {
 }
 
 .advantages {
-  background-color: #3e4464;
+  position: relative;
 }
 
 .advantages__list {
@@ -585,6 +585,29 @@ img {
   font-weight: 700;
 }
 
+.advantages__ovelray {
+  z-index: -1;
+  background-color: #0000;
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("advantages-bg.1295436f.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (width <= 580px) {
+  .advantages__ovelray {
+    height: 1015px;
+  }
+}
+
 .about {
   background-color: #3e4464;
 }
@@ -629,7 +652,7 @@ img {
 }
 
 .contacts {
-  background-color: #3e4464;
+  position: relative;
 }
 
 .contacts__wrap {
@@ -750,6 +773,35 @@ input:focus:invalid, textarea:focus:invalid {
 input:focus:valid, textarea:focus:valid {
   background-color: #fff;
   border: 2px solid #18e109;
+}
+
+.contacts__overlay {
+  z-index: -1;
+  background-color: #0000;
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("contacts-bg.6f647ef2.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (width <= 837px) {
+  .contacts__overlay {
+    height: 840px;
+  }
+}
+
+@media screen and (width <= 580px) {
+  .contacts__overlay {
+    height: 768px;
+  }
 }
 
 .footer {

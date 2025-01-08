@@ -1,6 +1,7 @@
 .contacts {
+  position: relative;
   @extend %section-padding;
-  background-color: $bg-color;
+  // background-color: $bg-color;
 }
 
 .contacts__wrap {
@@ -140,4 +141,38 @@ input:focus:valid,
 textarea:focus:valid {
   border: solid 2px #18e109;
   background-color: #fff;
+}
+
+.contacts__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  // margin-left: auto;
+  // margin-right: auto;
+  // max-width: 1600px;
+  height: 800px;
+  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
+  //   url('./image/hero-1-2.jpg');
+
+  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b), image-set(url('./image/hero-1-2.jpg');
+  // background-image:
+  //   linear-gradient(to right, #3e446457, #e4c9a23b),
+  //   - webkit-image-set(url('./image/hero-1-2.jpg'));
+  // background-image: image-set('./image/hero-1-2.jpg' type('image/jpg'));
+  background: linear-gradient(to right, #3e446457, #e4c9a23b),
+    url(/src/image/contacts-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  z-index: -1;
+
+  @media screen and (max-width: 837px) {
+    height: 840px;
+  }
+
+  @media screen and (max-width: 580px) {
+    height: 768px;
+  }
 }

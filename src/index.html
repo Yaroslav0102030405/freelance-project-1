@@ -454,6 +454,7 @@
         </div>
       </section>
       <section id="advantages" class="advantages scroll">
+        <div class="advantages__ovelray"></div>
         <div class="container">
           <h2 class="advantages__title" data-lang="advantages_title">
             Переваги
@@ -584,11 +585,12 @@
         </div>
       </section>
       <section id="contacts" class="contacts scroll">
+        <div class="contacts__overlay"></div>
         <div class="container">
           <h2 class="contacts__title" data-lang="contacts_title">Контакти</h2>
           <div class="contacts__wrap">
             <div class="contacts__image">
-              <picture>
+              <!-- <picture>
                 <source
                   srcset="./image/contacts.webp?as=webp&width=800"
                   type="image/webp"
@@ -600,7 +602,7 @@
                   src="./image/contacts.jpg"
                   alt="велика будівля в варшаві з годинником"
                 />
-              </picture>
+              </picture> -->
             </div>
             <div class="contacts__form">
               <form id="form1" class="form-1">
@@ -637,7 +639,7 @@
                   type="tel"
                   name="tel"
                   autocomplete="off"
-                  pattern="[\+0-9]{13,18}"
+                  pattern="[\+0-9]{9,15}"
                   required
                 />
                 <p lang="en" class="form__input-name">Message</p>
@@ -832,7 +834,7 @@
               type="tel"
               name="tel"
               autocomplete="off"
-              pattern="[\+0-9]{13,18}"
+              pattern="[\+0-9]{9,15}"
               required
             />
             <p lang="en" class="form__input-name">Message</p>
