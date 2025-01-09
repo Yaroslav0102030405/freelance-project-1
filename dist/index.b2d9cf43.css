@@ -137,9 +137,8 @@ img {
   }
 }
 
-.expand__button:hover, .expand__button:focus, .button:hover, .button:focus {
-  color: #3e4464;
-  background-color: #f7f8ff;
+.service__button:hover, .service__hover:focus, .expand__button:hover, .expand__button:focus, .button:hover, .button:focus {
+  transform: translateY(-2px);
 }
 
 .contacts__title, .about__title, .advantages__title, .service__title {
@@ -518,11 +517,6 @@ img {
   color: #e4c9a2;
 }
 
-.service__button:hover, .service__hover:focus {
-  background-color: #f7f8ff;
-  border: 1px solid #0000;
-}
-
 .advantages {
   position: relative;
 }
@@ -658,7 +652,7 @@ img {
 
 .form-1 {
   background-color: #e4c9a2;
-  border: 1px solid #e4c9a2;
+  border: 2px solid #3e4464;
   border-radius: 6px;
   width: 100%;
   max-width: 520px;
