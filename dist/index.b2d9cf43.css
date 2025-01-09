@@ -229,7 +229,7 @@ img {
   list-style: none;
   display: flex;
   position: fixed;
-  top: 4%;
+  top: 2%;
   right: 4.3%;
   box-shadow: 0 4px 8px -2px #091e4240, 0 0 0 1px #091e4214;
 }
