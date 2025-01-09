@@ -613,7 +613,7 @@ img {
 
 @media screen and (width <= 580px) {
   .about__wrap {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
   }
 }
 
