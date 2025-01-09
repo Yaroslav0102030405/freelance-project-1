@@ -293,15 +293,9 @@ img {
   display: grid;
 }
 
-@media screen and (width <= 500px) {
-  .hero__wrap .hero__wrap {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media screen and (width <= 580px) {
   .hero__wrap {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     gap: 0;
   }
 
