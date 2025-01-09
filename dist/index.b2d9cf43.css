@@ -39,7 +39,6 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 17px;
   line-height: 1.4;
-  overflow-x: hidden;
 }
 
 .show-modal {
@@ -464,22 +463,6 @@ img {
 .hero__maps {
   margin-left: auto;
   margin-right: auto;
-}
-
-.kenburns-top {
-  animation: 4s ease-out both kenburns-top;
-}
-
-@keyframes kenburns-top {
-  0% {
-    transform-origin: 50% 16%;
-    transform: scale(1)translateY(0);
-  }
-
-  100% {
-    transform-origin: top;
-    transform: scale(1.2)translateY(-15px);
-  }
 }
 
 .service {
