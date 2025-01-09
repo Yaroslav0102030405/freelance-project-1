@@ -335,12 +335,7 @@ img {
   text-align: center;
   color: #e4c9a2;
   margin-bottom: 20px;
-}
-
-@media screen and (width >= 1243px) {
-  .hero__pre-title {
-    font-size: 37px;
-  }
+  font-size: 34px;
 }
 
 @media screen and (width <= 1242px) {
