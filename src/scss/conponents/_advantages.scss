@@ -91,7 +91,7 @@
   // margin-left: auto;
   // margin-right: auto;
   // max-width: 1600px;
-  height: 800px;
+  height: 850px;
   // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
   //   url('./image/hero-1-2.jpg');
 
@@ -100,7 +100,7 @@
   //   linear-gradient(to right, #3e446457, #e4c9a23b),
   //   - webkit-image-set(url('./image/hero-1-2.jpg'));
   // background-image: image-set('./image/hero-1-2.jpg' type('image/jpg'));
-  background: linear-gradient(to right, #3e446457, #e4c9a23b),
+  background: linear-gradient(to right, #3e446457, #6c5f4d3b),
     url(/src/image/advantages-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -109,6 +109,6 @@
   width: 100%;
   z-index: -1;
   @media screen and (max-width: 580px) {
-    height: 1015px;
+    height: 1070px;
   }
 }

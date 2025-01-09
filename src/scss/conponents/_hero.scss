@@ -1,6 +1,6 @@
 .hero {
   @media screen and (max-width: 580px) {
-    background-color: $bg-color;
+    // background-color: $bg-color;
     padding-bottom: 10px;
   }
 }
@@ -122,11 +122,6 @@
 .button:hover,
 .button:focus {
   @extend %button__hover;
-  // transform: translateY(-2px);
-  // box-shadow: #fc0 1px 0 10px;
-  // background-color: $text-color;
-  // color: $bg-color;
-  // border: 1px solid $bg-color;;
 }
 
 .expand__button {
@@ -138,6 +133,7 @@
   background-color: $bg-color;
   color: $accent-text;
   transition: background-color 250ms linear;
+  border: 1px solid $accent-text;
 }
 
 .expand__button:hover,
@@ -170,7 +166,7 @@
   width: 100%;
   z-index: -1;
   @media screen and (max-width: 580px) {
-    display: none;
+    height: 795;
   }
 }
 
@@ -184,6 +180,7 @@
   padding: 15px;
 
   @media screen and (max-width: 580px) {
+    background-color: $bg-color;
     border: 2px solid $accent-text;
     border-radius: 6px;
   }

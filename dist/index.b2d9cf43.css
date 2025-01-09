@@ -140,7 +140,6 @@ img {
 .expand__button:hover, .expand__button:focus, .button:hover, .button:focus {
   color: #3e4464;
   background-color: #f7f8ff;
-  border: 1px solid #3e4464;
 }
 
 .contacts__title, .about__title, .advantages__title, .service__title {
@@ -282,7 +281,6 @@ img {
 
 @media screen and (width <= 580px) {
   .hero {
-    background-color: #3e4464;
     padding-bottom: 10px;
   }
 }
@@ -425,6 +423,7 @@ img {
   text-align: center;
   color: #e4c9a2;
   background-color: #3e4464;
+  border: 1px solid #e4c9a2;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -450,7 +449,7 @@ img {
 
 @media screen and (width <= 580px) {
   .hero__overlay {
-    display: none;
+    height: 795px;
   }
 }
 
@@ -464,6 +463,7 @@ img {
 
 @media screen and (width <= 580px) {
   .hero__content {
+    background-color: #3e4464;
     border: 2px solid #e4c9a2;
     border-radius: 6px;
   }
@@ -590,7 +590,7 @@ img {
 .advantages__ovelray {
   z-index: -1;
   background-color: #0000;
-  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("advantages-bg.ee1f9070.jpg");
+  background-image: linear-gradient(to right, #3e446457, #6c5f4d3b), url("advantages-bg.ee1f9070.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -598,7 +598,7 @@ img {
   background-origin: padding-box, padding-box;
   background-clip: border-box, border-box;
   width: 100%;
-  height: 800px;
+  height: 850px;
   position: absolute;
   top: 0;
   left: 0;
@@ -606,7 +606,7 @@ img {
 
 @media screen and (width <= 580px) {
   .advantages__ovelray {
-    height: 1015px;
+    height: 1070px;
   }
 }
 
@@ -767,7 +767,7 @@ input:focus:valid, textarea:focus:valid {
 .contacts__overlay {
   z-index: -1;
   background-color: #0000;
-  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("contacts-bg.6f647ef2.jpg");
+  background-image: linear-gradient(to right, #3e446457, #6c5f4d3b), url("contacts-bg.6f647ef2.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
