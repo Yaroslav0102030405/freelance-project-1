@@ -599,6 +599,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 // const mySlider = new Splide('#mySlider');
 // mySlider.mount();
 var _lang = require("./js/lang");
+var _heroModal = require("./js/hero-modal");
 var _modal = require("./js/modal");
 var _modal2 = require("./js/modal-2");
 var _scrollPage = require("./js/scrollPage");
@@ -609,7 +610,7 @@ new Splide('#slider1').mount();
 new Splide('#slider2').mount();
 new Splide('#slider3').mount();
 
-},{"./js/lang":"2rD5z","./js/modal":"aHHgN","./js/modal-2":"aPIyI","./js/scrollPage":"cmmRX","./js/smoothscroll":"fAp3S","./js/telegram-1":"9mdI8","./js/telegram-2":"jSUFh"}],"2rD5z":[function(require,module,exports,__globalThis) {
+},{"./js/lang":"2rD5z","./js/modal":"aHHgN","./js/modal-2":"aPIyI","./js/scrollPage":"cmmRX","./js/smoothscroll":"fAp3S","./js/telegram-1":"9mdI8","./js/telegram-2":"jSUFh","./js/hero-modal":"3TkFn"}],"2rD5z":[function(require,module,exports,__globalThis) {
 const homeTexts = {
     // 'home_page-title': {
     //   ua: 'Yurii Bukhtii',
@@ -1075,7 +1076,7 @@ function onCloseModal() {
 
 },{}],"aPIyI":[function(require,module,exports,__globalThis) {
 const refsContainerButton2 = {
-    containerRef: document.querySelector('body'),
+    containerRef: document.querySelector('.service__list'),
     openModalRef: document.querySelector('.js-button'),
     closeModalBtnRef: document.querySelector('.js-close-modal'),
     backdrop2Ref: document.querySelector('.js-backdrop-2')
@@ -1218,6 +1219,38 @@ document.getElementById('form2').addEventListener('submit', function(e) {
         console.log("\u041A\u043E\u043D\u0435\u0446");
     });
 });
+
+},{}],"3TkFn":[function(require,module,exports,__globalThis) {
+const refsContainerButton2 = {
+    //   containerRef: document.querySelector('.service__list'),
+    openModalRef: document.querySelector('.js-button'),
+    closeModalBtnRef: document.querySelector('.js-close-modal'),
+    backdrop2Ref: document.querySelector('.js-backdrop-2')
+};
+refsContainerButton2.openModalRef.addEventListener('click', onClickButton2);
+refsContainerButton2.closeModalBtnRef.addEventListener('click', onCloseModal2);
+refsContainerButton2.backdrop2Ref.addEventListener('click', onBackdropModal2);
+function onClickButton2(e) {
+    //   console.log(e);
+    //   if (!e.target.classList.contains('js-button')) {
+    //     return;
+    //   }
+    refsContainerButton2.backdrop2Ref.classList.remove('is-hidden-2');
+    window.addEventListener('keydown', onEscKeyPress2);
+    document.body.classList.add('show-modal');
+//   refsContainerButton.modalTitle.textContent = e.target.textContent;
+}
+function onCloseModal2() {
+    refsContainerButton2.backdrop2Ref.classList.add('is-hidden-2');
+    window.removeEventListener('keydown', onEscKeyPress2);
+    document.body.classList.remove('show-modal');
+}
+function onBackdropModal2(event) {
+    if (event.currentTarget === event.target) onCloseModal2();
+}
+function onEscKeyPress2(event) {
+    if (event.code === 'Escape') onCloseModal2();
+}
 
 },{}]},["9w8YQ","bNKaB"], "bNKaB", "parcelRequire94c2")
 

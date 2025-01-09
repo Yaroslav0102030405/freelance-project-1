@@ -6,6 +6,7 @@ new Splide('#slider2').mount();
 new Splide('#slider3').mount();
 
 import './js/lang';
+import './js/hero-modal';
 import './js/modal';
 import './js/modal-2';
 import './js/scrollPage';
