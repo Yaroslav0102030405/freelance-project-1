@@ -140,8 +140,6 @@
   // margin-right: auto;
   // max-width: 1600px;
   height: 753px;
-  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
-  //   url('./image/hero-1-2.jpg');
 
   // background-image: linear-gradient(to right, #3e446457, #e4c9a23b), image-set(url('./image/hero-1-2.jpg');
   // background-image:
@@ -149,7 +147,7 @@
   //   - webkit-image-set(url('./image/hero-1-2.jpg'));
   // background-image: image-set('./image/hero-1-2.jpg' type('image/jpg'));
   background: linear-gradient(to right, #3e446457, #e4c9a23b),
-    url(/src/image/hero-bg.jpg);
+    url(/src/image/hero-bg.webp);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;

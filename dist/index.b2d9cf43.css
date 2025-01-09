@@ -422,7 +422,7 @@ img {
 .hero__overlay {
   z-index: -1;
   background-color: #0000;
-  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("hero-bg.104d8a79.jpg");
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("hero-bg.05af54c2.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -580,7 +580,7 @@ img {
 .advantages__ovelray {
   z-index: -1;
   background-color: #0000;
-  background-image: linear-gradient(to right, #3e446457, #6c5f4d3b), url("advantages-bg.ee1f9070.jpg");
+  background-image: linear-gradient(to right, #3e446457, #6c5f4d3b), url("advantages-bg.e268fbf5.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -769,7 +769,7 @@ input:focus:valid, textarea:focus:valid {
 .contacts__overlay {
   z-index: -1;
   background-color: #0000;
-  background-image: linear-gradient(to right, #3e446457, #6c5f4d3b), url("contacts-bg.6f647ef2.jpg");
+  background-image: linear-gradient(to right, #3e446457, #6c5f4d3b), url("contacts-bg.762a392d.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
