@@ -666,28 +666,28 @@ const homeTexts = {
         en: 'Commercial real estate broker in Warsaw'
     },
     'header_banner-pre-title': {
-        ua: "1 \u0414\u043E\u043F\u043E\u043C\u043E\u0436\u0443 \u0437\u043D\u0430\u0439\u0442\u0438 \u0434\u043B\u044F \u0412\u0430\u0441",
-        ru: "1 \u041F\u043E\u043C\u043E\u0433\u0443 \u043D\u0430\u0439\u0442\u0438 \u0434\u043B\u044F \u0412\u0430\u0441",
-        pl: "1 Pomog\u0119 ci znale\u017A\u0107",
-        en: '1 I will help you find:'
+        ua: "\u0414\u043E\u043F\u043E\u043C\u043E\u0436\u0443 \u0437\u043D\u0430\u0439\u0442\u0438 \u0434\u043B\u044F \u0412\u0430\u0441",
+        ru: "\u041F\u043E\u043C\u043E\u0433\u0443 \u043D\u0430\u0439\u0442\u0438 \u0434\u043B\u044F \u0412\u0430\u0441",
+        pl: "Pomog\u0119 ci znale\u017A\u0107",
+        en: 'I will help you find:'
     },
     'header_banner-advantages-1': {
-        ua: "2 \u043E\u0440\u0435\u043D\u0434\u0430 \u043E\u0444\u0456\u0441\u0443 \u0432 \u0412\u0430\u0440\u0448\u0430\u0432\u0456",
-        ru: "2 \u0430\u0440\u0435\u043D\u0434\u0430 \u043E\u0444\u0438\u0441\u0430 \u0432 \u0412\u0430\u0440\u0448\u0430\u0432\u0435",
-        pl: '2 wynajem biura w Warszawie',
-        en: '2 office space to rent'
+        ua: "1 \u043E\u0440\u0435\u043D\u0434\u0430 \u043E\u0444\u0456\u0441\u0443 \u0432 \u0412\u0430\u0440\u0448\u0430\u0432\u0456",
+        ru: "1 \u0430\u0440\u0435\u043D\u0434\u0430 \u043E\u0444\u0438\u0441\u0430 \u0432 \u0412\u0430\u0440\u0448\u0430\u0432\u0435",
+        pl: '1 wynajem biura w Warszawie',
+        en: '1 office space to rent'
     },
     'header_banner-advantages-2': {
-        ua: "3 \u0441\u043A\u043B\u0430\u0434 \u0432 \u041F\u043E\u043B\u044C\u0449\u0456",
-        ru: "3 \u0441\u043A\u043B\u0430\u0434 \u0432 \u041F\u043E\u043B\u044C\u0448\u0435",
-        pl: '3 magazyn w Polsce',
-        en: '3 warehouses to rent'
+        ua: "2 \u0441\u043A\u043B\u0430\u0434 \u0432 \u041F\u043E\u043B\u044C\u0449\u0456",
+        ru: "2 \u0441\u043A\u043B\u0430\u0434 \u0432 \u041F\u043E\u043B\u044C\u0448\u0435",
+        pl: '2 magazyn w Polsce',
+        en: '2 warehouses to rent'
     },
     'header_banner-advantages-3': {
-        ua: "4 \u0440\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u044F \u0444\u0456\u0440\u043C\u0438 \u0432 \u041F\u043E\u043B\u044C\u0449\u0456",
-        ru: "4 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u0444\u0438\u0440\u043C\u044B \u0432 \u041F\u043E\u043B\u044C\u0448\u0435",
-        pl: '4 rejestracja firmy w Polsce',
-        en: '4 assistance with company registration'
+        ua: "3 \u0440\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u044F \u0444\u0456\u0440\u043C\u0438 \u0432 \u041F\u043E\u043B\u044C\u0449\u0456",
+        ru: "3 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u0444\u0438\u0440\u043C\u044B \u0432 \u041F\u043E\u043B\u044C\u0448\u0435",
+        pl: '3 rejestracja firmy w Polsce',
+        en: '3 assistance with company registration'
     },
     'header_banner-button': {
         ua: "\u0411\u0435\u0437\u043A\u043E\u0448\u0442\u043E\u0432\u043D\u0430 \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0456\u044F",

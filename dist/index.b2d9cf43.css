@@ -451,6 +451,7 @@ img {
 .hero__content {
   backdrop-filter: blur(3px);
   background-color: #74819630;
+  border: 1px solid #e4c9a2;
   max-width: 520px;
   padding: 15px;
   box-shadow: 0 4px 8px -2px #091e4240, 0 0 0 1px #091e4214;
@@ -459,7 +460,6 @@ img {
 @media screen and (width <= 580px) {
   .hero__content {
     background-color: #3e4464;
-    border: 2px solid #e4c9a2;
     border-radius: 6px;
   }
 }
