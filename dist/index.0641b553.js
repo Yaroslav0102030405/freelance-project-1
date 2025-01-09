@@ -626,7 +626,7 @@ const homeTexts = {
     'header_menu-home': {
         ua: "\u0413\u043E\u043B\u043E\u0432\u043D\u0430",
         ru: "\u0413\u043B\u0430\u0432\u043D\u0430\u044F",
-        pl: "G\u0142\xf3wn",
+        pl: "G\u0142\xf3wna",
         en: 'Home'
     },
     'header_menu-service': {

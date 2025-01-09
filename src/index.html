@@ -39,8 +39,8 @@
     </title>
     <meta
       name="description"
-      content="Помогу найти для Вас: аренду для офиса в Варшаве, склад в Польше
-      и зарегистрировать фирму в Польше. Звоните +48 735 775 810 или пишите в Telegram"
+      content="Помогу найти для Вас: офис в аренду в Варшаве, склад в аренду в Польше.
+    Регистрирация фирм в Польше. Звоните +48 735 775 810 или пишите в Telegram"
     />
 
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -119,7 +119,11 @@
           <div class="hero__wrap">
             <div class="hero__img">
               <picture>
-                <source srcset="./image/250.png" media="(max-width: 580px)" />
+                <source
+                  srcset="./image/250.png?as=webp&width=280"
+                  type="image/png"
+                  media="(max-width: 580px)"
+                />
                 <img
                   loading="lazy"
                   width="402"
@@ -643,32 +647,44 @@
               Yurii Bukhtii</a
             >
             <h3 lang="en" class="form__title">Free consultation</h3>
-            <p lang="en" class="form__input-name">Name*</p>
-            <input
-              class="form__1-input"
-              type="text"
-              name="name"
-              autocomplete="off"
-              pattern="[A-Za-zА-Яа-яЁё]{1,15}"
-              required
-            />
-            <p lang="en" class="form__input-name">Phone number*</p>
-            <input
-              class="form__1-input"
-              type="tel"
-              name="tel"
-              autocomplete="off"
-              pattern="[\+0-9]{9,15}"
-              required
-            />
-            <p lang="en" class="form__input-name">Message</p>
-            <textarea
-              class="form__1-textarea"
-              name="comment"
-              id="comment"
-              rows="5"
-              autocomplete="off"
-            ></textarea>
+            <label lang="en" class="form__input-name"
+              >Name*
+              <!-- <p lang="en" class="form__input-name">Name*</p> -->
+              <input
+                class="form__1-input"
+                type="text"
+                name="name"
+                autocomplete="off"
+                placeholder="Yurii"
+                pattern="[A-Za-zА-Яа-яЁё]{1,15}"
+                required
+              />
+            </label>
+            <label lang="en" class="form__input-name"
+              >Phone number*
+              <!-- <p lang="en" class="form__input-name">Phone number*</p> -->
+              <input
+                class="form__1-input"
+                type="tel"
+                name="tel"
+                autocomplete="off"
+                placeholder="+48 735 775 810"
+                pattern="[\+0-9]{9,15}"
+                required
+              />
+            </label>
+            <label lang="en" class="form__input-name"
+              >Message
+              <!-- <p lang="en" class="form__input-name">Message</p> -->
+              <textarea
+                class="form__1-textarea"
+                name="comment"
+                id="comment"
+                rows="5"
+                placeholder="I need to register a company in Poland and find a rental office"
+                autocomplete="off"
+              ></textarea>
+            </label>
 
             <button lang="en" class="button form__button" type="submit">
               Send
@@ -838,32 +854,46 @@
             </div>
 
             <h3 lang="en" class="form__title">Free consultation</h3>
-            <p lang="en" class="form__input-name">Name*</p>
-            <input
-              class="form__1-input"
-              type="text"
-              name="name"
-              autocomplete="off"
-              pattern="[A-Za-zА-Яа-яЁё]{1,15}"
-              required
-            />
-            <p lang="en" class="form__input-name">Phone number*</p>
-            <input
-              class="form__1-input"
-              type="tel"
-              name="tel"
-              autocomplete="off"
-              pattern="[\+0-9]{9,15}"
-              required
-            />
-            <p lang="en" class="form__input-name">Message</p>
-            <textarea
-              class="form__1-textarea"
-              name="comment"
-              id="comment-2"
-              rows="5"
-              autocomplete="off"
-            ></textarea>
+            <label lang="en" class="form__input-name"
+              >Name*
+              <!-- <p lang="en" class="form__input-name">Name*</p> -->
+              <input
+                class="form__1-input"
+                type="text"
+                name="name"
+                autocomplete="off"
+                placeholder="Yurii"
+                pattern="[A-Za-zА-Яа-яЁё]{1,15}"
+                required
+              />
+            </label>
+            <label lang="en" class="form__input-name"
+              >Phone number*
+
+              <!-- <p lang="en" class="form__input-name"></p> -->
+              <input
+                class="form__1-input"
+                type="tel"
+                name="tel"
+                autocomplete="off"
+                pattern="[\+0-9]{9,15}"
+                required
+                placeholder="+48 735 775 810"
+              />
+            </label>
+            <label lang="en" class="form__input-name"
+              >Message
+              <!-- <p lang="en" class="form__input-name">Message</p> -->
+
+              <textarea
+                class="form__1-textarea"
+                name="comment"
+                id="comment-2"
+                rows="5"
+                placeholder="I need to register a company in Poland and find a rental office"
+                autocomplete="off"
+              ></textarea>
+            </label>
 
             <button lang="en" class="button form__button" type="submit">
               Send

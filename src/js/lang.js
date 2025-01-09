@@ -14,7 +14,7 @@ const homeTexts = {
   'header_menu-home': {
     ua: 'Головна',
     ru: 'Главная',
-    pl: 'Główn',
+    pl: 'Główna',
     en: 'Home',
   },
   'header_menu-service': {
