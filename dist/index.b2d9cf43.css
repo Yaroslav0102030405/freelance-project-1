@@ -614,7 +614,6 @@ img {
   justify-content: center;
   row-gap: 70px;
   display: flex;
-  overflow: hidden;
 }
 
 @media screen and (width <= 580px) {
