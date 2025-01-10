@@ -596,8 +596,6 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"bNKaB":[function(require,module,exports,__globalThis) {
-// const mySlider = new Splide('#mySlider');
-// mySlider.mount();
 var _lang = require("./js/lang");
 var _heroModal = require("./js/hero-modal");
 var _modal = require("./js/modal");
