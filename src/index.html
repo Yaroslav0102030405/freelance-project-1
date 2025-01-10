@@ -52,6 +52,7 @@
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -71,12 +72,10 @@
         dataLayer.push(arguments);
       }
       gtag('js', new Date());
-
       gtag('config', 'G-70D2EFWTW4');
     </script>
   </head>
   <body class="show-modal">
-    <div class="container"></div>
     <header id="header" class="header">
       <div class="container">
         <div class="header__wrap">
@@ -182,9 +181,13 @@
       <section id="service" class="service scroll">
         <div class="container">
           <h2 class="service__title" data-lang="service_title">Послуги</h2>
-
           <ul class="service__list">
-            <li class="service__item">
+            <li
+              class="service__item"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+              data-aos-delay="0"
+            >
               <!-- Slider -->
               <div
                 id="slider1"
@@ -319,13 +322,18 @@
                 Подзвонити</a
               >
             </li>
-            <li class="service__item">
+            <li
+              class="service__item"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
               <!-- Slider -->
               <div
                 id="slider2"
                 class="splide"
                 role="group"
                 aria-label="Splide Basic HTML Example"
+                data-aos-delay="500"
               >
                 <div class="splide__track">
                   <ul class="splide__list">
@@ -412,7 +420,11 @@
               >
             </li>
 
-            <li class="service__item">
+            <li
+              class="service__item"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
               <div
                 id="slider3"
                 class="splide"
@@ -496,7 +508,11 @@
             Переваги
           </h2>
           <ul class="advantages__list">
-            <li class="advantages__item">
+            <li
+              class="advantages__item"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
               <img
                 loading="lazy"
                 aria-label="логотип ракета"
@@ -510,7 +526,11 @@
                 Досвід в комерційній нерухомості
               </p>
             </li>
-            <li class="advantages__item">
+            <li
+              class="advantages__item"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
               <img
                 loading="lazy"
                 aria-label="логотип на руці серце"
@@ -524,7 +544,11 @@
                 Турбота про клієнта
               </p>
             </li>
-            <li class="advantages__item">
+            <li
+              class="advantages__item"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
               <img
                 loading="lazy"
                 aria-label="логотип 0 процентів"
@@ -538,7 +562,11 @@
                 Відсутність комісії за послуги
               </p>
             </li>
-            <li class="advantages__item">
+            <li
+              class="advantages__item"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
               <img
                 loading="lazy"
                 aria-label="логотип калькулятор"
@@ -552,7 +580,11 @@
                 Калькуляція місячної оренди
               </p>
             </li>
-            <li class="advantages__item">
+            <li
+              class="advantages__item"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
               <img
                 loading="lazy"
                 aria-label="логотип місця знаходження"
@@ -573,7 +605,11 @@
         <div class="container">
           <h2 class="about__title" data-lang="about_title">Про мене</h2>
           <div class="about__wrap">
-            <div class="about__content">
+            <div
+              class="about__content"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
               <!-- <div class="logo__wrap">
                 <a lang="en" class="logo" href="./index.html">Yurii Bukhtii</a>
               </div> -->
@@ -602,7 +638,11 @@
                 Я готовий допомогти Вам знайти ідеальну Локалізацію!
               </p>
             </div>
-            <div class="about__image">
+            <div
+              class="about__image"
+              data-aos="fade-up"
+              data-aos-anchor-placement="top-bottom"
+            >
               <picture>
                 <source
                   srcset="./image/about.webp?as=webp&width=700"
@@ -628,7 +668,12 @@
           <!-- <div class="contacts__image">
             </div> -->
           <!-- <div class="contacts__form"> -->
-          <form id="form1" class="form-1">
+          <form
+            id="form1"
+            class="form-1"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <a lang="en" class="form__logo-2" href="#header">
               <picture>
                 <source
@@ -737,7 +782,7 @@
                 aria-label="логотип фейсбук"
                 target="_blank"
                 rel="noreferrer noopener"
-                href="https://www.facebook.com/yurii.bukhtii.52/"
+                href="https://www.facebook.com/biuraimagazyny?rdid=HqlvQdRnyghUzO68&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DPLqqr8jK%2F#"
               >
                 <img
                   loading="lazy"
@@ -898,6 +943,10 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
       integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
