@@ -1,6 +1,5 @@
 .hero {
   @media screen and (max-width: 580px) {
-    // background-color: $bg-color;
     padding-bottom: 10px;
   }
 }
@@ -140,12 +139,6 @@
   // margin-right: auto;
   // max-width: 1600px;
   height: 753px;
-
-  // background-image: linear-gradient(to right, #3e446457, #e4c9a23b), image-set(url('./image/hero-1-2.jpg');
-  // background-image:
-  //   linear-gradient(to right, #3e446457, #e4c9a23b),
-  //   - webkit-image-set(url('./image/hero-1-2.jpg'));
-  // background-image: image-set('./image/hero-1-2.jpg' type('image/jpg'));
   background: linear-gradient(to right, #3e446457, #e4c9a23b),
     url(/src/image/hero-bg.webp);
   background-repeat: no-repeat;
@@ -154,24 +147,27 @@
   background-attachment: fixed;
   width: 100%;
   z-index: -1;
-  // animation: animation-bg 5s linear;
+  animation: animation-bg 4s linear;
 
   @media screen and (max-width: 580px) {
     height: 795;
   }
 }
 
-// @keyframes animation-bg {
-//   0% {
-//     transform: scale(1);
-//   }
-//   90% {
-//     transform: scale(1.3);
-//   }
-//   100% {
-//     transform: scale(1);
-//   }
-// }
+@keyframes animation-bg {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  70% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
 .hero__content {
   max-width: 520px;
