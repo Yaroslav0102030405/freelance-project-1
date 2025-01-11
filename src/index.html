@@ -52,7 +52,7 @@
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
       rel="stylesheet"
     />
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
@@ -130,11 +130,11 @@
     <main>
       <section class="hero scroll">
         <!-- <div class="css"> -->
-          <div class="hero__overlay"></div>
+        <div class="hero__overlay" data-aos="zoom-in"></div>
         <!-- </div> -->
         <div class="container">
           <div class="hero__wrap">
-            <div class="hero__img">
+            <div class="hero__img" data-aos="fade-up" data-aos-duration="3000">
               <picture>
                 <source
                   type="image/png"
@@ -151,7 +151,12 @@
                 />
               </picture>
             </div>
-            <div class="hero__content">
+            <div
+              class="hero__content"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <h1 class="hero__title">Yurii Bukhtii</h1>
               <p class="hero__description" data-lang="header_banner-title">
                 Брокер комерційної нерухомості в Варшаві
@@ -199,9 +204,20 @@
       </section>
       <section id="service" class="service scroll">
         <div class="container">
-          <h2 class="service__title" data-lang="service_title">Послуги</h2>
+          <h2
+            class="service__title"
+            data-lang="service_title"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            > Послуги
+          </h2>
           <ul class="service__list">
-            <li class="service__item" data-aos="fade-up">
+            <li
+              class="service__item"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <!-- Slider -->
               <div
                 id="slider1"
@@ -336,7 +352,11 @@
                 Подзвонити</a
               >
             </li>
-            <li class="service__item">
+            <li
+              class="service__item"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <!-- Slider -->
               <div
                 id="slider2"
@@ -361,7 +381,11 @@
                       />
                       <!-- </picture> -->
                     </li>
-                    <li class="splide__slide">
+                    <li
+                      class="splide__slide"
+                      data-aos="fade-up"
+                      data-aos-duration="3000"
+                    >
                       <!-- <picture>
                         <source
                           srcset="./image/s2-2.webp?as=webp&width=510"
@@ -430,7 +454,11 @@
               >
             </li>
 
-            <li class="service__item">
+            <li
+              class="service__item"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <div
                 id="slider3"
                 class="splide"
@@ -510,11 +538,16 @@
       <section id="advantages" class="advantages scroll">
         <div class="advantages__ovelray"></div>
         <div class="container">
-          <h2 class="advantages__title" data-lang="advantages_title">
+          <h2
+            class="advantages__title"
+            data-lang="advantages_title"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
             Переваги
           </h2>
           <ul class="advantages__list">
-            <li class="advantages__item">
+            <li class="advantages__item" data-aos="zoom-in">
               <img
                 loading="lazy"
                 aria-label="логотип ракета"
@@ -528,7 +561,7 @@
                 Досвід в комерційній нерухомості
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item" data-aos="zoom-in">
               <img
                 loading="lazy"
                 aria-label="логотип на руці серце"
@@ -542,7 +575,7 @@
                 Турбота про клієнта
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item" data-aos="zoom-in">
               <img
                 loading="lazy"
                 aria-label="логотип 0 процентів"
@@ -556,7 +589,7 @@
                 Відсутність комісії за послуги
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item" data-aos="zoom-in">
               <img
                 loading="lazy"
                 aria-label="логотип калькулятор"
@@ -570,7 +603,7 @@
                 Калькуляція місячної оренди
               </p>
             </li>
-            <li class="advantages__item">
+            <li class="advantages__item" data-aos="zoom-in">
               <img
                 loading="lazy"
                 aria-label="логотип місця знаходження"
@@ -589,9 +622,21 @@
       </section>
       <section id="about" class="about scroll">
         <div class="container">
-          <h2 class="about__title" data-lang="about_title">Про мене</h2>
+          <h2
+            class="about__title"
+            data-lang="about_title"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            Про мене
+          </h2>
           <div class="about__wrap">
-            <div class="about__content">
+            <div
+              class="about__content"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
               <!-- <div class="logo__wrap">
                 <a lang="en" class="logo" href="./index.html">Yurii Bukhtii</a>
               </div> -->
@@ -622,8 +667,9 @@
             </div>
             <div
               class="about__image"
-              data-aos="fade-up"
-              data-aos-anchor-placement="top-bottom"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
             >
               <!-- <picture>
                 <source
@@ -645,9 +691,16 @@
       <section id="contacts" class="contacts scroll">
         <div class="contacts__overlay"></div>
         <div class="container">
-          <h2 class="contacts__title" data-lang="contacts_title">Контакти</h2>
+          <h2
+            class="contacts__title"
+            data-lang="contacts_title"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            Контакти
+          </h2>
           <div class="contacts__wrap">
-            <div class="contacts__image">
+            <div class="contacts__image" data-aos="zoom-in">
               <a lang="en" class="form__logo-3" href="#header">
                 <!-- <picture>
                   <source
@@ -680,7 +733,7 @@
                 alt="карта варшави"
               />
             </div>
-            <div class="contacts__form">
+            <div class="contacts__form" data-aos="zoom-in">
               <form id="form1" class="form-1">
                 <a lang="en" class="form__logo-2" href="#header">
                   <!-- <picture>
@@ -750,7 +803,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer__line"></div>
-        <div class="footer__wrap">
+        <div class="footer__wrap" data-aos="zoom-in-down">
           <div class="logo__wrap">
             <a class="logo" href="#header">
               <!-- <picture>
@@ -969,10 +1022,10 @@
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
-    <!-- <script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
       AOS.init();
-    </script> -->
+    </script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
       integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
