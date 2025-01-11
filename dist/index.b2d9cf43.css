@@ -1005,12 +1005,6 @@ input:focus:valid, textarea:focus:valid {
   font-size: 30px;
 }
 
-@media screen and (width <= 580px) {
-  .modal__title {
-    font-size: 25px;
-  }
-}
-
 .modal__menu-btn {
   justify-content: center;
   gap: 10px;

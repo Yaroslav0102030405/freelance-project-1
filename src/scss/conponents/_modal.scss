@@ -35,10 +35,6 @@
   font-size: 30px;
   color: $accent-text;
   text-align: center;
-
-  @media screen and (max-width: 580px) {
-    font-size: 25px;
-  }
 }
 
 .modal__menu-btn {
