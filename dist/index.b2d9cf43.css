@@ -130,7 +130,6 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 16px;
   line-height: 1.4;
-  overflow-x: hidden;
 }
 
 .show-modal {
@@ -392,6 +391,7 @@ img {
   align-items: start;
   gap: 25px;
   display: grid;
+  overflow-x: hidden;
 }
 
 @media screen and (width <= 580px) {
@@ -708,6 +708,7 @@ img {
   place-items: center end;
   gap: 30px;
   display: grid;
+  overflow-x: hidden;
 }
 
 @media screen and (width <= 580px) {
@@ -746,7 +747,6 @@ img {
 .about__image {
   border: 1px solid #e4c9a2;
   border-radius: 6px;
-  overflow: hidden;
 }
 
 .about__image img {

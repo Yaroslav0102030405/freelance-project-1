@@ -5,6 +5,7 @@
 }
 
 .hero__wrap {
+  overflow-x: hidden;
   display: grid;
   grid-template-columns: 1fr 41.2%;
   align-items: start;
