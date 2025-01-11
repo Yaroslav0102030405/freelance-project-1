@@ -146,7 +146,11 @@ textarea:focus:valid {
   top: 0;
   left: 0;
   height: 815px;
-  background: linear-gradient(to right, #3e44648a, #6c5f4d70),
+  // background: linear-gradient(to right, #3e44648a, #6c5f4d70),
+  //   url(/src/image/contacts-bg.webp);
+  // background-image: linear-gradient(to right, #3e4464d6, #6c5f4dc4),
+  //   url(/src/image/contacts-bg.webp);
+  background-image: linear-gradient(to right, #3e4464ba, #6c5f4dad),
     url(/src/image/contacts-bg.webp);
   background-repeat: no-repeat;
   background-position: center top;
