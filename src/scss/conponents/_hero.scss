@@ -34,7 +34,7 @@
   color: $text-color;
   margin-top: 0;
   margin-bottom: 20px;
-  font-size: 15px;
+  font-size: 14px;
 
   @media screen and (max-width: 580px) {
     font-size: 10px;
@@ -45,8 +45,8 @@
 .hero__pre-title {
   text-align: center;
   color: $accent-text;
-  margin-bottom: 20px;
-  font-size: 34px;
+  margin-bottom: 10px;
+  font-size: 30px;
 
   @media screen and (max-width: 1242px) {
     font-size: 25px;
@@ -71,9 +71,9 @@
 }
 
 .hero__advantages {
-  margin-bottom: 20px;
-  font-size: 26px;
-  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 20px;
+  // font-weight: 700;
   color: $text-color;
   margin-top: 0;
 
@@ -94,7 +94,8 @@
   }
 
   @media screen and (max-width: 580px) {
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 14px;
     margin-bottom: 5px;
   }
 }
@@ -138,7 +139,7 @@
   // margin-left: auto;
   // margin-right: auto;
   // max-width: 1600px;
-  height: 753px;
+  height: 775px;
   background: linear-gradient(to right, #3e446457, #e4c9a23b),
     url(/src/image/hero-bg.webp);
   background-repeat: no-repeat;
@@ -146,8 +147,8 @@
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
+  // height: 100%;
   z-index: -1;
-  // animation: animation-bg 4s linear;
 
   @media screen and (max-width: 580px) {
     height: 795;

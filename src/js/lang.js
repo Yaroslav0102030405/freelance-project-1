@@ -123,7 +123,7 @@ const homeTexts = {
     ua: '*Послуга повністю безкоштовна і немає прихованих комісій',
     ru: '*Услуга полностью бесплатная и нет скрытых комиссий',
     pl: '*Usługa jest całkowicie bezpłatna i nie zawiera żadnych ukrytych opłat',
-    en: '*my service is free and there are no hidden costs.',
+    en: '*My service is free and there are no hidden costs.',
   },
   'service_button-1': {
     ua: 'Безкоштовна консультація',
@@ -171,7 +171,7 @@ const homeTexts = {
     ua: '*Послуга повністю безкоштовна і немає прихованих комісій',
     ru: '*Услуга полностью бесплатна и нет скрытых комиссий',
     pl: '*Usługa jest całkowicie bezpłatna i nie zawiera żadnych ukrytych opłat',
-    en: '*my service is free and there are no hidden costs.',
+    en: '*My service is free and there are no hidden costs.',
   },
   'service_button-2': {
     ua: 'Безкоштовна консультація',
@@ -207,7 +207,7 @@ const homeTexts = {
     ua: 'Звертайтеся я з радістю Вам допоможу',
     ru: 'Обращайтесь с радостью Вам помогу',
     pl: 'Skontaktuj się ze mną, chętnie Ci pomogę',
-    en: '*paid service.',
+    en: 'Contact me with pleasure, I will help you.',
   },
   'service_description-3-3': {
     ua: '*Послуга платна',
@@ -323,12 +323,12 @@ const homeTexts = {
     pl: 'Kontakty',
     en: 'Contact',
   },
-  // 'contacts_title-form': {
-  //   ua: 'Безкоштовна консультація',
-  //   ru: 'Бесплатная консультация',
-  //   pl: 'Darmowa konsultacja',
-  //   en: 'Free consultation',
-  // },
+  contacts_logo: {
+    ua: 'Я безкоштовно знайду для Вас в будь-якому районі Варшави оренду під офіс. Телефонуйте чи заповнюйте форму обратнього зв`язку або пишіть в телеграм.',
+    ru: 'Я бесплатно найду для Вас в любом районе Варшавы аренду под офис. Звоните или заполняйте форму обратного связи или пишите в телеграмму.',
+    pl: 'Znajdę dla Ciebie biuro w każdej dzielnicy w Warszawie bez prowizji. Zadzwoń lub wypełnij formularz zwrotny lub napisz na Telegram.',
+    en: 'I will find you an office space for rent in any district of Warsaw for free. Call or fill out the feedback form or write to Telegram.',
+  },
   // 'contacts_input-name': {
   //   ua: 'Ім`я',
   //   ru: 'Имя',

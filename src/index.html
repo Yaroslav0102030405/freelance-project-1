@@ -80,7 +80,24 @@
       <div class="container">
         <div class="header__wrap">
           <div class="logo__wrap">
-            <a lang="en" class="logo" href="./index.html">Yurii Bukhtii</a>
+            <!-- <a lang="en" class="logo" href="./index.html">Yurii Bukhtii</a> -->
+            <a lang="en" class="logo" href="./index.html">
+              <picture>
+                <source
+                  srcset="./image/image-logo.webp?as=webp&width=50"
+                  type="image/webp"
+                />
+                <img
+                  loading="lazy"
+                  class="logo__image"
+                  width="50"
+                  height="50"
+                  src="./image/image-logo.jpg"
+                  alt="Yurii Bukhtii"
+                />
+              </picture>
+              Yurii Bukhtii</a
+            >
           </div>
           <nav class="nav">
             <ul class="header__menu">
@@ -629,74 +646,97 @@
         <div class="contacts__overlay"></div>
         <div class="container">
           <h2 class="contacts__title" data-lang="contacts_title">Контакти</h2>
-          <!-- <div class="contacts__wrap"> -->
-          <!-- <div class="contacts__image">
-            </div> -->
-          <!-- <div class="contacts__form"> -->
-          <form id="form1" class="form-1">
-            <a lang="en" class="form__logo-2" href="#header">
-              <picture>
-                <source
-                  srcset="./image/image-logo.webp?as=webp&width=50"
-                  type="image/webp"
-                />
+          <div class="contacts__wrap">
+            <div class="contacts__image">
+              <a lang="en" class="form__logo-3" href="#header">
+                <!-- <picture>
+                  <source
+                    srcset="./image/image-logo.webp?as=webp&width=50"
+                    type="image/webp"
+                  /> -->
                 <img
                   loading="lazy"
                   class="logo__image"
                   width="50"
                   height="50"
-                  src="./image/image-logo.jpg"
+                  src="./image/image-logo.webp"
                   alt="Yurii Bukhtii"
                 />
-              </picture>
-              Yurii Bukhtii</a
-            >
-            <h3 lang="en" class="form__title">Free consultation</h3>
-            <label lang="en" class="form__input-name"
-              >Name*
-              <!-- <p lang="en" class="form__input-name">Name*</p> -->
-              <input
-                class="form__1-input"
-                type="text"
-                name="name"
-                autocomplete="off"
-                placeholder="Yurii"
-                pattern="[A-Za-zА-Яа-яЁё]{1,15}"
-                required
-              />
-            </label>
-            <label lang="en" class="form__input-name"
-              >Phone number*
-              <!-- <p lang="en" class="form__input-name">Phone number*</p> -->
-              <input
-                class="form__1-input"
-                type="tel"
-                name="tel"
-                autocomplete="off"
-                placeholder="+48 735 775 810"
-                pattern="[\+0-9]{9,15}"
-                required
-              />
-            </label>
-            <label lang="en" class="form__input-name"
-              >Message
-              <!-- <p lang="en" class="form__input-name">Message</p> -->
-              <textarea
-                class="form__1-textarea"
-                name="comment"
-                id="comment"
-                rows="5"
-                placeholder="I need to register a company in Poland and find a rental office"
-                autocomplete="off"
-              ></textarea>
-            </label>
+                <!-- </picture> -->
+                <p
+                  class="contacts__text"
+                  style="margin-bottom: 0"
+                  data-lang="contacts_logo"
+                >
+                  Я безкоштовно знайду для Вас в будь-якому районі Варшави
+                  оренду під офіс. Телефонуйте чи заповнюйте форму обратнього
+                  зв'язку або пишіть в телеграм.
+                </p>
+              </a>
+              <img width="470" src="./image/maps.avif" alt="карта варшави" />
+            </div>
+            <div class="contacts__form">
+              <form id="form1" class="form-1">
+                <a lang="en" class="form__logo-2" href="#header">
+                  <picture>
+                    <source
+                      srcset="./image/image-logo.webp?as=webp&width=50"
+                      type="image/webp"
+                    />
+                    <img
+                      loading="lazy"
+                      class="logo__image"
+                      width="50"
+                      height="50"
+                      src="./image/image-logo.jpg"
+                      alt="Yurii Bukhtii"
+                    />
+                  </picture>
+                  Yurii Bukhtii</a
+                >
+                <h3 lang="en" class="form__title">Free consultation</h3>
+                <label lang="en" class="form__input-name"
+                  >Name*
+                  <input
+                    class="form__1-input"
+                    type="text"
+                    name="name"
+                    autocomplete="off"
+                    placeholder="Yurii"
+                    pattern="[A-Za-zА-Яа-яЁё]{1,15}"
+                    required
+                  />
+                </label>
+                <label lang="en" class="form__input-name"
+                  >Phone number*
+                  <input
+                    class="form__1-input"
+                    type="tel"
+                    name="tel"
+                    autocomplete="off"
+                    placeholder="+48 735 775 810"
+                    pattern="[\+0-9]{9,15}"
+                    required
+                  />
+                </label>
+                <label lang="en" class="form__input-name"
+                  >Message
+                  <textarea
+                    class="form__1-textarea"
+                    name="comment"
+                    id="comment"
+                    rows="5"
+                    placeholder="I need to register a company in Poland and find a rental office"
+                    autocomplete="off"
+                  ></textarea>
+                </label>
 
-            <button lang="en" class="button form__button" type="submit">
-              Send
-            </button>
-          </form>
-          <!-- </div> -->
-          <!-- </div> -->
+                <button lang="en" class="button form__button" type="submit">
+                  Send
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -778,6 +818,23 @@
 
     <div class="backdrop js-backdrop">
       <div class="modal js-modal">
+        <a lang="en" class="logo" href="javascript:void(0);">
+          <picture>
+            <source
+              srcset="./image/image-logo.webp?as=webp&width=50"
+              type="image/webp"
+            />
+            <img
+              loading="lazy"
+              class="logo__image"
+              width="50"
+              height="50"
+              src="./image/image-logo.jpg"
+              alt="Yurii Bukhtii"
+            />
+          </picture>
+          Yurii Bukhtii
+        </a>
         <h2 lang="en" class="modal__title">Website language</h2>
         <ul class="modal__menu-btn">
           <li>

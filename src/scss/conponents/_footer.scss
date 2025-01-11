@@ -23,18 +23,17 @@
   display: inline-flex;
   align-items: center;
   color: $accent-text;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 20px;
 
   @media screen and (max-width: 580px) {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
 .logo__image {
   margin-right: 10px;
   display: inline-block;
-  border: 5px solid $accent-text;
+  // border: 5px solid $accent-text;
   border-radius: 50%;
 }
 
