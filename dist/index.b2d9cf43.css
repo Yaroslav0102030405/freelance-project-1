@@ -890,7 +890,7 @@ input:focus:valid, textarea:focus:valid {
 
 .contacts__overlay {
   z-index: -1;
-  background-image: linear-gradient(to right, #3e4464ba, #6c5f4dad), url("contacts-bg.762a392d.webp");
+  background-image: linear-gradient(to right, #3e4464ba, #6c5f4d85), url("contacts-bg.762a392d.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
