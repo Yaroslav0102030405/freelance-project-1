@@ -1181,8 +1181,8 @@ SmoothScroll({
 
 },{}],"9mdI8":[function(require,module,exports,__globalThis) {
 // const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
-const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
 // const CHAT_ID = '-1002084469289';
+const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
 const CHAT_ID = '-1002317382342';
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 document.getElementById('form1').addEventListener('submit', function(e) {
@@ -1200,7 +1200,7 @@ document.getElementById('form1').addEventListener('submit', function(e) {
         this.name.value = '';
         this.tel.value = '';
         this.comment.value = '';
-        this.comment.value = `\u{2705} Thank you! Your message has been sent. We will call you back within 10 minutes.`;
+        this.comment.value = `+\u{2705} I will contact You within one hour.`;
     }).catch((error)=>{
         console.log(error);
     }).finally(()=>{
@@ -1210,8 +1210,8 @@ document.getElementById('form1').addEventListener('submit', function(e) {
 
 },{}],"jSUFh":[function(require,module,exports,__globalThis) {
 // const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
-const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
 // const CHAT_ID = '-1002084469289';
+const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
 const CHAT_ID = '-1002317382342';
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 document.getElementById('form2').addEventListener('submit', function(e) {
@@ -1229,7 +1229,7 @@ document.getElementById('form2').addEventListener('submit', function(e) {
         this.name.value = '';
         this.tel.value = '';
         this.comment.value = '';
-        this.comment.value = `\u{2705} Thank you! Your message has been sent. We will call you back within 10 minutes.`;
+        this.comment.value = `\u{2705} I will contact You within one hour.`;
     }).catch((error)=>{
         console.log(error);
     }).finally(()=>{

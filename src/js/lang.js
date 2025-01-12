@@ -329,12 +329,6 @@ const homeTexts = {
     pl: 'Znajdę dla Ciebie biuro w każdej dzielnicy w Warszawie bez prowizji. Zadzwoń lub wypełnij formularz zwrotny lub napisz na Telegram.',
     en: 'I will find you an office space for rent in any district of Warsaw for free. Call or fill out the feedback form or write to Telegram.',
   },
-  // 'contacts_input-name': {
-  //   ua: 'Ім`я',
-  //   ru: 'Имя',
-  //   pl: 'Nazwa',
-  //   en: 'Name',
-  // },
   // 'contacts_input-tel': {
   //   ua: 'Нормер телефону',
   //   ru: 'Номер телефона',
