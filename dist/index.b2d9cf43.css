@@ -509,6 +509,47 @@ img {
   padding: 10px;
 }
 
+.button {
+  transition: all .5s;
+}
+
+.flare-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.flare-button:after {
+  content: "";
+  z-index: 1;
+  background: linear-gradient(#ffffff80 0%, #fff 50%, #ffffff80 100%);
+  width: 1.25rem;
+  height: 12.5rem;
+  margin-left: 3.125rem;
+  animation: 3s ease-in-out 50ms infinite movingFlare;
+  display: block;
+  position: absolute;
+  top: -6.25rem;
+  left: -2.5rem;
+  transform: rotate(45deg);
+}
+
+@keyframes movingFlare {
+  0% {
+    margin-left: 0;
+    left: -1.875rem;
+  }
+
+  30% {
+    margin-left: 5rem;
+    left: 110%;
+  }
+
+  100% {
+    margin-left: 5rem;
+    left: 110%;
+  }
+}
+
 .expand__button {
   text-align: center;
   color: #e4c9a2;

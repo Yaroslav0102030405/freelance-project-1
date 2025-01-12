@@ -109,11 +109,54 @@
 
 .button {
   @extend %button;
+  transition: all 0.5s ease;
 }
 
 .button:hover,
 .button:focus {
   @extend %button__hover;
+}
+
+.flare-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.flare-button:after {
+  content: '';
+  display: block;
+  width: 1.25rem;
+  height: 12.5rem;
+  margin-left: 3.125rem;
+  background: #fff;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0.5) 100%
+  );
+  left: -2.5rem;
+  top: -6.25rem;
+  z-index: 1;
+  transform: rotate(45deg);
+  position: absolute;
+  animation: movingFlare 3s ease-in-out 0.05s infinite;
+}
+
+@keyframes movingFlare {
+  0% {
+    left: -1.875rem;
+    margin-left: 0rem;
+  }
+
+  30% {
+    left: 110%;
+    margin-left: 5rem;
+  }
+  100% {
+    left: 110%;
+    margin-left: 5rem;
+  }
 }
 
 .expand__button {
