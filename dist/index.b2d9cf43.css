@@ -197,9 +197,8 @@ img {
 }
 
 .service__button, .expand__button, .button {
-  cursor: pointer;
-  text-transform: uppercase;
   color: #3e4464;
+  text-transform: uppercase;
   cursor: url("cursor-2.770b4bf4.png"), auto;
   background-color: #e4c9a2;
   border: 1px solid #3e4464;
@@ -214,12 +213,6 @@ img {
 }
 
 @media screen and (width <= 959px) {
-  .service__button, .expand__button, .button {
-    font-size: 14px;
-  }
-}
-
-@media screen and (width <= 913px) {
   .service__button, .expand__button, .button {
     font-size: 13px;
   }
@@ -237,8 +230,8 @@ img {
 
 .contacts__title, .about__title, .advantages__title, .service__title {
   text-align: center;
-  text-transform: uppercase;
   color: #e4c9a2;
+  text-transform: uppercase;
   margin-bottom: 30px;
   font-size: 30px;
 }
@@ -305,8 +298,8 @@ img {
 
 .header__logo {
   text-align: center;
-  text-shadow: 1px 0 10px #49453866;
   color: #e4c9a2;
+  text-shadow: 1px 0 10px #49453866;
   font-size: 42px;
   font-weight: 700;
 }
@@ -422,8 +415,8 @@ img {
 }
 
 .hero__pre-title {
-  text-align: center;
   color: #e4c9a2;
+  text-align: center;
   margin-bottom: 10px;
   font-size: 30px;
 }
@@ -626,12 +619,17 @@ img {
 
 .service__item {
   background-color: #454d71;
+  border: 1px solid #0000;
   border-radius: 10px;
   grid-template-rows: auto auto auto auto auto 1fr;
   height: 100%;
   padding: 15px;
   display: grid;
   box-shadow: 0 3px 8px #0000003d;
+}
+
+.service__item:hover, .service__item:focus {
+  transform: scale(1.05);
 }
 
 .service__pre-title {
@@ -783,6 +781,7 @@ img {
 .about__image {
   border: 1px solid #e4c9a2;
   border-radius: 6px;
+  overflow: hidden;
 }
 
 .about__image img {
@@ -792,7 +791,7 @@ img {
   transform: scale(1);
 }
 
-.about__image img:hover {
+.about__image img:hover, .about__image img:focus {
   transform: scale(1.05);
 }
 
@@ -867,8 +866,8 @@ img {
 }
 
 .form__title {
-  text-align: center;
   color: #3e4464;
+  text-align: center;
   margin-bottom: 5px;
   font-size: 30px;
 }
@@ -895,8 +894,8 @@ img {
 }
 
 .form__1-textarea {
-  resize: none;
   color: #3e4464;
+  resize: none;
   background-color: #3e446424;
   border: 1px solid #e4c9a2;
   border-radius: 6px;

@@ -23,22 +23,22 @@
 }
 
 .form-1 {
-  background-color: $accent-text;
-  border: 2px solid $bg-color;
+  margin-left: auto;
   padding: 20px;
-  border-radius: 6px;
   width: 100%;
   max-width: 520px;
-  margin-left: auto;
+  background-color: $accent-text;
+  border: 2px solid $bg-color;
+  border-radius: 6px;
 }
 
 .form__logo-1 {
   @extend %logo;
-  font-size: 20px;
-  color: #3e4464;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #3e4464;
+  font-size: 20px;
 
   @media screen and (max-width: 580px) {
     font-size: 14px;
@@ -61,19 +61,21 @@
 }
 
 .form__input-name {
+  margin-bottom: 5px;
   color: $bg-color;
   font-size: 20px;
-  margin-bottom: 5px;
+
   @media screen and (max-width: 580px) {
     font-size: 14px;
   }
 }
 
 .form__title {
+  margin-bottom: 5px;
+  color: $bg-color;
   text-align: center;
   font-size: 30px;
-  color: $bg-color;
-  margin-bottom: 5px;
+
   @media screen and (max-width: 613px) {
     font-size: 25px;
   }
@@ -81,13 +83,13 @@
 
 .form__1-input {
   display: block;
+  margin-bottom: 10px;
   padding: 15px;
   width: 100%;
-  margin-bottom: 10px;
-  border-radius: 6px;
   color: $bg-color;
-  border: 1px solid $accent-text;
   background-color: #3e446424;
+  border-radius: 6px;
+  border: 1px solid $accent-text;
 }
 
 .form__1-input::placeholder {
@@ -99,31 +101,22 @@
 }
 
 .form__1-textarea {
-  border: 1px solid $accent-text;
   margin-bottom: 20px;
   padding: 12px 15px;
-  resize: none;
-  border-radius: 6px;
+  border: 1px solid $accent-text;
   width: 100%;
   color: $bg-color;
   background-color: #3e446424;
+  resize: none;
+  border-radius: 6px;
 }
 
 .form__button {
   width: 100%;
   max-width: 506px;
-  background-color: $bg-color;
   color: $accent-text;
+  background-color: $bg-color;
 }
-
-// .contacts__image img {
-//   // border: 3px solid #e4c9a2;
-//   // border-radius: 6px;
-
-//   @media screen and (max-width: 580px) {
-//     grid-template-columns: ;
-//   }
-// }
 
 input:focus {
   outline: none;
@@ -137,28 +130,24 @@ textarea:focus:invalid {
 
 input:focus:valid,
 textarea:focus:valid {
-  border: solid 2px #18e109;
   background-color: $text-color;
+  border: solid 2px #18e109;
 }
 
 .contacts__overlay {
   position: absolute;
   top: 0;
   left: 0;
-  height: 815px;
-  // background: linear-gradient(to right, #3e44648a, #6c5f4d70),
-  //   url(/src/image/contacts-bg.webp);
-  // background-image: linear-gradient(to right, #3e4464d6, #6c5f4dc4),
-  //   url(/src/image/contacts-bg.webp);
+  // height: 815px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
   background-image: linear-gradient(to right, #3e4464ba, #6c5f4d85),
     url(/src/image/contacts/contacts-bg.webp);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
   background-attachment: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
 }
 
 .contacts__text {

@@ -1,28 +1,19 @@
 %button {
-  font-size: 15px;
-  font-weight: 600;
-  padding: 15px;
-  background-color: $accent-text;
-  border: 1px solid $bg-color;
-  cursor: pointer;
-  text-transform: uppercase;
-  color: $bg-color;
-  border-radius: 6px;
-  cursor: url('image/cursor/cursor-2.png'), auto;
   width: 100%;
   max-width: 287px;
-
+  padding: 15px;
+  color: $bg-color;
+  background-color: $accent-text;
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid $bg-color;
+  border-radius: 6px;
+  text-transform: uppercase;
+  cursor: url('image/cursor/cursor-2.png'), auto;
   transform: translateY(0);
-
-  transition:
-    // box-shadow 250ms linear,
-    translateY 250ms linear;
+  transition: translateY 250ms linear;
 
   @media screen and (max-width: 959px) {
-    font-size: 14px;
-  }
-
-  @media screen and (max-width: 913px) {
     font-size: 13px;
   }
 
@@ -32,27 +23,20 @@
 }
 
 %button__hover {
-  // background-color: $text-color;
-  // color: $bg-color;
   transform: translateY(-2px);
-  // box-shadow:
-  //   0 54px 55px #00000040,
-  //   0 -12px 30px #0000001f,
-  //   0 4px 6px #0000001f,
-  //   0 12px 13px #0000002b,
-  //   0 -3px 5px #00000017;
 }
 
 %title {
+  margin-bottom: 30px;
   text-align: center;
+  color: $accent-text;
   font-size: 30px;
   text-transform: uppercase;
-  color: $accent-text;
-  margin-bottom: 30px;
+
   @media screen and (max-width: 580px) {
+    margin-bottom: 20px;
     font-size: 25px;
     text-transform: uppercase;
-    margin-bottom: 20px;
   }
 }
 
@@ -73,11 +57,10 @@
 }
 
 %logo {
-  color: #e4c9a2;
-  align-items: center;
-  font-size: 20px;
-  // font-weight: 600;
   display: inline-flex;
+  align-items: center;
+  color: #e4c9a2;
+  font-size: 20px;
   @media screen and (max-width: 580px) {
     font-size: 14px;
   }

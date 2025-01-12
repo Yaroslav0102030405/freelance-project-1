@@ -1,9 +1,8 @@
 .header {
-  // overflow-x: hidden;
   position: relative;
   padding-top: 20px;
-  z-index: 1;
   padding-bottom: 68px;
+  z-index: 1;
 
   @media screen and (max-width: 580px) {
     padding-top: 10px;
@@ -23,27 +22,27 @@
 
 .header__logo {
   text-align: center;
-  text-shadow: 1px 0 10px #49453866;
-  font-size: 42px;
   color: $accent-text;
+  font-size: 42px;
   font-weight: 700;
+  text-shadow: 1px 0 10px #49453866;
 }
 
 .header__logo--description {
-  font-size: 14.6px;
   color: $accent-text;
   margin-bottom: 0;
+  font-size: 14.6px;
 }
 
 .header__menu {
-  z-index: 10;
-  right: 4.3%;
-  top: 3%;
   position: fixed;
   display: flex;
-  list-style: none;
-  padding: 0;
   gap: 20px;
+  right: 4.3%;
+  top: 3%;
+  padding: 0;
+  z-index: 10;
+  list-style: none;
   backdrop-filter: blur(30px);
   box-shadow:
     rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
@@ -59,9 +58,9 @@
 }
 
 .header__menu li a {
-  font-size: 19px;
-  color: $bg-color;
   padding: 10px;
+  color: $bg-color;
+  font-size: 19px;
   border: 1px solid transparent;
   transition:
     color 250ms linear,

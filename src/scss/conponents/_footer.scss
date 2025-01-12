@@ -33,7 +33,6 @@
 .logo__image {
   margin-right: 10px;
   display: inline-block;
-  // border: 5px solid $accent-text;
   border-radius: 50%;
 }
 
@@ -50,9 +49,9 @@
 }
 
 .icon {
-  transition: fill 250ms linear;
   border: 1px solid $accent-text;
   border-radius: 50%;
+  transition: fill 250ms linear;
 }
 
 .icon:hover,
