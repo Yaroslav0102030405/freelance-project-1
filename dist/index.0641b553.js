@@ -671,22 +671,22 @@ const homeTexts = {
         en: 'I will help you find:'
     },
     'header_banner-advantages-1': {
-        ua: "1 \u043E\u0440\u0435\u043D\u0434\u0430 \u043E\u0444\u0456\u0441\u0443 \u0432 \u0412\u0430\u0440\u0448\u0430\u0432\u0456",
-        ru: "1 \u0430\u0440\u0435\u043D\u0434\u0430 \u043E\u0444\u0438\u0441\u0430 \u0432 \u0412\u0430\u0440\u0448\u0430\u0432\u0435",
-        pl: '1 wynajem biura w Warszawie',
-        en: '1 office space to rent'
+        ua: "\u2713 \u043E\u0440\u0435\u043D\u0434\u0443 \u043E\u0444\u0456\u0441\u0443 \u0412\u0430\u0440\u0448\u0430\u0432\u0456",
+        ru: "\u2713 \u0430\u0440\u0435\u043D\u0434\u0443 \u043E\u0444\u0438\u0441\u0430 \u0412\u0430\u0440\u0448\u0430\u0432\u0435",
+        pl: "\u2713 wynajem biura w Warszawie",
+        en: "\u2713 office space to rent"
     },
     'header_banner-advantages-2': {
-        ua: "2 \u0441\u043A\u043B\u0430\u0434 \u0432 \u041F\u043E\u043B\u044C\u0449\u0456",
-        ru: "2 \u0441\u043A\u043B\u0430\u0434 \u0432 \u041F\u043E\u043B\u044C\u0448\u0435",
-        pl: '2 magazyn w Polsce',
-        en: '2 warehouses to rent'
+        ua: "\u2713 \u0441\u043A\u043B\u0430\u0434 \u0432 \u041F\u043E\u043B\u044C\u0449\u0456",
+        ru: "\u2713 \u0441\u043A\u043B\u0430\u0434 \u0432 \u041F\u043E\u043B\u044C\u0448\u0435",
+        pl: "\u2713 magazyn w Polsce",
+        en: "\u2713 warehouses to rent"
     },
     'header_banner-advantages-3': {
-        ua: "3 \u0440\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u044F \u0444\u0456\u0440\u043C\u0438 \u0432 \u041F\u043E\u043B\u044C\u0449\u0456",
-        ru: "3 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u0444\u0438\u0440\u043C\u044B \u0432 \u041F\u043E\u043B\u044C\u0448\u0435",
-        pl: '3 rejestracja firmy w Polsce',
-        en: '3 assistance with company registration'
+        ua: "\u2713 \u0440\u0435\u0454\u0441\u0442\u0440\u0430\u0446\u0456\u044F \u0444\u0456\u0440\u043C \u0432 \u041F\u043E\u043B\u044C\u0449\u0456",
+        ru: "\u2713 \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044F \u0444\u0438\u0440\u043C \u0432 \u041F\u043E\u043B\u044C\u0448\u0435",
+        pl: "\u2713 rejestracja firmy w Polsce",
+        en: "\u2713 assistance with company registration"
     },
     'header_banner-button': {
         ua: "\u0411\u0435\u0437\u043A\u043E\u0448\u0442\u043E\u0432\u043D\u0430 \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0456\u044F",
