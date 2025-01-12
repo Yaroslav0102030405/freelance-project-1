@@ -6,7 +6,8 @@
   padding-bottom: 68px;
 
   @media screen and (max-width: 580px) {
-    display: none;
+    padding-top: 10px;
+    padding-bottom: 0;
   }
 }
 
@@ -15,9 +16,9 @@
   align-items: center;
   justify-content: space-between;
 
-  @media screen and (max-width: 580px) {
-    display: none;
-  }
+  // @media screen and (max-width: 580px) {
+  //   display: none;
+  // }
 }
 
 .header__logo {
@@ -53,7 +54,7 @@
   }
 
   @media screen and (max-width: 580px) {
-    display: none;
+    display: block;
   }
 }
 

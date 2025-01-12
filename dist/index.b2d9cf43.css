@@ -292,7 +292,8 @@ img {
 
 @media screen and (width <= 580px) {
   .header {
-    display: none;
+    padding-top: 10px;
+    padding-bottom: 0;
   }
 }
 
@@ -300,12 +301,6 @@ img {
   justify-content: space-between;
   align-items: center;
   display: flex;
-}
-
-@media screen and (width <= 580px) {
-  .header__wrap {
-    display: none;
-  }
 }
 
 .header__logo {
@@ -343,7 +338,7 @@ img {
 
 @media screen and (width <= 580px) {
   .header__menu {
-    display: none;
+    display: block;
   }
 }
 
@@ -564,7 +559,7 @@ img {
 .hero__overlay {
   z-index: -1;
   background-color: #0000;
-  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("hero-bg.05af54c2.webp");
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("hero-bg.f4e974ad.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -726,7 +721,7 @@ img {
 .advantages__ovelray {
   z-index: -1;
   background-color: #0000;
-  background-image: linear-gradient(to right, #3e446457, #6c5f4d3b), url("advantages-bg.e268fbf5.webp");
+  background-image: linear-gradient(to right, #3e446457, #6c5f4d3b), url("advantages-bg.7ad36083.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -933,7 +928,7 @@ input:focus:valid, textarea:focus:valid {
 
 .contacts__overlay {
   z-index: -1;
-  background-image: linear-gradient(to right, #3e4464ba, #6c5f4d85), url("contacts-bg.762a392d.webp");
+  background-image: linear-gradient(to right, #3e4464ba, #6c5f4d85), url("contacts-bg.de14da5c.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
