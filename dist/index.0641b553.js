@@ -1180,11 +1180,11 @@ SmoothScroll({
 });
 
 },{}],"9mdI8":[function(require,module,exports,__globalThis) {
-// import { default as axios } from 'axios';
-const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
-const CHAT_ID = '-1002084469289';
+// const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
+const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
+// const CHAT_ID = '-1002084469289';
+const CHAT_ID = '-1002317382342';
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
-// const success1 = document.querySelector('success-1');
 document.getElementById('form1').addEventListener('submit', function(e) {
     e.preventDefault();
     let message = `<b>\u{411}\u{415}\u{421}\u{41F}\u{41B}\u{410}\u{422}\u{41D}\u{410}\u{42F} \u{41A}\u{41E}\u{41D}\u{421}\u{423}\u{41B}\u{42C}\u{422}\u{410}\u{426}\u{418}\u{42F}</b>
@@ -1192,8 +1192,6 @@ document.getElementById('form1').addEventListener('submit', function(e) {
     message += `<b>\u{418}\u{43C}\u{44F}: </b> ${this.name.value}\n`;
     message += `<b>\u{422}\u{435}\u{43B}\u{435}\u{444}\u{43E}\u{43D}: </b> ${this.tel.value}\n`;
     message += `<b>\u{41A}\u{43E}\u{43C}\u{43C}\u{435}\u{43D}\u{442}\u{430}\u{440}\u{438}\u{439}: </b> ${this.comment.value}\n`;
-    //   message += `<b>Телефон: </b> ${this.phone.value}\n`;
-    //   message += `<b>Коментар: </b> ${this.comment.value}`;
     axios.post(URI_API, {
         chat_id: CHAT_ID,
         parse_mode: 'html',
@@ -1202,15 +1200,7 @@ document.getElementById('form1').addEventListener('submit', function(e) {
         this.name.value = '';
         this.tel.value = '';
         this.comment.value = '';
-        //   this.phone.value = '';
-        //   this.comment.value = '';
-        //   this.topic.value = '';
-        //   this.checkbox.value = '';
         this.comment.value = `\u{2705} Thank you! Your message has been sent. We will call you back within 10 minutes.`;
-    // success1.textContent = `Дякуємо за замовлення`;
-    // success1.classList.add('success-1');
-    // '<p class="message2">Message sent!</p class="message2"><p>A manager will contact you in 15 minutes!</p>';
-    // success1.style.display = 'block';
     }).catch((error)=>{
         console.log(error);
     }).finally(()=>{
@@ -1219,10 +1209,11 @@ document.getElementById('form1').addEventListener('submit', function(e) {
 });
 
 },{}],"jSUFh":[function(require,module,exports,__globalThis) {
-const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
-const CHAT_ID = '-1002084469289';
+// const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
+const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
+// const CHAT_ID = '-1002084469289';
+const CHAT_ID = '-1002317382342';
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
-// const success2 = document.querySelector('success-2');
 document.getElementById('form2').addEventListener('submit', function(e) {
     e.preventDefault();
     let message1 = `<b>\u{411}\u{415}\u{421}\u{41F}\u{41B}\u{410}\u{422}\u{41D}\u{410}\u{42F} \u{41A}\u{41E}\u{41D}\u{421}\u{423}\u{41B}\u{42C}\u{422}\u{410}\u{426}\u{418}\u{42F}</b>
@@ -1230,8 +1221,6 @@ document.getElementById('form2').addEventListener('submit', function(e) {
     message1 += `<b>\u{418}\u{43C}\u{44F}: </b> ${this.name.value}\n`;
     message1 += `<b>\u{422}\u{435}\u{43B}\u{435}\u{444}\u{43E}\u{43D}: </b> ${this.tel.value}\n`;
     message1 += `<b>\u{41A}\u{43E}\u{43C}\u{43C}\u{435}\u{43D}\u{442}\u{430}\u{440}\u{438}\u{439}: </b> ${this.comment.value}\n`;
-    //   message += `<b>Телефон: </b> ${this.phone.value}\n`;
-    //   message += `<b>Коментар: </b> ${this.comment.value}`;
     axios.post(URI_API, {
         chat_id: CHAT_ID,
         parse_mode: 'html',
@@ -1240,15 +1229,7 @@ document.getElementById('form2').addEventListener('submit', function(e) {
         this.name.value = '';
         this.tel.value = '';
         this.comment.value = '';
-        //   this.phone.value = '';
-        //   this.comment.value = '';
-        //   this.topic.value = '';
-        //   this.checkbox.value = '';
         this.comment.value = `\u{2705} Thank you! Your message has been sent. We will call you back within 10 minutes.`;
-    // success1.textContent = `Дякуємо за замовлення`;
-    // success1.classList.add('success-1');
-    // '<p class="message2">Message sent!</p class="message2"><p>A manager will contact you in 15 minutes!</p>';
-    // success1.style.display = 'block';
     }).catch((error)=>{
         console.log(error);
     }).finally(()=>{
