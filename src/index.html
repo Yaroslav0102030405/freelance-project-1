@@ -78,66 +78,66 @@
   <body class="show-modal">
     <header id="header" class="header">
       <div class="container">
-        <div class="header__wrap">
-          <div class="logo__wrap">
-            <a lang="en" class="logo" href="./index.html">
-              <img
-                loading="lazy"
-                class="logo__image"
-                width="50"
-                height="50"
-                src="./image/image-logo.webp"
-                alt="Yurii Bukhtii"
-              />
-              Yurii Bukhtii</a
-            >
-          </div>
-          <nav class="nav">
-            <ul class="header__menu">
-              <li>
-                <a
-                  class="active"
-                  aria-label="Перехід до головно розділу сайту"
-                  data-lang="header_menu-home"
-                  href="#header"
-                  >Головна</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#service"
-                  aria-label="Перехід до розділу послуг на сайті"
-                  data-lang="header_menu-service"
-                  >Послуги</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#advantages"
-                  aria-label="Перехід до розділу переваги на сайті"
-                  data-lang="header_menu-advantages"
-                  >Переваги</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#about"
-                  aria-label="Перехід до розділу про мене на сайті"
-                  data-lang="header_menu-about"
-                  >Про мене</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#contacts"
-                  aria-label="Перехід до розділу контакти на сайті"
-                  data-lang="header_menu-contacts"
-                  >Контакти</a
-                >
-              </li>
-            </ul>
-          </nav>
-        </div>
+        <!-- <div class="header__wrap"> -->
+        <!-- <div class="logo__wrap"> -->
+        <a lang="en" class="logo" href="./index.html">
+          <img
+            loading="lazy"
+            class="logo__image"
+            width="50"
+            height="50"
+            src="./image/image-logo.webp"
+            alt="Yurii Bukhtii"
+          />
+          Yurii Bukhtii</a
+        >
+        <!-- </div> -->
+        <nav class="nav">
+          <ul class="header__menu">
+            <li>
+              <a
+                class="active"
+                aria-label="Перехід до головно розділу сайту"
+                data-lang="header_menu-home"
+                href="#header"
+                >Головна</a
+              >
+            </li>
+            <li>
+              <a
+                href="#service"
+                aria-label="Перехід до розділу послуг на сайті"
+                data-lang="header_menu-service"
+                >Послуги</a
+              >
+            </li>
+            <li>
+              <a
+                href="#advantages"
+                aria-label="Перехід до розділу переваги на сайті"
+                data-lang="header_menu-advantages"
+                >Переваги</a
+              >
+            </li>
+            <li>
+              <a
+                href="#about"
+                aria-label="Перехід до розділу про мене на сайті"
+                data-lang="header_menu-about"
+                >Про мене</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contacts"
+                aria-label="Перехід до розділу контакти на сайті"
+                data-lang="header_menu-contacts"
+                >Контакти</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- </div> -->
       </div>
     </header>
     <main>
@@ -682,6 +682,8 @@
                     name="name"
                     autocomplete="off"
                     placeholder="Yurii"
+                    minlength="3"
+                    maxlength="10"
                     required
                   />
                 </label>
@@ -884,6 +886,8 @@
                 name="name"
                 autocomplete="off"
                 placeholder="Yurii"
+                minlength="3"
+                maxlength="10"
                 required
               />
             </label>
@@ -895,8 +899,8 @@
                 name="tel"
                 autocomplete="off"
                 title="The field must contain only a phone number (numbers)"
-                pattern="[\+0-9]{9,15}"
                 placeholder="+48735775810"
+                pattern="[\+0-9]{9,15}"
                 required
               />
             </label>
