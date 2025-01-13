@@ -607,6 +607,30 @@ var _telegram2 = require("./js/telegram-2");
 new Splide('#slider1').mount();
 new Splide('#slider2').mount();
 new Splide('#slider3').mount();
+// Щоб анімація була послудовною AOS
+const stack = [];
+const delayFactor = 300;
+const options = {
+    rootMargin: '0px',
+    threshold: 0.2
+};
+const callback = (entries)=>{
+    entries.forEach((entry)=>{
+        if (entry.isIntersecting) {
+            stack.push(entry.target);
+            const delay = (stack.length - 1) * delayFactor;
+            entry.target.setAttribute('data-aos-delay', `${delay}`);
+            setTimeout(()=>{
+                stack.shift();
+            }, delay);
+        }
+    });
+};
+const observer = new IntersectionObserver(callback, options);
+const elementsToTrack = document.querySelectorAll('[data-aos]:not([data-aos-delay])');
+elementsToTrack.forEach((element)=>{
+    observer.observe(element);
+});
 
 },{"./js/lang":"2rD5z","./js/hero-modal":"3TkFn","./js/modal":"aHHgN","./js/modal-2":"aPIyI","./js/scrollPage":"cmmRX","./js/smoothscroll":"fAp3S","./js/telegram-1":"9mdI8","./js/telegram-2":"jSUFh"}],"2rD5z":[function(require,module,exports,__globalThis) {
 const homeTexts = {
