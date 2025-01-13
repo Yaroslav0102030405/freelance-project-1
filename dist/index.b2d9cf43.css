@@ -619,17 +619,12 @@ img {
 
 .service__item {
   background-color: #454d71;
-  border: 1px solid #0000;
   border-radius: 10px;
   grid-template-rows: auto auto auto auto auto 1fr;
   height: 100%;
   padding: 15px;
   display: grid;
   box-shadow: 0 3px 8px #0000003d;
-}
-
-.service__item:hover, .service__item:focus {
-  transform: scale(1.05);
 }
 
 .service__pre-title {
