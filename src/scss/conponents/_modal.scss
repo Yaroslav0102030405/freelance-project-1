@@ -64,37 +64,52 @@
   box-shadow: 1px 0 10px #fc0;
 }
 
-// animate
-@property --angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
-}
-
-.modal::after,
-.modal::before {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: conic-gradient(from var(--angle), #806a6a, $bg-color);
+.m {
+  position: relative;
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  z-index: -1;
-  padding: 3px;
-  border-radius: 6px;
-  animation: 3s spin linear infinite;
 }
-.modal::before {
-  filter: blur(1.5rem);
-  opacity: 0.5;
-}
-@keyframes spin {
-  from {
-    --angle: 0deg;
-  }
-  to {
-    --angle: 360deg;
-  }
-}
+
+// animate
+// @property --angle {
+//   syntax: '<angle>';
+//   initial-value: 0deg;
+//   inherits: false;
+// }
+
+// .m::after,
+// .m::before {
+//   content: '';
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   // background-image: conic-gradient(from var(--angle), #806a6a, $bg-color);
+//   background-image: conic-gradient(
+//     from var(--angle),
+//     #ff4545,
+//     #00ff99,
+//     #006aff,
+//     #ff0095,
+//     #ff4545
+//   );
+//   top: 50%;
+//   left: 50%;
+//   translate: -50% -50%;
+//   z-index: -1;
+//   padding: 3px;
+//   border-radius: 6px;
+//   animation: 3s spin linear infinite;
+// }
+// .m::before {
+//   filter: blur(1.5rem);
+//   opacity: 0.5;
+// }
+// @keyframes spin {
+//   from {
+//     --angle: 0deg;
+//   }
+//   to {
+//     --angle: 360deg;
+//   }
+// }
