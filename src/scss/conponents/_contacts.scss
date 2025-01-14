@@ -23,6 +23,7 @@
 }
 
 .form-1 {
+  // position: relative;
   margin-left: auto;
   padding: 20px;
   width: 100%;
@@ -157,36 +158,36 @@ textarea:focus:valid {
 }
 
 // animate
-@property --angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
-}
+// @property --angle {
+//   syntax: '<angle>';
+//   initial-value: 0deg;
+//   inherits: false;
+// }
 
-.form-1::after,
-.form-1::before {
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: conic-gradient(from var(--angle), #806a6a, $bg-color);
-  top: 50%;
-  left: 50%;
-  translate: -50% -50%;
-  z-index: -1;
-  padding: 3px;
-  border-radius: 6px;
-  animation: 3s spin linear infinite;
-}
-.form-1::before {
-  filter: blur(1.5rem);
-  opacity: 0.5;
-}
-@keyframes spin {
-  from {
-    --angle: 0deg;
-  }
-  to {
-    --angle: 360deg;
-  }
-}
+// .form-1::after,
+// .form-1::before {
+//   content: '';
+//   position: absolute;
+//   height: 103%;
+//   width: 103%;
+//   background-image: conic-gradient(from var(--angle), #806a6a, $bg-color);
+//   top: 50%;
+//   left: 50%;
+//   translate: -50% -50%;
+//   z-index: -1;
+//   padding: 3px;
+//   border-radius: 6px;
+//   animation: 3s spin linear infinite;
+// }
+// .form-1::before {
+//   filter: blur(1.5rem);
+//   opacity: 0.5;
+// }
+// @keyframes spin {
+//   from {
+//     --angle: 0deg;
+//   }
+//   to {
+//     --angle: 360deg;
+//   }
+// }
