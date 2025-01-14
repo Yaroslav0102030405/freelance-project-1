@@ -332,7 +332,7 @@ const homeTexts = {
   form_title: {
     ua: 'Безкоштовна консультація',
     ru: 'Бесплатная консультация',
-    pl: 'Bezpłatne konsultacje',
+    pl: 'Bezpłatne konsultacja',
     en: 'Free consultation',
   },
   form_name: {
@@ -351,7 +351,7 @@ const homeTexts = {
     ua: 'Коментар',
     ru: 'Комментарий',
     pl: 'Komentarz',
-    en: 'Comment',
+    en: 'Message',
   },
   form_btn: {
     ua: 'Відправити',
@@ -362,7 +362,7 @@ const homeTexts = {
   form_title2: {
     ua: 'Безкоштовна консультація',
     ru: 'Бесплатная консультация',
-    pl: 'Bezpłatne konsultacje',
+    pl: 'Bezpłatne konsultacja',
     en: 'Free consultation',
   },
   form_name2: {
@@ -381,7 +381,7 @@ const homeTexts = {
     ua: 'Коментар',
     ru: 'Комментарий',
     pl: 'Komentarz',
-    en: 'Comment',
+    en: 'Message',
   },
   form_btn2: {
     ua: 'Відправити',
