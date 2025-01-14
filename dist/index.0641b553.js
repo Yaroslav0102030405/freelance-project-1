@@ -963,6 +963,66 @@ const homeTexts = {
         ru: "\u042F \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E \u043D\u0430\u0439\u0434\u0443 \u0434\u043B\u044F \u0412\u0430\u0441 \u0432 \u043B\u044E\u0431\u043E\u043C \u0440\u0430\u0439\u043E\u043D\u0435 \u0412\u0430\u0440\u0448\u0430\u0432\u044B \u0430\u0440\u0435\u043D\u0434\u0443 \u043F\u043E\u0434 \u043E\u0444\u0438\u0441. \u0417\u0432\u043E\u043D\u0438\u0442\u0435 \u0438\u043B\u0438 \u0437\u0430\u043F\u043E\u043B\u043D\u044F\u0439\u0442\u0435 \u0444\u043E\u0440\u043C\u0443 \u043E\u0431\u0440\u0430\u0442\u043D\u043E\u0433\u043E \u0441\u0432\u044F\u0437\u0438 \u0438\u043B\u0438 \u043F\u0438\u0448\u0438\u0442\u0435 \u0432 \u0442\u0435\u043B\u0435\u0433\u0440\u0430\u043C\u043C\u0443.",
         pl: "Znajd\u0119 dla Ciebie biuro w ka\u017Cdej dzielnicy w Warszawie bez prowizji. Zadzwo\u0144 lub wype\u0142nij formularz zwrotny lub napisz na Telegram.",
         en: 'I will find you an office space for rent in any district of Warsaw for free. Call or fill out the feedback form or write to Telegram.'
+    },
+    form_title: {
+        ua: "\u0411\u0435\u0437\u043A\u043E\u0448\u0442\u043E\u0432\u043D\u0430 \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0456\u044F",
+        ru: "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u0430\u044F \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0438\u044F",
+        pl: "Bezp\u0142atne konsultacje",
+        en: 'Free consultation'
+    },
+    form_name: {
+        ua: "\u0406\u043C`\u044F*",
+        ru: "\u0418\u043C\u044F*",
+        pl: "Imi\u0119*",
+        en: 'Name*'
+    },
+    form_tel: {
+        ua: "\u041D\u043E\u043C\u0435\u0440 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0443*",
+        ru: "\u041D\u043E\u043C\u0435\u0440 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0430*",
+        pl: 'Telefon*',
+        en: 'Phone number*'
+    },
+    form_comment: {
+        ua: "\u041A\u043E\u043C\u0435\u043D\u0442\u0430\u0440",
+        ru: "\u041A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0439",
+        pl: 'Komentarz',
+        en: 'Comment'
+    },
+    form_btn: {
+        ua: "\u0412\u0456\u0434\u043F\u0440\u0430\u0432\u0438\u0442\u0438",
+        ru: "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C",
+        pl: "Wys\u0142a\u0107",
+        en: 'Send'
+    },
+    form_title2: {
+        ua: "\u0411\u0435\u0437\u043A\u043E\u0448\u0442\u043E\u0432\u043D\u0430 \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0456\u044F",
+        ru: "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u0430\u044F \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0438\u044F",
+        pl: "Bezp\u0142atne konsultacje",
+        en: 'Free consultation'
+    },
+    form_name2: {
+        ua: "\u0406\u043C`\u044F*",
+        ru: "\u0418\u043C\u044F*",
+        pl: "Imi\u0119*",
+        en: 'Name*'
+    },
+    form_tel2: {
+        ua: "\u041D\u043E\u043C\u0435\u0440 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0443*",
+        ru: "\u041D\u043E\u043C\u0435\u0440 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0430*",
+        pl: 'Telefon*',
+        en: 'Phone number*'
+    },
+    form_comment2: {
+        ua: "\u041A\u043E\u043C\u0435\u043D\u0442\u0430\u0440",
+        ru: "\u041A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0439",
+        pl: 'Komentarz',
+        en: 'Comment'
+    },
+    form_btn2: {
+        ua: "\u0412\u0456\u0434\u043F\u0440\u0430\u0432\u0438\u0442\u0438",
+        ru: "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C",
+        pl: "Wys\u0142a\u0107",
+        en: 'Send'
     }
 };
 // const html = document.querySelector('.html');
@@ -976,33 +1036,6 @@ const allLangs = [
 const currentPathName = window.location.pathname;
 let currentLang = localStorage.getItem('language') || checkBrowserLang() || 'ua';
 let currentTexts = {};
-// const anotherTexts = {
-//   'another_page-title': {
-//     ru: 'Другая страница',
-//     en: 'Another page',
-//     de: 'Eine andere Seite',
-//   },
-//   'another_page-1': {
-//     ru: 'Первый параграф',
-//     en: 'First paragraph on another page',
-//     de: 'Erster Paragraph auf einer anderen Seite',
-//   },
-//   'another_page-2': {
-//     ru: 'Второй параграф',
-//     en: 'Second paragraph on another page',
-//     de: 'Zweiter Absatz auf einer anderen Seite',
-//   },
-//   'another_page-3': {
-//     ru: 'Третий параграф',
-//     en: 'Third paragraph on another page',
-//     de: 'Dritter Absatz auf einer anderen Seite',
-//   },
-//   'another_page-4': {
-//     ru: 'Домашняя страница',
-//     en: 'Homepage',
-//     de: 'Startseite',
-//   },
-// };
 // Проверка пути страницы сайта
 function checkPagePathName() {
     switch(currentPathName){

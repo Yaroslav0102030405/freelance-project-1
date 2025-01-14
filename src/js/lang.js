@@ -329,30 +329,66 @@ const homeTexts = {
     pl: 'Znajdę dla Ciebie biuro w każdej dzielnicy w Warszawie bez prowizji. Zadzwoń lub wypełnij formularz zwrotny lub napisz na Telegram.',
     en: 'I will find you an office space for rent in any district of Warsaw for free. Call or fill out the feedback form or write to Telegram.',
   },
-  // 'contacts_input-tel': {
-  //   ua: 'Нормер телефону',
-  //   ru: 'Номер телефона',
-  //   pl: 'Numer telefonu',
-  //   en: 'Telefonnummer',
-  // },
-  // 'contacts_input-teaxarea': {
-  //   ua: 'Коментар',
-  //   ru: 'Комментарий',
-  //   pl: 'Komentarz',
-  //   en: 'Kommentar',
-  // },
-  // 'contacts_form-button': {
-  //   ua: 'Відправити',
-  //   ru: 'Отправить',
-  //   pl: 'Wysłać',
-  //   en: 'Schicken',
-  // },
-  // footer_name: {
-  //   ua: 'Yurii Bukhtii',
-  //   ru: 'Yurii Bukhtii',
-  //   pl: 'Yurii Bukhtii',
-  //   en: 'Yurii Bukhtii',
-  // },
+  form_title: {
+    ua: 'Безкоштовна консультація',
+    ru: 'Бесплатная консультация',
+    pl: 'Bezpłatne konsultacje',
+    en: 'Free consultation',
+  },
+  form_name: {
+    ua: 'Ім`я*',
+    ru: 'Имя*',
+    pl: 'Imię*',
+    en: 'Name*',
+  },
+  form_tel: {
+    ua: 'Номер телефону*',
+    ru: 'Номер телефона*',
+    pl: 'Telefon*',
+    en: 'Phone number*',
+  },
+  form_comment: {
+    ua: 'Коментар',
+    ru: 'Комментарий',
+    pl: 'Komentarz',
+    en: 'Comment',
+  },
+  form_btn: {
+    ua: 'Відправити',
+    ru: 'Отправить',
+    pl: 'Wysłać',
+    en: 'Send',
+  },
+  form_title2: {
+    ua: 'Безкоштовна консультація',
+    ru: 'Бесплатная консультация',
+    pl: 'Bezpłatne konsultacje',
+    en: 'Free consultation',
+  },
+  form_name2: {
+    ua: 'Ім`я*',
+    ru: 'Имя*',
+    pl: 'Imię*',
+    en: 'Name*',
+  },
+  form_tel2: {
+    ua: 'Номер телефону*',
+    ru: 'Номер телефона*',
+    pl: 'Telefon*',
+    en: 'Phone number*',
+  },
+  form_comment2: {
+    ua: 'Коментар',
+    ru: 'Комментарий',
+    pl: 'Komentarz',
+    en: 'Comment',
+  },
+  form_btn2: {
+    ua: 'Відправити',
+    ru: 'Отправить',
+    pl: 'Wysłać',
+    en: 'Send',
+  },
 };
 
 // const html = document.querySelector('.html');
@@ -363,34 +399,6 @@ const currentPathName = window.location.pathname;
 let currentLang =
   localStorage.getItem('language') || checkBrowserLang() || 'ua';
 let currentTexts = {};
-
-// const anotherTexts = {
-//   'another_page-title': {
-//     ru: 'Другая страница',
-//     en: 'Another page',
-//     de: 'Eine andere Seite',
-//   },
-//   'another_page-1': {
-//     ru: 'Первый параграф',
-//     en: 'First paragraph on another page',
-//     de: 'Erster Paragraph auf einer anderen Seite',
-//   },
-//   'another_page-2': {
-//     ru: 'Второй параграф',
-//     en: 'Second paragraph on another page',
-//     de: 'Zweiter Absatz auf einer anderen Seite',
-//   },
-//   'another_page-3': {
-//     ru: 'Третий параграф',
-//     en: 'Third paragraph on another page',
-//     de: 'Dritter Absatz auf einer anderen Seite',
-//   },
-//   'another_page-4': {
-//     ru: 'Домашняя страница',
-//     en: 'Homepage',
-//     de: 'Startseite',
-//   },
-// };
 
 // Проверка пути страницы сайта
 function checkPagePathName() {

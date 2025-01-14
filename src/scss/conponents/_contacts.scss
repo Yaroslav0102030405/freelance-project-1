@@ -72,13 +72,15 @@
 }
 
 .form__title {
+  margin-top: 10px;
   margin-bottom: 5px;
   color: $bg-color;
   text-align: center;
-  font-size: 30px;
+  font-size: 23px;
 
   @media screen and (max-width: 613px) {
-    font-size: 25px;
+    // margin-top: 10px;
+    font-size: 18px;
   }
 }
 

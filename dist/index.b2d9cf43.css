@@ -837,13 +837,14 @@ img {
 .form__title {
   color: #3e4464;
   text-align: center;
+  margin-top: 10px;
   margin-bottom: 5px;
-  font-size: 30px;
+  font-size: 23px;
 }
 
 @media screen and (width <= 613px) {
   .form__title {
-    font-size: 25px;
+    font-size: 18px;
   }
 }
 
