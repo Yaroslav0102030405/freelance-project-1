@@ -915,6 +915,26 @@ input:focus:valid, textarea:focus:valid {
   }
 }
 
+.form__none1, .form_answer1 {
+  display: none;
+}
+
+.form_answer-block1 {
+  margin-top: 25px;
+  display: block;
+}
+
+.form__answer-text1 {
+  color: #3e4464;
+  font-size: 20px;
+}
+
+@media screen and (width <= 580px) {
+  .form__answer-text1 {
+    font-size: 14px;
+  }
+}
+
 .footer {
   background-color: #3e4464;
 }
@@ -1040,6 +1060,26 @@ input:focus:valid, textarea:focus:valid {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
+}
+
+.form__none2, .form_answer2 {
+  display: none;
+}
+
+.form_answer-block2 {
+  margin-top: 25px;
+  display: block;
+}
+
+.form__answer-text2 {
+  color: #3e4464;
+  font-size: 20px;
+}
+
+@media screen and (width <= 580px) {
+  .form__answer-text2 {
+    font-size: 14px;
+  }
 }
 
 .backdrop-2 {

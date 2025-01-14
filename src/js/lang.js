@@ -389,6 +389,30 @@ const homeTexts = {
     pl: 'Wysłać',
     en: 'Send',
   },
+  form_answer1: {
+    ua: '✅ Повідомлення відправлено.',
+    ru: '✅ Сообщение отправлено.',
+    pl: '✅ Wiadomość wysłana.',
+    en: '✅ Message sent.',
+  },
+  form_answer12: {
+    ua: 'Зв`яжуся з Вами протягом однієї години.',
+    ru: 'Я свяжусь с Вами в течении одного часа.',
+    pl: 'Skontaktuję się z Tobą w ciągu jednej godziny.',
+    en: 'I will contact You within one hour.',
+  },
+  form_answer21: {
+    ua: '✅ Повідомлення відправлено.',
+    ru: '✅ Сообщение отправлено.',
+    pl: '✅ Wiadomość wysłana.',
+    en: '✅ Message sent.',
+  },
+  form_answer22: {
+    ua: 'Зв`яжуся з Вами протягом однієї години.',
+    ru: 'Я свяжусь с Вами в течении одного часа.',
+    pl: 'Skontaktuję się z Tobą w ciągu jednej godziny.',
+    en: 'I will contact You within one hour.',
+  },
 };
 
 // const html = document.querySelector('.html');

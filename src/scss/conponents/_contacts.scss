@@ -193,3 +193,24 @@ textarea:focus:valid {
 //     --angle: 360deg;
 //   }
 // }
+
+.form__none1 {
+  display: none;
+}
+
+.form_answer1 {
+  display: none;
+}
+
+.form_answer-block1 {
+  display: block;
+  margin-top: 25px;
+}
+
+.form__answer-text1 {
+  color: $bg-color;
+  font-size: 20px;
+  @media screen and (max-width: 580px) {
+    font-size: 14px;
+  }
+}

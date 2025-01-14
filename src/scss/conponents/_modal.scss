@@ -113,3 +113,24 @@
 //     --angle: 360deg;
 //   }
 // }
+
+.form__none2 {
+  display: none;
+}
+
+.form_answer2 {
+  display: none;
+}
+
+.form_answer-block2 {
+  display: block;
+  margin-top: 25px;
+}
+
+.form__answer-text2 {
+  color: $bg-color;
+  font-size: 20px;
+  @media screen and (max-width: 580px) {
+    font-size: 14px;
+  }
+}

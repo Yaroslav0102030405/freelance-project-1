@@ -4,6 +4,9 @@ const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
 const CHAT_ID = '-1002317382342';
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
+const formText1 = document.querySelector('.form__text1');
+const formBlock1 = document.querySelector('.form_answer1');
+
 document.getElementById('form1').addEventListener('submit', function (e) {
   e.preventDefault();
 
@@ -21,7 +24,9 @@ document.getElementById('form1').addEventListener('submit', function (e) {
       this.name.value = '';
       this.tel.value = '';
       this.comment.value = '';
-      this.comment.value = `+✅ I will contact You within one hour.`;
+      // this.comment.value = `+✅ I will contact You within one hour.`;
+      formText1.classList.add('form__none1');
+      formBlock1.classList.add('form_answer-block1');
     })
     .catch(error => {
       console.log(error);

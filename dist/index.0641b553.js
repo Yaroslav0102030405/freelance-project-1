@@ -967,7 +967,7 @@ const homeTexts = {
     form_title: {
         ua: "\u0411\u0435\u0437\u043A\u043E\u0448\u0442\u043E\u0432\u043D\u0430 \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0456\u044F",
         ru: "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u0430\u044F \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0438\u044F",
-        pl: "Bezp\u0142atne konsultacje",
+        pl: "Bezp\u0142atne konsultacja",
         en: 'Free consultation'
     },
     form_name: {
@@ -986,7 +986,7 @@ const homeTexts = {
         ua: "\u041A\u043E\u043C\u0435\u043D\u0442\u0430\u0440",
         ru: "\u041A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0439",
         pl: 'Komentarz',
-        en: 'Comment'
+        en: 'Message'
     },
     form_btn: {
         ua: "\u0412\u0456\u0434\u043F\u0440\u0430\u0432\u0438\u0442\u0438",
@@ -997,7 +997,7 @@ const homeTexts = {
     form_title2: {
         ua: "\u0411\u0435\u0437\u043A\u043E\u0448\u0442\u043E\u0432\u043D\u0430 \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0456\u044F",
         ru: "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u0430\u044F \u043A\u043E\u043D\u0441\u0443\u043B\u044C\u0442\u0430\u0446\u0438\u044F",
-        pl: "Bezp\u0142atne konsultacje",
+        pl: "Bezp\u0142atne konsultacja",
         en: 'Free consultation'
     },
     form_name2: {
@@ -1016,13 +1016,37 @@ const homeTexts = {
         ua: "\u041A\u043E\u043C\u0435\u043D\u0442\u0430\u0440",
         ru: "\u041A\u043E\u043C\u043C\u0435\u043D\u0442\u0430\u0440\u0438\u0439",
         pl: 'Komentarz',
-        en: 'Comment'
+        en: 'Message'
     },
     form_btn2: {
         ua: "\u0412\u0456\u0434\u043F\u0440\u0430\u0432\u0438\u0442\u0438",
         ru: "\u041E\u0442\u043F\u0440\u0430\u0432\u0438\u0442\u044C",
         pl: "Wys\u0142a\u0107",
         en: 'Send'
+    },
+    form_answer1: {
+        ua: "\u2705 \u041F\u043E\u0432\u0456\u0434\u043E\u043C\u043B\u0435\u043D\u043D\u044F \u0432\u0456\u0434\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E.",
+        ru: "\u2705 \u0421\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E.",
+        pl: "\u2705 Wiadomo\u015B\u0107 wys\u0142ana.",
+        en: "\u2705 Message sent."
+    },
+    form_answer12: {
+        ua: "\u0417\u0432`\u044F\u0436\u0443\u0441\u044F \u0437 \u0412\u0430\u043C\u0438 \u043F\u0440\u043E\u0442\u044F\u0433\u043E\u043C \u043E\u0434\u043D\u0456\u0454\u0457 \u0433\u043E\u0434\u0438\u043D\u0438.",
+        ru: "\u042F \u0441\u0432\u044F\u0436\u0443\u0441\u044C \u0441 \u0412\u0430\u043C\u0438 \u0432 \u0442\u0435\u0447\u0435\u043D\u0438\u0438 \u043E\u0434\u043D\u043E\u0433\u043E \u0447\u0430\u0441\u0430.",
+        pl: "Skontaktuj\u0119 si\u0119 z Tob\u0105 w ci\u0105gu jednej godziny.",
+        en: 'I will contact You within one hour.'
+    },
+    form_answer21: {
+        ua: "\u2705 \u041F\u043E\u0432\u0456\u0434\u043E\u043C\u043B\u0435\u043D\u043D\u044F \u0432\u0456\u0434\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E.",
+        ru: "\u2705 \u0421\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0435 \u043E\u0442\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E.",
+        pl: "\u2705 Wiadomo\u015B\u0107 wys\u0142ana.",
+        en: "\u2705 Message sent."
+    },
+    form_answer22: {
+        ua: "\u0417\u0432`\u044F\u0436\u0443\u0441\u044F \u0437 \u0412\u0430\u043C\u0438 \u043F\u0440\u043E\u0442\u044F\u0433\u043E\u043C \u043E\u0434\u043D\u0456\u0454\u0457 \u0433\u043E\u0434\u0438\u043D\u0438.",
+        ru: "\u042F \u0441\u0432\u044F\u0436\u0443\u0441\u044C \u0441 \u0412\u0430\u043C\u0438 \u0432 \u0442\u0435\u0447\u0435\u043D\u0438\u0438 \u043E\u0434\u043D\u043E\u0433\u043E \u0447\u0430\u0441\u0430.",
+        pl: "Skontaktuj\u0119 si\u0119 z Tob\u0105 w ci\u0105gu jednej godziny.",
+        en: 'I will contact You within one hour.'
     }
 };
 // const html = document.querySelector('.html');
@@ -1242,6 +1266,8 @@ SmoothScroll({
 const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
 const CHAT_ID = '-1002317382342';
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+const formText1 = document.querySelector('.form__text1');
+const formBlock1 = document.querySelector('.form_answer1');
 document.getElementById('form1').addEventListener('submit', function(e) {
     e.preventDefault();
     let message = `<b>\u{411}\u{415}\u{421}\u{41F}\u{41B}\u{410}\u{422}\u{41D}\u{410}\u{42F} \u{41A}\u{41E}\u{41D}\u{421}\u{423}\u{41B}\u{42C}\u{422}\u{410}\u{426}\u{418}\u{42F}</b>
@@ -1257,7 +1283,9 @@ document.getElementById('form1').addEventListener('submit', function(e) {
         this.name.value = '';
         this.tel.value = '';
         this.comment.value = '';
-        this.comment.value = `+\u{2705} I will contact You within one hour.`;
+        // this.comment.value = `+✅ I will contact You within one hour.`;
+        formText1.classList.add('form__none1');
+        formBlock1.classList.add('form_answer-block1');
     }).catch((error)=>{
         console.log(error);
     }).finally(()=>{
@@ -1266,11 +1294,13 @@ document.getElementById('form1').addEventListener('submit', function(e) {
 });
 
 },{}],"jSUFh":[function(require,module,exports,__globalThis) {
-// const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
-// const CHAT_ID = '-1002084469289';
-const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
-const CHAT_ID = '-1002317382342';
+const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
+const CHAT_ID = '-1002084469289';
+// const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
+// const CHAT_ID = '-1002317382342';
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+const formText = document.querySelector('.form__text2');
+const formBlock = document.querySelector('.form_answer2');
 document.getElementById('form2').addEventListener('submit', function(e) {
     e.preventDefault();
     let message1 = `<b>\u{411}\u{415}\u{421}\u{41F}\u{41B}\u{410}\u{422}\u{41D}\u{410}\u{42F} \u{41A}\u{41E}\u{41D}\u{421}\u{423}\u{41B}\u{42C}\u{422}\u{410}\u{426}\u{418}\u{42F}</b>
@@ -1286,7 +1316,9 @@ document.getElementById('form2').addEventListener('submit', function(e) {
         this.name.value = '';
         this.tel.value = '';
         this.comment.value = '';
-        this.comment.value = `\u{2705} I will contact You within one hour.`;
+        // this.comment.value = `✅ I will contact You within one hour.`;
+        formText.classList.add('form__none2');
+        formBlock.classList.add('form_answer-block2');
     }).catch((error)=>{
         console.log(error);
     }).finally(()=>{
