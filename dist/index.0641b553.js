@@ -1294,10 +1294,10 @@ document.getElementById('form1').addEventListener('submit', function(e) {
 });
 
 },{}],"jSUFh":[function(require,module,exports,__globalThis) {
-const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
-const CHAT_ID = '-1002084469289';
-// const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
-// const CHAT_ID = '-1002317382342';
+// const TOKEN = '6470796582:AAEzk1WSMbpsvtk_zU8M9E4AEclnoD5ovB8';
+// const CHAT_ID = '-1002084469289';
+const TOKEN = '8169061476:AAHtDS5WvAkDO9fKRI7oDyzOKKibMVvLoN0';
+const CHAT_ID = '-1002317382342';
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 const formText = document.querySelector('.form__text2');
 const formBlock = document.querySelector('.form_answer2');

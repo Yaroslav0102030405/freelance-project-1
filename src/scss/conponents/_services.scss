@@ -1,6 +1,6 @@
 .service {
   @extend %section-padding;
-  background-color: $bg-color;
+  background-color: $bg-2;
 }
 
 .service__title {
@@ -30,7 +30,13 @@
   height: 100%;
   background-color: #454d71;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 10px;
+  border-radius: 6px;
+  border: 1px solid $bg-color;
+  transition: border 250ms linear;
+}
+
+.service__item:hover {
+  border: 1px solid $accent-text;
 }
 
 .service__pre-title {
@@ -59,7 +65,7 @@
 }
 
 .service__price-2 {
-  color: $accent-text;
+  color: $text-color;
   @extend %font__size;
 }
 

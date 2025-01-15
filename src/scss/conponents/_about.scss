@@ -1,6 +1,6 @@
 .about {
   @extend %section-padding;
-  background-color: $bg-color;
+  background-color: $bg-2;
 }
 
 .about__wrap {
@@ -14,6 +14,13 @@
   @media screen and (max-width: 580px) {
     grid-template-columns: 1fr;
   }
+}
+
+.about__content {
+  padding: 15px;
+  background-color: #454d71;
+  border-radius: 6px;
+  box-shadow: 0 3px 8px #0000003d;
 }
 
 .about__title {
@@ -37,7 +44,7 @@
 
 .about__text {
   margin-bottom: 0;
-  color: $accent-text;
+  color: $text-color;
   font-size: 20px;
 
   @media screen and (max-width: 580px) {
@@ -45,20 +52,22 @@
   }
 }
 
-.about__image {
-  overflow: hidden;
-  border-radius: 6px;
-  border: 1px solid $accent-text;
-}
+// .about__image {
+//   // overflow: hidden;
+//   border-radius: 6px;
+// }
 
 .about__image img {
-  width: 100%;
-  height: 100%;
-  transform: scale(1);
-  transition: transform 250ms linear;
+  border-radius: 6px;
+  padding: 15px;
+  background-color: #454d71;
+  // width: 100%;
+  // height: 100%;
+  // transform: scale(1);
+  // transition: transform 250ms linear;
 }
 
-.about__image img:hover,
-.about__image img:focus {
-  transform: scale(1.05);
-}
+// .about__image img:hover,
+// .about__image img:focus {
+//   transform: scale(1.05);
+// }

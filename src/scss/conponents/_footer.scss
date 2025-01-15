@@ -1,6 +1,6 @@
 .footer {
   @extend %section-padding;
-  background-color: $bg-color;
+  background-color: $bg-2;
 }
 
 .footer__wrap {
@@ -22,7 +22,7 @@
 .logo {
   display: inline-flex;
   align-items: center;
-  color: $accent-text;
+  color: $text-color;
   font-size: 20px;
 
   @media screen and (max-width: 580px) {
@@ -51,10 +51,19 @@
 .icon {
   border: 1px solid $accent-text;
   border-radius: 50%;
-  transition: fill 250ms linear;
+  // transition: fill 250ms linear;
+  transform: translateY(0);
+  transition:
+    transform 250ms linear,
+    color 250ms linear,
+    background-color 250ms linear;
 }
 
 .icon:hover,
 .icon:focus {
   @extend %button__hover;
+  // color: $bg-2;
+  // background-color: $text-color;
+  // transform: translateY(-3px);
+  // box-shadow: 1px 0 10px #fc0;
 }

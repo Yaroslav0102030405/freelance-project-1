@@ -6,7 +6,7 @@
 
 .hero__wrap {
   display: grid;
-  grid-template-columns: 1fr 41.2%;
+  grid-template-columns: 1fr 37.2%;
   align-items: start;
   gap: 25px;
   overflow-x: hidden;
@@ -165,15 +165,26 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  border: 1px solid $accent-text;
+  border: 1px solid $bg-color;
+  box-shadow: 0 3px 8px #0000003d;
   background-color: $bg-color;
-  color: $accent-text;
-  transition: background-color 250ms linear;
+  color: $text-color;
+  // transition: background-color 250ms linear;
+  transform: translateY(0);
+  transition:
+    transform 250ms linear,
+    color 250ms linear,
+    background-color 250ms linear;
 }
 
 .expand__button:hover,
 .expand__button:focus {
   @extend %button__hover;
+  // color: $bg-2;
+  // color: $bg-2;
+  // background-color: $text-color;
+  // transform: translateY(-3px);
+  // box-shadow: 1px 0 10px #fc0;
 }
 
 .hero__overlay {
@@ -204,14 +215,14 @@
   max-width: 520px;
   backdrop-filter: blur(3px);
   background-color: #74819630;
+  border-radius: 6px;
   box-shadow:
     rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-  border: 1px solid $accent-text;
 
   @media screen and (max-width: 580px) {
-    background-color: $bg-color;
-    border-radius: 6px;
+    border: 1px solid $text-color;
+    background-color: $bg-2;
   }
 }
 

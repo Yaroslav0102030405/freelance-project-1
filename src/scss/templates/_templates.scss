@@ -6,12 +6,15 @@
   background-color: $accent-text;
   font-size: 15px;
   font-weight: 600;
-  border: 1px solid $bg-color;
+  border: 1px solid $bg-2;
   border-radius: 6px;
   text-transform: uppercase;
   cursor: url('image/cursor/cursor-2.png'), auto;
   transform: translateY(0);
-  transition: translateY 250ms linear;
+  transition:
+    transform 250ms linear,
+    color 250ms linear,
+    background-color 250ms linear;
 
   @media screen and (max-width: 959px) {
     font-size: 13px;
@@ -23,13 +26,16 @@
 }
 
 %button__hover {
-  transform: translateY(-2px);
+  color: $bg-2;
+  background-color: $text-color;
+  transform: translateY(-3px);
+  box-shadow: 1px 0 10px #fc0;
 }
 
 %title {
   margin-bottom: 30px;
   text-align: center;
-  color: $accent-text;
+  color: $text-color;
   font-size: 30px;
   text-transform: uppercase;
 

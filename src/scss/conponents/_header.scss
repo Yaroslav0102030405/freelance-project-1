@@ -33,12 +33,14 @@
 .header__menu {
   position: fixed;
   display: flex;
-  gap: 20px;
+  gap: 3px;
   right: 4.3%;
   top: 3%;
   padding: 0;
   z-index: 10;
   list-style: none;
+  border: 1px solid $text-color;
+  border-radius: 6px;
   backdrop-filter: blur(30px);
   box-shadow:
     rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
@@ -55,7 +57,7 @@
 
 .header__menu li a {
   padding: 10px;
-  color: $bg-color;
+  color: $text-color;
   font-size: calc(max(19px, min(13px)));
   border: 1px solid transparent;
   transition:
