@@ -557,11 +557,17 @@ img {
 
 .hero__content {
   background-color: #353b5a;
-  border: 1px solid #f8f9ff;
   border-radius: 6px;
   align-self: center;
   max-width: 520px;
   padding: 15px;
+  box-shadow: 0 4px 8px -2px #091e4240, 0 0 0 1px #091e4214;
+}
+
+@media screen and (width <= 580px) {
+  .hero__content {
+    border: 1px solid #f8f9ff;
+  }
 }
 
 .hero__maps {
