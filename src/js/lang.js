@@ -60,7 +60,7 @@ const homeTexts = {
     en: 'I will help you find:',
   },
   'header_banner-advantages-1': {
-    ua: '✓ оренда офісу в Варшаві',
+    ua: '✓ оренду офісу в Варшаві',
     ru: '✓ аренду офиса Варшаве',
     pl: '✓ wynajem biura w Warszawie',
     en: '✓ office space to rent',
@@ -72,8 +72,8 @@ const homeTexts = {
     en: '✓ warehouses to rent',
   },
   'header_banner-advantages-3': {
-    ua: '✓ реєстрація фірм в Польщі',
-    ru: '✓ регистрация фирм в Польше',
+    ua: '✓ зареєструвати фірму в Польщі',
+    ru: '✓ зарегистрировать фирму в Польше',
     pl: '✓ rejestracja firmy w Polsce',
     en: '✓ assistance with company registration',
   },
@@ -90,7 +90,7 @@ const homeTexts = {
     en: 'Call',
   },
   service_title: {
-    ua: 'Я займаюся пошуком найкращих варіантів оренди для клієнтів',
+    ua: 'Я займаюсь пошуком найкращих варіантів оренди для клієнтів',
     ru: 'Я занимаюсь поиском лучших вариантов аренды для клиентов',
     pl: 'Usługi',
     en: 'Services',

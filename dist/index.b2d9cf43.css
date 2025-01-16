@@ -225,8 +225,6 @@ img {
 }
 
 .service__button:hover, .service__hover:focus, .expand__button:hover, .expand__button:focus, .button:hover, .button:focus {
-  color: #353b5a;
-  background-color: azure;
   transform: translateY(-3px);
 }
 
@@ -522,9 +520,9 @@ img {
 
 .expand__button {
   text-align: center;
-  color: #f8f9ff;
-  background-color: #3e4464;
-  border: 1px solid #3e4464;
+  color: #e4c9a2;
+  background-color: #353b5a;
+  border: 1px solid #e4c9a2;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -882,8 +880,8 @@ img {
 }
 
 .form__button {
-  color: #f8f9ff;
-  background-color: #3e4464;
+  color: #e4c9a2;
+  background-color: #353b5a;
   width: 100%;
   max-width: 506px;
 }

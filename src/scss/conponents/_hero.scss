@@ -165,10 +165,11 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  border: 1px solid $bg-color;
+  border: 1px solid $accent-text;
   box-shadow: 0 3px 8px #0000003d;
-  background-color: $bg-color;
-  color: $text-color;
+  background-color: $bg-2;
+  // background-color: #454d71;
+  color: $accent-text;
   // transition: background-color 250ms linear;
   transform: translateY(0);
   transition:
@@ -180,7 +181,6 @@
 .expand__button:hover,
 .expand__button:focus {
   @extend %button__hover;
-  // color: $bg-2;
   // color: $bg-2;
   // background-color: $text-color;
   // transform: translateY(-3px);
