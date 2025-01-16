@@ -35,8 +35,9 @@
   transition: border 250ms linear;
 }
 
-.service__item:hover {
-  border: 1px solid $accent-text;
+.service__item:hover,
+.service__item:focus {
+  border: 1px solid $text-color;
 }
 
 .service__pre-title {

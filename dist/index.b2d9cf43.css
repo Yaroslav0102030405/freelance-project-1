@@ -282,7 +282,6 @@ img {
 .header {
   z-index: 1;
   padding-top: 20px;
-  padding-bottom: 20px;
   position: relative;
 }
 
@@ -295,7 +294,6 @@ img {
 
 .header__menu {
   z-index: 10;
-  backdrop-filter: blur(30px);
   border: 1px solid #f8f9ff;
   border-radius: 6px;
   gap: 3px;
@@ -305,7 +303,12 @@ img {
   position: fixed;
   top: 3%;
   right: 4.3%;
-  box-shadow: 0 4px 8px -2px #091e4240, 0 0 0 1px #091e4214;
+}
+
+@media screen and (width >= 581px) {
+  .header__menu {
+    background-color: #353b5a;
+  }
 }
 
 @media screen and (width <= 837px) {
@@ -316,7 +319,9 @@ img {
 
 @media screen and (width <= 580px) {
   .header__menu {
+    backdrop-filter: blur(30px);
     display: block;
+    box-shadow: 0 4px 8px -2px #091e4240, 0 0 0 1px #091e4214;
   }
 }
 
@@ -554,19 +559,12 @@ img {
 }
 
 .hero__content {
-  backdrop-filter: blur(3px);
-  background-color: #74819630;
+  background-color: #353b5a;
+  border: 1px solid #f8f9ff;
   border-radius: 6px;
+  align-self: center;
   max-width: 520px;
   padding: 15px;
-  box-shadow: 0 4px 8px -2px #091e4240, 0 0 0 1px #091e4214;
-}
-
-@media screen and (width <= 580px) {
-  .hero__content {
-    background-color: #353b5a;
-    border: 1px solid #f8f9ff;
-  }
 }
 
 .hero__maps {
@@ -610,8 +608,8 @@ img {
   box-shadow: 0 3px 8px #0000003d;
 }
 
-.service__item:hover {
-  border: 1px solid #e4c9a2;
+.service__item:hover, .service__item:focus {
+  border: 1px solid #f8f9ff;
 }
 
 .service__pre-title {
@@ -706,6 +704,13 @@ img {
   .advantages__text {
     font-size: 14px;
   }
+}
+
+.advantages__numbers {
+  color: #e4c9a2;
+  margin-bottom: 0;
+  font-size: 75px;
+  font-weight: 900;
 }
 
 .about {

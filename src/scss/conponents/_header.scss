@@ -1,7 +1,7 @@
 .header {
   position: relative;
   padding-top: 20px;
-  padding-bottom: 20px;
+  // padding-bottom: 20px;
   z-index: 1;
 
   @media screen and (max-width: 580px) {
@@ -41,10 +41,15 @@
   list-style: none;
   border: 1px solid $text-color;
   border-radius: 6px;
-  backdrop-filter: blur(30px);
-  box-shadow:
-    rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
-    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+  // backdrop-filter: blur(30px);
+  // box-shadow:
+  //   rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+  //   rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+
+  @media screen and (min-width: 581px) {
+    background-color: #353b5a;
+  }
 
   @media screen and (max-width: 837px) {
     gap: 5px;
@@ -52,6 +57,10 @@
 
   @media screen and (max-width: 580px) {
     display: block;
+    backdrop-filter: blur(30px);
+    box-shadow:
+      rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+      rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
 }
 
