@@ -27,9 +27,10 @@
 
 %button__hover {
   color: $bg-2;
-  background-color: $text-color;
+  // color: $text-color;
+  background-color: #f0ffff;
   transform: translateY(-3px);
-  box-shadow: 1px 0 10px #fc0;
+  // box-shadow: 1px 0 10px #fc0;
 }
 
 %title {

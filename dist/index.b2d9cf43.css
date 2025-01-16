@@ -224,11 +224,10 @@ img {
   }
 }
 
-.icon:hover, .icon:focus, .service__button:hover, .service__hover:focus, .expand__button:hover, .expand__button:focus, .button:hover, .button:focus {
+.service__button:hover, .service__hover:focus, .expand__button:hover, .expand__button:focus, .button:hover, .button:focus {
   color: #353b5a;
-  background-color: #f8f9ff;
+  background-color: azure;
   transform: translateY(-3px);
-  box-shadow: 1px 0 10px #fc0;
 }
 
 .contacts__title, .about__title, .advantages__title, .service__title {
@@ -992,10 +991,15 @@ input:focus:valid, textarea:focus:valid {
 }
 
 .icon {
-  border: 1px solid #e4c9a2;
+  fill: #353b5a;
   border-radius: 50%;
   transition: transform .25s linear, color .25s linear, background-color .25s linear;
   transform: translateY(0);
+}
+
+.icon:hover, .icon:focus {
+  fill: #ff2400;
+  transform: translateY(-3px);
 }
 
 .backdrop {
