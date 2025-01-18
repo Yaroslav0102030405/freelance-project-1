@@ -409,7 +409,7 @@ img {
 
 @media screen and (width <= 580px) {
   .hero__pre-title {
-    font-size: 28px;
+    font-size: 29px;
   }
 }
 
@@ -493,7 +493,7 @@ img {
 
 @media screen and (width <= 580px) {
   .hero__overlay {
-    height: 870px;
+    height: 885px;
   }
 }
 

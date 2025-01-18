@@ -1,3 +1,23 @@
+const htmlEl = document.querySelector('html');
+const buttonEl = document.querySelector('.js-container');
+
+buttonEl.addEventListener('click', onClickButton2);
+
+function onClickButton2(e) {
+  console.log(e.target.textContent);
+  if (e.target.classList.contains('en')) {
+    htmlEl.setAttribute('lang', 'en');
+    console.log('Привіт');
+  } else if (e.target.classList.contains('pl')) {
+    htmlEl.setAttribute('lang', 'pl');
+  } else if (e.target.classList.contains('ua')) {
+    htmlEl.setAttribute('lang', 'ua');
+  } else if (e.target.classList.contains('ru')) {
+    htmlEl.setAttribute('lang', 'ru');
+  }
+  return;
+}
+
 const homeTexts = {
   // 'home_page-title': {
   //   ua: 'Yurii Bukhtii',
@@ -415,13 +435,14 @@ const homeTexts = {
   },
 };
 
-// const html = document.querySelector('.html');
-
-const langButtons = document.querySelectorAll('[data-btn]');
+// console.log(htmlEl.lang);
+// return;
+// const langButtons = document.querySelectorAll('[data-btn]');
+const langButtons = document.querySelectorAll('.btn');
 const allLangs = ['ua', 'ru', 'pl', 'en'];
 const currentPathName = window.location.pathname;
-let currentLang =
-  localStorage.getItem('language') || checkBrowserLang() || 'ua';
+let currentLang = 'ua';
+// localStorage.getItem('language') || checkBrowserLang() || 'ua';
 let currentTexts = {};
 
 // Проверка пути страницы сайта
@@ -457,7 +478,7 @@ langButtons.forEach(btn => {
   btn.addEventListener('click', event => {
     if (!event.target.classList.contains('header__btn_active')) {
       currentLang = event.target.dataset.btn;
-      localStorage.setItem('language', event.target.dataset.btn);
+      // localStorage.setItem('language', event.target.dataset.btn);
       resetActiveClass(langButtons, 'header__btn_active');
       btn.classList.add('header__btn_active');
       changeLang();
@@ -473,33 +494,33 @@ function resetActiveClass(arr, activeClass) {
 }
 
 // Проверка активной кнопки
-// function checkActiveLangButton() {
+// function checkActiveLangButton(e) {
 //   switch (currentLang) {
 //     case 'ua':
-//       document
-//         .querySelector('[data-btn="ua"]')
-//         .classList.add('header__btn_active');
+//       document.querySelector('[data-btn="ua"]');
+//       // .classList.add('header__btn_active');
+//       htmlEl.setAttribute('lang', 'ua');
 //       break;
 //     case 'ru':
-//       document
-//         .querySelector('[data-btn="ru"]')
-//         .classList.add('header__btn_active');
+//       document.querySelector('[data-btn="ru"]');
+//       // .classList.add('header__btn_active');
+//       htmlEl.setAttribute('lang', 'ru');
 //       break;
 //     case 'pl':
-//       document
-//         .querySelector('[data-btn="pl"]')
-//         .classList.add('header__btn_active');
+//       document.querySelector('[data-btn="pl"]');
+//       // .classList.add('header__btn_active');
+//       htmlEl.setAttribute('lang', 'pl');
 //       break;
 //     case 'de':
-//       document
-//         .querySelector('[data-btn="de"]')
-//         .classList.add('header__btn_active');
+//       document.querySelector('[data-btn="en"]');
+//       // .classList.add('header__btn_active');
+//       htmlEl.setAttribute('lang', 'en');
 //       break;
 
 //     default:
-//       document
-//         .querySelector('[data-btn="ua"]')
-//         .classList.add('header__btn_active');
+//       document.querySelector('[data-btn="ua"]');
+//       // .classList.add('header__btn_active');
+//       htmlEl.setAttribute('lang', 'uk');
 //       break;
 //   }
 // }
