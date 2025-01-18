@@ -46,10 +46,11 @@
   margin-bottom: 0;
   color: $text-color;
   font-size: 20px;
+  font-size: clamp(14px, 4.25vw, 20px);
 
-  @media screen and (max-width: 580px) {
-    font-size: 14px;
-  }
+  // @media screen and (max-width: 580px) {
+  //   font-size: 14px;
+  // }
 }
 
 // .about__image {

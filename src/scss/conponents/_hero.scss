@@ -6,11 +6,16 @@
 
 .hero__wrap {
   display: grid;
-  grid-template-columns: 1fr 37.2%;
-  align-items: start;
+  grid-template-columns: 1fr 1fr;
+  // grid-template-columns: 1fr 37.2%;
+  // align-items: start;
   gap: 25px;
   overflow-x: hidden;
   text-align: center;
+  // justify-items: center;
+  // align-items: center;
+  // justify-items: end;
+  // place-items: start end;
 
   @media screen and (max-width: 580px) {
     grid-template-columns: 1fr;
@@ -48,28 +53,25 @@
   margin-bottom: 10px;
   color: $text-color;
   text-align: center;
-  font-size: 45px;
+  font-size: clamp(29px, 5.25vw, 45px);
+  // font-size: 45px;
+  // font-size: calc(29px + (16 + 16 * 0.7) * (100vw - 320px) / 1440px);
 
-  @media screen and (max-width: 1242px) {
-    font-size: 38px;
-  }
-
-  @media screen and (max-width: 876px) {
-    font-size: 28px;
-  }
-
-  @media screen and (max-width: 723px) {
-    font-size: 22px;
-  }
-
-  // @media screen and (max-width: 631px) {
-  //   font-size: 15px;
+  // @media screen and (max-width: 1242px) {
+  //   font-size: 33px;
   // }
 
-  @media screen and (max-width: 580px) {
-    font-size: 29px;
-    // margin-bottom: 0;
-  }
+  // @media screen and (max-width: 876px) {
+  //   font-size: 26px;
+  // }
+
+  // @media screen and (max-width: 723px) {
+  //   font-size: 22px;
+  // }
+
+  // @media screen and (max-width: 580px) {
+  //   font-size: 29px;
+  // }
 }
 
 // .hero__advantages {
@@ -207,12 +209,15 @@
   background-attachment: fixed;
 
   @media screen and (max-width: 580px) {
-    height: 885px;
+    height: 895px;
   }
 }
 
 .hero__content {
+  place-self: end;
   align-self: center;
+  // place-self: end;
+  // place-self: end;
   padding: 15px;
   max-width: 520px;
   // backdrop-filter: blur(3px);

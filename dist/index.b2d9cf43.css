@@ -206,22 +206,10 @@ img {
   width: 100%;
   max-width: 287px;
   padding: 15px;
-  font-size: 15px;
+  font-size: clamp(13px, 5.25vw, 15px);
   font-weight: 600;
   transition: transform .25s linear, color .25s linear, background-color .25s linear;
   transform: translateY(0);
-}
-
-@media screen and (width <= 959px) {
-  .service__button, .expand__button, .button {
-    font-size: 13px;
-  }
-}
-
-@media screen and (width <= 580px) {
-  .service__button, .expand__button, .button {
-    font-size: 14px;
-  }
 }
 
 .service__button:hover, .service__hover:focus, .expand__button:hover, .expand__button:focus, .button:hover, .button:focus {
@@ -233,14 +221,13 @@ img {
   color: #f8f9ff;
   text-transform: uppercase;
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: clamp(25px, 5.25vw, 30px);
 }
 
 @media screen and (width <= 580px) {
   .contacts__title, .about__title, .advantages__title, .service__title {
     text-transform: uppercase;
     margin-bottom: 20px;
-    font-size: 25px;
   }
 }
 
@@ -266,14 +253,12 @@ img {
 .form__logo-3, .form__logo-2, .form__logo-1 {
   color: #e4c9a2;
   align-items: center;
-  font-size: 20px;
+  font-size: clamp(14px, 4.25vw, 20px);
   display: inline-flex;
 }
 
-@media screen and (width <= 580px) {
-  .form__logo-3, .form__logo-2, .form__logo-1, .advantages__text, .service__price-2, .service__price-1, .service__price, .service__description {
-    font-size: 14px;
-  }
+.service__price-2, .service__price-1, .service__price, .service__description {
+  font-size: clamp(14px, 4.25vw, 16px);
 }
 
 .header {
@@ -302,6 +287,12 @@ img {
   right: 4.3%;
 }
 
+@media screen and (width >= 581px) and (width <= 1024px) {
+  .header__menu {
+    right: 2.3%;
+  }
+}
+
 @media screen and (width >= 581px) {
   .header__menu {
     background-color: #353b5a;
@@ -326,14 +317,13 @@ img {
   color: #f8f9ff;
   border: 1px solid #0000;
   padding: 10px;
-  font-size: 19px;
+  font-size: clamp(14px, 4.25vw, 19px);
   transition: color .25s linear, text-shadow .25s linear;
 }
 
 @media screen and (width <= 837px) {
   .header__menu li a {
     padding: 5px;
-    font-size: 13px;
   }
 }
 
@@ -362,8 +352,7 @@ img {
 
 .hero__wrap {
   text-align: center;
-  grid-template-columns: 1fr 37.2%;
-  align-items: start;
+  grid-template-columns: 1fr 1fr;
   gap: 25px;
   display: grid;
   overflow-x: hidden;
@@ -386,31 +375,7 @@ img {
   color: #f8f9ff;
   text-align: center;
   margin-bottom: 10px;
-  font-size: 45px;
-}
-
-@media screen and (width <= 1242px) {
-  .hero__pre-title {
-    font-size: 38px;
-  }
-}
-
-@media screen and (width <= 876px) {
-  .hero__pre-title {
-    font-size: 28px;
-  }
-}
-
-@media screen and (width <= 723px) {
-  .hero__pre-title {
-    font-size: 22px;
-  }
-}
-
-@media screen and (width <= 580px) {
-  .hero__pre-title {
-    font-size: 29px;
-  }
+  font-size: clamp(29px, 5.25vw, 45px);
 }
 
 .hero-btn {
@@ -493,14 +458,14 @@ img {
 
 @media screen and (width <= 580px) {
   .hero__overlay {
-    height: 885px;
+    height: 895px;
   }
 }
 
 .hero__content {
   background-color: #353b5a;
   border-radius: 6px;
-  align-self: center;
+  place-self: center end;
   max-width: 520px;
   padding: 15px;
   box-shadow: 0 4px 8px -2px #091e4240, 0 0 0 1px #091e4214;
@@ -640,15 +605,9 @@ img {
 .advantages__text {
   color: #f8f9ff;
   margin-bottom: 0;
-  font-size: 20px;
+  font-size: clamp(14px, 4.25vw, 20px);
   font-weight: 700;
   transition: color .25s linear;
-}
-
-@media screen and (width <= 580px) {
-  .advantages__text {
-    font-size: 14px;
-  }
 }
 
 .advantages__numbers {
@@ -701,13 +660,7 @@ img {
 .about__text {
   color: #f8f9ff;
   margin-bottom: 0;
-  font-size: 20px;
-}
-
-@media screen and (width <= 580px) {
-  .about__text {
-    font-size: 14px;
-  }
+  font-size: clamp(14px, 4.25vw, 20px);
 }
 
 .about__image img {
@@ -778,13 +731,7 @@ img {
 .form__input-name {
   color: #3e4464;
   margin-bottom: 5px;
-  font-size: 20px;
-}
-
-@media screen and (width <= 580px) {
-  .form__input-name {
-    font-size: 14px;
-  }
+  font-size: clamp(14px, 4.25vw, 20px);
 }
 
 .form__title {
@@ -792,13 +739,7 @@ img {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 5px;
-  font-size: 23px;
-}
-
-@media screen and (width <= 613px) {
-  .form__title {
-    font-size: 18px;
-  }
+  font-size: clamp(18px, 5.25vw, 23px);
 }
 
 .form__1-input {
@@ -852,13 +793,8 @@ input:focus:valid, textarea:focus:valid {
   background-color: #454d71;
   border-radius: 6px;
   padding: 15px;
+  font-size: clamp(14px, 4.25vw, 20px);
   box-shadow: 0 3px 8px #0000003d;
-}
-
-@media screen and (width <= 580px) {
-  .contacts__text {
-    font-size: 14px;
-  }
 }
 
 .form__none1, .form_answer1 {
@@ -906,14 +842,8 @@ input:focus:valid, textarea:focus:valid {
 .logo {
   color: #f8f9ff;
   align-items: center;
-  font-size: 20px;
+  font-size: clamp(14px, 5.25vw, 20px);
   display: inline-flex;
-}
-
-@media screen and (width <= 580px) {
-  .logo {
-    font-size: 14px;
-  }
 }
 
 .logo__image {

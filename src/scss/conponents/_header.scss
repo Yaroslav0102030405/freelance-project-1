@@ -42,6 +42,10 @@
   border: 1px solid $text-color;
   border-radius: 6px;
 
+  @media screen and (min-width: 581px) and (max-width: 1024px) {
+    right: 2.3%;
+  }
+
   // backdrop-filter: blur(30px);
   // box-shadow:
   //   rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
@@ -67,7 +71,8 @@
 .header__menu li a {
   padding: 10px;
   color: $text-color;
-  font-size: calc(max(19px, min(13px)));
+  // font-size: calc(max(19px, min(13px)));
+  font-size: clamp(14px, 4.25vw, 19px);
   border: 1px solid transparent;
   transition:
     color 250ms linear,
@@ -75,7 +80,7 @@
 
   @media screen and (max-width: 837px) {
     padding: 5px;
-    font-size: 13px;
+    // font-size: 13px;
   }
 }
 
