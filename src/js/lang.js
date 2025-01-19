@@ -101,7 +101,7 @@ const homeTexts = {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
     pl: 'Wysłać pytanie',
-    en: 'Send an inquiry',
+    en: 'Send an enquiry',
   },
   'header_banner-link': {
     ua: 'Подзвонити',
@@ -110,10 +110,10 @@ const homeTexts = {
     en: 'Call',
   },
   service_title: {
-    ua: 'Я займаюсь пошуком найкращих варіантів оренди',
-    ru: 'Я занимаюсь поиском лучших вариантов аренды',
-    pl: 'Zajmuję się poszukiwaniem najlepszych opcji wynajmu',
-    en: 'I look for the most suitable rental options',
+    ua: 'Я займаюсь пошуком найкращих варіантів оренди офісів',
+    ru: 'Я занимаюсь поиском лучших вариантов аренды офисов',
+    pl: 'Szukam najlepszych opcji wynajmu biur',
+    en: 'I find the most suitable office rental offers',
   },
   'service_pre-title-1': {
     ua: 'Оренда офісу в Варшаві',
@@ -149,7 +149,7 @@ const homeTexts = {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
     pl: 'Wysłać pytanie',
-    en: 'Send an inquiry',
+    en: 'Send an enquiry',
   },
   'service_link-1': {
     ua: 'Подзвонити',
@@ -197,7 +197,7 @@ const homeTexts = {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
     pl: 'Wysłać pytanie',
-    en: 'Send an inquiry',
+    en: 'Send an enquiry',
   },
   'service_link-2': {
     ua: 'Подзвонити',
@@ -239,7 +239,7 @@ const homeTexts = {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
     pl: 'Wysłać pytanie',
-    en: 'Send an inquiry',
+    en: 'Send an enquiry',
   },
   'service_link-3': {
     ua: 'Подзвонити',
@@ -257,7 +257,7 @@ const homeTexts = {
     ua: 'Маю успішний досвід в комерційній нерухомісті',
     ru: 'Имею успешный опыт в коммерческой недвижимости',
     pl: 'Mam udane doświadczenie w Nieruchomościach Komercyjnych',
-    en: 'I have successfull experience in commercial real estate',
+    en: 'I have successful experience in commercial real estate',
   },
   'advantages_pre-title-2': {
     ua: 'Пропоную тільки найкращі варіанти оренди',
@@ -317,7 +317,7 @@ const homeTexts = {
     ua: 'Я проводжу Вас через цілий процес найму комерційної нерухомості до підпису договору найкращого для Вас офісу.',
     ru: 'Я провожу Вас через целый процесс найма коммерческой недвижимости до подписи договора лучшего для Вас офиса.',
     pl: 'Przeprowadzę Cię przez cały proces wynajmu nieruchomości komercyjnej aż do podpisania umowy na najlepsze dla Ciebie biuro.',
-    en: 'I will guide you through the entire process of renting commercial real estate you until the contract is signed.',
+    en: 'I will guide you through the entire process of renting commercial real estate until the contract is signed.',
   },
   about_description5: {
     ua: 'В мене з клієнтами надійні та прозорі відносини, також я маю доступ до великої бази нерухомості і це дозволяє мені швидко знаходити приміщення для оренди які потрібні моїм клієнтам. ',
@@ -341,19 +341,19 @@ const homeTexts = {
     ua: 'Дзвоніть, пишіть або залишайте заявку',
     ru: 'Звоните, пишите или оставляйте заявку',
     pl: 'Państwo mogą zadzwonić, napisać lub wysłać zapytanie do mnie',
-    en: 'You can call, write or send your questions to me',
+    en: 'You can call, or send your questions to me',
   },
   contacts_logo: {
     ua: 'Я безкоштовно знайду для Вас офіс в будь-якому районі Варшави. Телефонуйте чи заповнюйте форму обратнього зв`язку або пишіть в телеграм.',
     ru: 'Я бесплатно найду для вас офис в любом районе Варшавы. Звоните или заполняйте форму обратной связи или пишите в телеграммы.',
     pl: 'Za darmo znajdę dla Ciebie biuro w każdej dzielnicy Warszawy. Zadzwoń lub wypełnij formularz kontaktowy lub napisz do mnie na telegram.',
-    en: 'I will find an office space for you for free in any district of Warsaw. Call or fill out the feedback form or write me to Telegram.',
+    en: 'I will find an office space for you for free in any district of Warsaw. Call or fill out the feedback form or write to me via Telegram.',
   },
   form_title: {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
     pl: 'Wysłać pytanie',
-    en: 'Send an inquiry',
+    en: 'Send an enquiry',
   },
   form_name: {
     ua: 'Ім`я*',
@@ -377,13 +377,13 @@ const homeTexts = {
     ua: 'Відправити',
     ru: 'Отправить',
     pl: 'Wysłać pytanie',
-    en: 'Send an inquire',
+    en: 'Send an enquiry',
   },
   form_title2: {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
     pl: 'Wysłać pytanie',
-    en: 'Send an inquiry',
+    en: 'Send an enquiry',
   },
   form_name2: {
     ua: 'Ім`я*',
