@@ -728,8 +728,8 @@ const homeTexts = {
     'header_banner-button': {
         ua: "\u0417\u0430\u043B\u0438\u0448\u0438\u0442\u0438 \u0437\u0430\u044F\u0432\u043A\u0443",
         ru: "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0437\u0430\u044F\u0432\u043A\u0443",
-        pl: "Bezp\u0142atna Konsultacja",
-        en: 'Free consultation'
+        pl: "Wys\u0142a\u0107 pytanie",
+        en: 'Send an inquiry'
     },
     'header_banner-link': {
         ua: "\u041F\u043E\u0434\u0437\u0432\u043E\u043D\u0438\u0442\u0438",
@@ -776,8 +776,8 @@ const homeTexts = {
     'service_button-1': {
         ua: "\u0417\u0430\u043B\u0438\u0448\u0438\u0442\u0438 \u0437\u0430\u044F\u0432\u043A\u0443",
         ru: "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0437\u0430\u044F\u0432\u043A\u0443",
-        pl: "Bezp\u0142atna Konsultacja",
-        en: 'Free consultation'
+        pl: "Wys\u0142a\u0107 pytanie",
+        en: 'Send an inquiry'
     },
     'service_link-1': {
         ua: "\u041F\u043E\u0434\u0437\u0432\u043E\u043D\u0438\u0442\u0438",
@@ -824,8 +824,8 @@ const homeTexts = {
     'service_button-2': {
         ua: "\u0417\u0430\u043B\u0438\u0448\u0438\u0442\u0438 \u0437\u0430\u044F\u0432\u043A\u0443",
         ru: "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0437\u0430\u044F\u0432\u043A\u0443",
-        pl: "Bezp\u0142atna Konsultacja",
-        en: 'Free consultation'
+        pl: "Wys\u0142a\u0107 pytanie",
+        en: 'Send an inquiry'
     },
     'service_link-2': {
         ua: "\u041F\u043E\u0434\u0437\u0432\u043E\u043D\u0438\u0442\u0438",
@@ -866,8 +866,8 @@ const homeTexts = {
     'service_button-3': {
         ua: "\u0417\u0430\u043B\u0438\u0448\u0438\u0442\u0438 \u0437\u0430\u044F\u0432\u043A\u0443",
         ru: "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0437\u0430\u044F\u0432\u043A\u0443",
-        pl: 'Darmowa konsultacja',
-        en: 'Free consultation'
+        pl: "Wys\u0142a\u0107 pytanie",
+        en: 'Send an inquiry'
     },
     'service_link-3': {
         ua: "\u041F\u043E\u0434\u0437\u0432\u043E\u043D\u0438\u0442\u0438",
@@ -980,8 +980,8 @@ const homeTexts = {
     form_title: {
         ua: "\u0417\u0430\u043B\u0438\u0448\u0438\u0442\u0438 \u0437\u0430\u044F\u0432\u043A\u0443",
         ru: "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0437\u0430\u044F\u0432\u043A\u0443",
-        pl: "Bezp\u0142atne konsultacja",
-        en: 'Free consultation'
+        pl: "Wys\u0142a\u0107 pytanie",
+        en: 'Send an inquiry'
     },
     form_name: {
         ua: "\u0406\u043C`\u044F*",
@@ -1010,8 +1010,8 @@ const homeTexts = {
     form_title2: {
         ua: "\u0417\u0430\u043B\u0438\u0448\u0438\u0442\u0438 \u0437\u0430\u044F\u0432\u043A\u0443",
         ru: "\u041E\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0437\u0430\u044F\u0432\u043A\u0443",
-        pl: "Bezp\u0142atne konsultacja",
-        en: 'Free consultation'
+        pl: "Wys\u0142a\u0107 pytanie",
+        en: 'Send an inquiry'
     },
     form_name2: {
         ua: "\u0406\u043C`\u044F*",

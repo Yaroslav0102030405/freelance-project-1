@@ -148,7 +148,7 @@ a {
 
 ::-webkit-scrollbar {
   background: #fff;
-  width: 5px;
+  width: 2px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -458,7 +458,7 @@ img {
 
 @media screen and (width <= 580px) {
   .hero__overlay {
-    height: 895px;
+    height: 920px;
   }
 }
 

@@ -100,8 +100,8 @@ const homeTexts = {
   'header_banner-button': {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
-    pl: 'Bezpłatna Konsultacja',
-    en: 'Free consultation',
+    pl: 'Wysłać pytanie',
+    en: 'Send an inquiry',
   },
   'header_banner-link': {
     ua: 'Подзвонити',
@@ -148,8 +148,8 @@ const homeTexts = {
   'service_button-1': {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
-    pl: 'Bezpłatna Konsultacja',
-    en: 'Free consultation',
+    pl: 'Wysłać pytanie',
+    en: 'Send an inquiry',
   },
   'service_link-1': {
     ua: 'Подзвонити',
@@ -196,8 +196,8 @@ const homeTexts = {
   'service_button-2': {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
-    pl: 'Bezpłatna Konsultacja',
-    en: 'Free consultation',
+    pl: 'Wysłać pytanie',
+    en: 'Send an inquiry',
   },
   'service_link-2': {
     ua: 'Подзвонити',
@@ -238,8 +238,8 @@ const homeTexts = {
   'service_button-3': {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
-    pl: 'Darmowa konsultacja',
-    en: 'Free consultation',
+    pl: 'Wysłać pytanie',
+    en: 'Send an inquiry',
   },
   'service_link-3': {
     ua: 'Подзвонити',
@@ -352,8 +352,8 @@ const homeTexts = {
   form_title: {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
-    pl: 'Bezpłatne konsultacja',
-    en: 'Free consultation',
+    pl: 'Wysłać pytanie',
+    en: 'Send an inquiry',
   },
   form_name: {
     ua: 'Ім`я*',
@@ -382,8 +382,8 @@ const homeTexts = {
   form_title2: {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
-    pl: 'Bezpłatne konsultacja',
-    en: 'Free consultation',
+    pl: 'Wysłać pytanie',
+    en: 'Send an inquiry',
   },
   form_name2: {
     ua: 'Ім`я*',
