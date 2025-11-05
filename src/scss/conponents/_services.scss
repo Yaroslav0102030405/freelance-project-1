@@ -36,11 +36,6 @@
   transition: border 250ms linear;
 }
 
-// .service__item:hover,
-// .service__item:focus {
-//   border: 1px solid $text-color;
-// }
-
 .service__pre-title {
   padding-top: 10px;
   color: $accent-text;
@@ -50,7 +45,7 @@
 }
 
 .service__description {
-  margin-bottom: 0;
+  margin-bottom: 15px;
   color: $text-color;
   @extend %font__size;
   cursor: text;
@@ -82,47 +77,6 @@
 .service__hover:focus {
   @extend %button__hover;
 }
-
-// @property --angle {
-//   syntax: '<angle>';
-//   initial-value: 0deg;
-//   inherits: false;
-// }
-
-// .service__item::after,
-// .service__item::before {
-//   content: '';
-//   position: absolute;
-//   height: 100%;
-//   width: 100%;
-//   background-image: conic-gradient(
-//     from var(--angle),
-//     #ff4545,
-//     #00ff99,
-//     #006aff,
-//     #ff0095,
-//     #ff4545
-//   );
-//   top: 50%;
-//   left: 50%;
-//   translate: -50% -50%;
-//   z-index: -1;
-//   padding: 3px;
-//   border-radius: 10px;
-//   animation: 3s spin linear infinite;
-// }
-// .service__list::before {
-//   filter: blur(1.5rem);
-//   opacity: 0.5;
-// }
-// @keyframes spin {
-//   from {
-//     --angle: 0deg;
-//   }
-//   to {
-//     --angle: 360deg;
-//   }
-// }
 
 .p {
   @extend %section-padding;

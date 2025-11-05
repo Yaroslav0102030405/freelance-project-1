@@ -547,7 +547,7 @@ img {
 .service__description {
   color: #f8f9ff;
   cursor: text;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .service__price, .service__price-1 {
