@@ -91,6 +91,15 @@ summary {
   display: list-item;
 }
 
+@font-face {
+  font-family: Bicubik;
+  src: url("bicubik.faa253ee.woff2") format("woff2");
+  src: url("bicubik.0b90f46e.woff") format("woff");
+  src: url("bicubik.b609f90e.ttf") format("ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
 .my-slider-progress {
   background: #ccc;
 }
@@ -127,7 +136,7 @@ body {
   cursor: url("cursor-1.0e6c7924.png"), auto;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Bicubik, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 16px;
   line-height: 1.4;
 }
@@ -138,6 +147,10 @@ body {
 
 a {
   cursor: url("cursor-2.770b4bf4.png"), auto;
+}
+
+.img {
+  filter: grayscale(51%);
 }
 
 .window {
@@ -206,7 +219,7 @@ img {
   width: 100%;
   max-width: 287px;
   padding: 15px;
-  font-size: clamp(13px, 5.25vw, 15px);
+  font-size: clamp(12px, 5.25vw, 12px);
   font-weight: 600;
   transition: transform .25s linear, color .25s linear, background-color .25s linear;
   transform: translateY(0);
@@ -216,7 +229,7 @@ img {
   transform: translateY(-3px);
 }
 
-.contacts__title, .about__title, .advantages__title, .service__title {
+.contacts__title, .about__title, .advantages__title, .portfolio-title, .service__title {
   text-align: center;
   color: #f8f9ff;
   text-transform: uppercase;
@@ -225,19 +238,19 @@ img {
 }
 
 @media screen and (width <= 580px) {
-  .contacts__title, .about__title, .advantages__title, .service__title {
+  .contacts__title, .about__title, .advantages__title, .portfolio-title, .service__title {
     text-transform: uppercase;
     margin-bottom: 20px;
   }
 }
 
-.footer, .contacts, .about, .advantages, .service {
+.footer, .contacts, .about, .advantages, .p, .service {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 @media screen and (width <= 580px) {
-  .footer, .contacts, .about, .advantages, .service {
+  .footer, .contacts, .about, .advantages, .p, .service {
     padding-top: 20px;
     padding-bottom: 20px;
   }
@@ -283,7 +296,7 @@ img {
   list-style: none;
   display: flex;
   position: fixed;
-  top: 3%;
+  top: 4%;
   right: 4.3%;
 }
 
@@ -317,7 +330,7 @@ img {
   color: #f8f9ff;
   border: 1px solid #0000;
   padding: 10px;
-  font-size: clamp(14px, 4.25vw, 19px);
+  font-size: clamp(12px, 4.25vw, 14px);
   transition: color .25s linear, text-shadow .25s linear;
 }
 
@@ -441,7 +454,7 @@ img {
 .hero__overlay {
   z-index: -1;
   background-color: #0000;
-  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("hero-bg.f4e974ad.webp");
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("h-15.e0222ff5.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -487,6 +500,10 @@ img {
   background-color: #353b5a;
 }
 
+.service__title {
+  cursor: text;
+}
+
 .service__list {
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
@@ -508,7 +525,7 @@ img {
 
 .service__item {
   background-color: #454d71;
-  border: 1px solid #3e4464;
+  border: 1px solid #f8f9ff;
   border-radius: 6px;
   grid-template-rows: auto auto auto auto auto 1fr;
   height: 100%;
@@ -519,18 +536,21 @@ img {
   box-shadow: 0 3px 8px #0000003d;
 }
 
-.service__item:hover, .service__item:focus {
-  border: 1px solid #f8f9ff;
-}
-
 .service__pre-title {
   color: #e4c9a2;
   text-transform: uppercase;
+  cursor: text;
   padding-top: 10px;
   font-size: 16px;
 }
 
-.service__description, .service__price, .service__price-1 {
+.service__description {
+  color: #f8f9ff;
+  cursor: text;
+  margin-bottom: 0;
+}
+
+.service__price, .service__price-1 {
   color: #f8f9ff;
   margin-bottom: 0;
 }
@@ -539,8 +559,53 @@ img {
   color: #f8f9ff;
 }
 
+.p {
+  background-color: #353b5a;
+}
+
+.portfolio {
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  gap: 30px;
+  display: grid;
+}
+
+@media screen and (width <= 769px) {
+  .portfolio {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (width <= 580px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+  }
+}
+
+.portfolio li {
+  background-color: #3e4464;
+  border: 1px solid #f8f9ff;
+  border-radius: 6px;
+  padding: 17px;
+}
+
+.portfolio-title {
+  cursor: text;
+}
+
+.portfolio-subtitle {
+  text-align: center;
+  color: #f8f9ff;
+  cursor: text;
+  font-size: clamp(14px, 4.25vw, 16px);
+}
+
 .advantages {
   background-color: #353b5a;
+}
+
+.advantages__title {
+  cursor: text;
 }
 
 .advantages__list {
@@ -559,12 +624,13 @@ img {
 .advantages__item {
   text-align: center;
   background-color: #454d71;
-  border: 1px solid #3e4464;
+  border: 1px solid #f8f9ff;
   border-radius: 6px;
+  align-items: center;
   width: 31.7%;
-  padding: 15px;
+  padding: 29px;
   transition: border .25s linear;
-  box-shadow: 0 3px 8px #0000003d;
+  display: flex;
 }
 
 @media screen and (width <= 1263px) {
@@ -582,12 +648,8 @@ img {
 @media screen and (width <= 580px) {
   .advantages__item {
     width: 100%;
-    padding: 10px;
+    padding: 17px;
   }
-}
-
-.advantages__item:hover, .advantages__item:focus {
-  border: 1px solid #e4c9a2;
 }
 
 .advantages__image {
@@ -604,10 +666,12 @@ img {
 }
 
 .advantages__text {
+  text-align: left;
   color: #f8f9ff;
+  cursor: text;
   margin-bottom: 0;
-  font-size: clamp(14px, 4.25vw, 20px);
-  font-weight: 700;
+  margin-left: 20px;
+  font-size: clamp(14px, 4.25vw, 16px);
   transition: color .25s linear;
 }
 
@@ -616,6 +680,12 @@ img {
   margin-bottom: 0;
   font-size: 75px;
   font-weight: 900;
+}
+
+.d {
+  border: none;
+  width: 70px;
+  padding: 18px;
 }
 
 .about {
@@ -638,9 +708,14 @@ img {
 
 .about__content {
   background-color: #454d71;
+  border: 1px solid #f8f9ff;
   border-radius: 6px;
   padding: 15px;
   box-shadow: 0 3px 8px #0000003d;
+}
+
+.about__title {
+  cursor: text;
 }
 
 .about__logo {
@@ -653,6 +728,7 @@ img {
 .about__pre-title {
   color: #e4c9a2;
   text-shadow: 1px 1px 2px pink;
+  cursor: text;
   font-size: 50px;
   font-weight: 600;
   display: inline-block;
@@ -660,12 +736,14 @@ img {
 
 .about__text {
   color: #f8f9ff;
+  cursor: text;
   margin-bottom: 0;
-  font-size: clamp(14px, 4.25vw, 20px);
+  font-size: clamp(14px, 4.25vw, 16px);
 }
 
 .about__image img {
   background-color: #454d71;
+  border: 1px solid #f8f9ff;
   border-radius: 6px;
   padding: 15px;
 }
@@ -689,6 +767,10 @@ img {
 
 .contacts__form {
   justify-items: center;
+}
+
+.contacts__title {
+  cursor: text;
 }
 
 .form-1 {
@@ -731,16 +813,18 @@ img {
 
 .form__input-name {
   color: #3e4464;
+  cursor: text;
   margin-bottom: 5px;
-  font-size: clamp(14px, 4.25vw, 20px);
+  font-size: clamp(14px, 4.25vw, 16px);
 }
 
 .form__title {
   color: #3e4464;
   text-align: center;
+  cursor: text;
   margin-top: 10px;
   margin-bottom: 5px;
-  font-size: clamp(18px, 5.25vw, 23px);
+  font-size: clamp(16px, 5.25vw, 17px);
 }
 
 .form__1-input {
@@ -786,15 +870,17 @@ input:focus:invalid, textarea:focus:invalid {
 }
 
 input:focus:valid, textarea:focus:valid {
-  background-color: #f8f9ff;
+  background-color: #3e446424;
   border: 2px solid #18e109;
 }
 
 .contacts__text {
+  cursor: text;
   background-color: #454d71;
+  border: 1px solid #f8f9ff;
   border-radius: 6px;
   padding: 15px;
-  font-size: clamp(14px, 4.25vw, 20px);
+  font-size: clamp(14px, 4.25vw, 16px);
   box-shadow: 0 3px 8px #0000003d;
 }
 
@@ -814,6 +900,17 @@ input:focus:valid, textarea:focus:valid {
 
 @media screen and (width <= 580px) {
   .form__answer-text1 {
+    font-size: 14px;
+  }
+}
+
+.form__answer-text {
+  color: #3e4464;
+  font-size: 20px;
+}
+
+@media screen and (width <= 580px) {
+  .form__answer-text {
     font-size: 14px;
   }
 }
@@ -911,7 +1008,8 @@ input:focus:valid, textarea:focus:valid {
 .modal__title {
   color: #e4c9a2;
   text-align: center;
-  font-size: 30px;
+  cursor: text;
+  font-size: 23px;
 }
 
 .modal__menu-btn {

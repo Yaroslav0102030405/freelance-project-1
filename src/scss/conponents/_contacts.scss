@@ -21,6 +21,7 @@
 
 .contacts__title {
   @extend %title;
+  cursor: text;
 }
 
 .form-1 {
@@ -67,7 +68,8 @@
   margin-bottom: 5px;
   color: $bg-color;
   font-size: 20px;
-  font-size: clamp(14px, 4.25vw, 20px);
+  font-size: clamp(14px, 4.25vw, 16px);
+  cursor: text;
 }
 
 .form__title {
@@ -76,7 +78,8 @@
   color: $bg-color;
   text-align: center;
   // font-size: 23px;
-  font-size: clamp(18px, 5.25vw, 23px);
+  font-size: clamp(16px, 5.25vw, 17px);
+  cursor: text;
 }
 
 .form__1-input {
@@ -128,7 +131,7 @@ textarea:focus:invalid {
 
 input:focus:valid,
 textarea:focus:valid {
-  background-color: $text-color;
+  background-color: #3e446424;
   border: solid 2px #18e109;
 }
 
@@ -153,7 +156,9 @@ textarea:focus:valid {
   background-color: #454d71;
   border-radius: 6px;
   box-shadow: 0 3px 8px #0000003d;
-  font-size: clamp(14px, 4.25vw, 20px);
+  font-size: clamp(14px, 4.25vw, 16px);
+  border: 1px solid $text-color;
+  cursor: text;
   // @media screen and (max-width: 580px) {
   //   font-size: 14px;
   // }
@@ -173,6 +178,14 @@ textarea:focus:valid {
 }
 
 .form__answer-text1 {
+  color: $bg-color;
+  font-size: 20px;
+  @media screen and (max-width: 580px) {
+    font-size: 14px;
+  }
+}
+
+.form__answer-text {
   color: $bg-color;
   font-size: 20px;
   @media screen and (max-width: 580px) {

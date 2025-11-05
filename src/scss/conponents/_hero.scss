@@ -175,9 +175,7 @@
   color: $accent-text;
   // transition: background-color 250ms linear;
   transform: translateY(0);
-  transition:
-    transform 250ms linear,
-    color 250ms linear,
+  transition: transform 250ms linear, color 250ms linear,
     background-color 250ms linear;
 }
 
@@ -202,7 +200,7 @@
   height: 775px;
   z-index: -1;
   background: linear-gradient(to right, #3e446457, #e4c9a23b),
-    url(/src/image/hero/hero-bg.webp);
+    url(/src/image/hero/h-15.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -226,8 +224,7 @@
   border-radius: 6px;
   background-color: $bg-2;
   // border: 1px solid $text-color;
-  box-shadow:
-    rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 
   @media screen and (max-width: 580px) {

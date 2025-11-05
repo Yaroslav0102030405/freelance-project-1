@@ -35,7 +35,7 @@
   display: flex;
   gap: 3px;
   right: 4.3%;
-  top: 3%;
+  top: 4%;
   padding: 0;
   z-index: 10;
   list-style: none;
@@ -62,8 +62,7 @@
   @media screen and (max-width: 580px) {
     display: block;
     backdrop-filter: blur(30px);
-    box-shadow:
-      rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
       rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   }
 }
@@ -72,11 +71,9 @@
   padding: 10px;
   color: $text-color;
   // font-size: calc(max(19px, min(13px)));
-  font-size: clamp(14px, 4.25vw, 19px);
+  font-size: clamp(12px, 4.25vw, 14px);
   border: 1px solid transparent;
-  transition:
-    color 250ms linear,
-    text-shadow 250ms linear;
+  transition: color 250ms linear, text-shadow 250ms linear;
 
   @media screen and (max-width: 837px) {
     padding: 5px;
