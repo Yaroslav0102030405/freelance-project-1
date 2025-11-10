@@ -53,7 +53,7 @@
   margin-bottom: 10px;
   color: $text-color;
   text-align: center;
-  font-size: clamp(29px, 5.25vw, 45px);
+  font-size: clamp(19px, 5.25vw, 39px);
   // font-size: 45px;
   // font-size: calc(29px + (16 + 16 * 0.7) * (100vw - 320px) / 1440px);
 
@@ -200,7 +200,7 @@
   height: 775px;
   z-index: -1;
   background: linear-gradient(to right, #3e446457, #e4c9a23b),
-    url(/src/image/hero/h-15.jpg);
+    url(/src/image/hero/h-15.webp);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;

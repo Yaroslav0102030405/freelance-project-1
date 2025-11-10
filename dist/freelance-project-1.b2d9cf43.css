@@ -231,7 +231,7 @@ img {
 
 .contacts__title, .about__title, .advantages__title, .portfolio-title, .service__title {
   text-align: center;
-  color: #f8f9ff;
+  color: #e4c9a2;
   text-transform: uppercase;
   margin-bottom: 30px;
   font-size: clamp(25px, 5.25vw, 30px);
@@ -388,7 +388,7 @@ img {
   color: #f8f9ff;
   text-align: center;
   margin-bottom: 10px;
-  font-size: clamp(29px, 5.25vw, 45px);
+  font-size: clamp(19px, 5.25vw, 39px);
 }
 
 .hero-btn {
@@ -454,7 +454,7 @@ img {
 .hero__overlay {
   z-index: -1;
   background-color: #0000;
-  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("h-15.e0222ff5.jpg");
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("h-15.76e5ed9d.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -547,7 +547,7 @@ img {
 .service__description {
   color: #f8f9ff;
   cursor: text;
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .service__price, .service__price-1 {
@@ -749,7 +749,14 @@ img {
 }
 
 .contacts {
-  background-color: #353b5a;
+  background-color: #0000;
+  background-image: linear-gradient(to right, #3e446457, #e4c9a23b), url("h-22.9a0080d5.webp");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-origin: padding-box, padding-box;
+  background-clip: border-box, border-box;
 }
 
 .contacts__wrap {
@@ -807,8 +814,11 @@ img {
 
 .form__logo-3 {
   color: #f8f9ff;
+  justify-content: center;
+  margin-top: 60px;
   margin-bottom: 15px;
   font-size: 16px;
+  display: flex;
 }
 
 .form__input-name {
@@ -875,13 +885,19 @@ input:focus:valid, textarea:focus:valid {
 }
 
 .contacts__text {
-  cursor: text;
   background-color: #454d71;
   border: 1px solid #f8f9ff;
   border-radius: 6px;
   padding: 15px;
   font-size: clamp(14px, 4.25vw, 16px);
   box-shadow: 0 3px 8px #0000003d;
+}
+
+.contacts__text1 {
+  text-align: center;
+  color: #f8f9ff;
+  font-size: clamp(25px, 4.25vw, 30px);
+  font-weight: 600;
 }
 
 .form__none1, .form_answer1 {
