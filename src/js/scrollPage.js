@@ -2,22 +2,26 @@
 window.addEventListener('scroll', () => {
   let scrollDistance = window.scrollY;
 
-  // console.log(scrollDistance);
+  // Отримуємо всі пункти меню лише один раз
+  const navItems = document.querySelectorAll('.nav li');
 
   document.querySelectorAll('.scroll').forEach((el, i) => {
     if (
       el.offsetTop - document.querySelector('.nav').clientHeight <=
       scrollDistance
     ) {
-      document.querySelectorAll('.nav a').forEach((el) => {
-        if (el.classList.contains('active')) {
-          el.classList.remove('active');
-        }
+      // 1. Знімаємо 'active' з усіх посилань
+      document.querySelectorAll('.nav a').forEach(link => {
+        link.classList.remove('active');
       });
-      document
-        .querySelectorAll('.nav li')
-        [i].querySelector('a')
-        .classList.add('active');
+
+      // 2. ДОДАЄМО ПЕРЕВІРКУ: перевіряємо, чи існує відповідний пункт меню
+      const targetNavItem = navItems[i];
+
+      if (targetNavItem) {
+        // Якщо елемент існує, продовжуємо
+        targetNavItem.querySelector('a').classList.add('active');
+      }
     }
   });
 });
