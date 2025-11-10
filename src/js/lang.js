@@ -165,7 +165,7 @@ const homeTexts = {
     en: 'Or call +48 735 775 810',
   },
   service_title: {
-    ua: 'Оренда офісних приміщень в різних хмарочосах Варшави',
+    ua: 'Оренда офісних приміщень у різних хмарочосах Варшави',
     ru: 'Аренда офисных помещений в небоскребах Варшавы',
     pl: 'Wynajem powierzchni biurowych w warszawskich wieżowcach',
     en: 'Renting office space in Warsaw skyscrapers',
@@ -556,16 +556,16 @@ const homeTexts = {
     en: 'Who is it suitable for?',
   },
   'advantages_pre-title-1': {
-    ua: 'Стартапи та Малі/Середні Бізнеси, які починають роботу у Варшаві і потрібні офіси (від 100 до 500 м²)',
-    ru: 'Стартапы и Малые/Средние Бизнесы, начинающие работу в Варшаве и офисы (от 100 до 500 м²)',
-    pl: 'Startupy i małe/średnie firmy rozpoczynające działalność w Warszawie, potrzebujące biur (od 100 do 500 m²)',
-    en: 'Startups and Small/Medium Businesses starting their operations in Warsaw and need offices (from 100 to 500 m²)',
+    ua: 'Стартапи та Малі/Середні Бізнеси, які починають роботу у Варшаві і потрібні офіси (100 - 500 м²)',
+    ru: 'Стартапы и Малые/Средние Бизнесы, начинающие работу в Варшаве и офисы (100 - 500 м²)',
+    pl: 'Startupy i małe/średnie firmy rozpoczynające działalność w Warszawie, potrzebujące biur (100 - 500 m²)',
+    en: 'Startups and Small/Medium Businesses starting their operations in Warsaw and need offices (100 - 500 m²)',
   },
   'advantages_pre-title-2': {
-    ua: 'Консалтингові та Креативні Агенції. Яким важлива унікальна атмосфера, креативні планування',
-    ru: 'Консалтинговые и креативные агентства. Какова важна уникальная атмосфера, креативные планировки',
-    pl: 'Agencje konsultingowe i kreatywne. Jak ważna jest wyjątkowa atmosfera i kreatywne planowanie',
-    en: 'Consulting and Creative Agencies. How important is a unique atmosphere, creative planning',
+    ua: 'Консалтингові та Креативні Агенції. Яким важлива унікальна та креативна атмосфера',
+    ru: 'Консалтинговые и креативные агентства. Какова важна уникальная и креативная атмосфера',
+    pl: 'Agencje konsultingowe i kreatywne. Dlaczego wyjątkowa i kreatywna atmosfera jest ważna',
+    en: 'Consulting and Creative Agencies. Why a unique and creative atmosphere is important',
   },
   'advantages_pre-title-3': {
     ua: 'Фінансові та Юридичні Установи, інвестиційні фонди, яких важливо бути у центрі міста',
@@ -574,10 +574,10 @@ const homeTexts = {
     en: 'Financial and Legal Institutions, investment funds, which are important to be in the city center',
   },
   'advantages_pre-title-4': {
-    ua: 'Міжнародні Корпорації (SSC/BPO) які відкривають у Варшаві свої центри спільних послуг',
-    ru: 'Международные корпорации (SSC/BPO), которые открывают в Варшаве свои центры совместных услуг',
-    pl: 'Międzynarodowe korporacje (SSC/BPO) otwierają swoje centra usług wspólnych w Warszawie',
-    en: 'International Corporations (SSC/BPO) opening their shared services centers in Warsaw',
+    ua: 'Міжнародні Корпорації (SSC/BPO) які відкривають у Варшаві свої центри послуг',
+    ru: 'Международные корпорации (SSC/BPO), которые открывают в Варшаве свои центры услуг',
+    pl: 'Międzynarodowe korporacje (SSC/BPO) otwierają swoje centra usług w Warszawie',
+    en: 'International Corporations (SSC/BPO) opening their service centers in Warsaw',
   },
   'advantages_pre-title-5': {
     ua: 'Великі ІТ-компанії, які шукають інноваційні простори щоб вмістити сотні співробітників',
