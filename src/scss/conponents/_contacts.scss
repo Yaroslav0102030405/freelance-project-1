@@ -168,6 +168,12 @@ textarea:focus:valid {
   box-shadow: 0 3px 8px #0000003d;
   font-size: clamp(14px, 4.25vw, 16px);
   border: 1px solid $text-color;
+
+  background: linear-gradient(to right, #3e446457, #e4c9a23b),
+    url(/src/image/background/2aa.avif);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
   // cursor: text;
   // @media screen and (max-width: 580px) {
   //   font-size: 14px;

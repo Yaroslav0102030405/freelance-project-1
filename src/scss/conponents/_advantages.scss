@@ -2,6 +2,13 @@
   // position: relative;
   @extend %section-padding;
   background-color: $bg-2;
+  // background-color: #21253e;
+
+  // background: linear-gradient(to right, #3e446457, #e4c9a23b),
+  //   url(/src/image/background/2aa.avif);
+  // background-repeat: no-repeat;
+  // background-position: center top;
+  // background-size: cover;
 }
 
 .advantages__title {
@@ -31,6 +38,12 @@
   text-align: center;
   border: 1px solid $text-color;
   transition: border 250ms linear;
+
+  background: linear-gradient(to right, #3e446457, #e4c9a23b),
+    url(/src/image/background/2aa.avif);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 
   @media screen and (max-width: 1263px) {
     width: 31%;

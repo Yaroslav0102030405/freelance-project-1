@@ -184,10 +184,10 @@ const homeTexts = {
     en: '1 Rondo Unii Europejskiej',
   },
   'service_description-1': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-1-3': {
     ua: 'Метраж 200 - 3000 m2',
@@ -220,10 +220,10 @@ const homeTexts = {
     en: '2 Skyscraper Warszawy',
   },
   'service_description-2': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-2-4': {
     ua: 'Метраж 200 - 3000 m2',
@@ -256,10 +256,10 @@ const homeTexts = {
     en: '3 Centrum Warszawy',
   },
   'service_description-3': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-3-5': {
     ua: 'Метраж 200 - 3000 m2',
@@ -286,10 +286,10 @@ const homeTexts = {
     en: '4 Rondo Daszyńskiego',
   },
   'service_description-4': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-4-5': {
     ua: 'Метраж 200 - 3000 m2',
@@ -316,10 +316,10 @@ const homeTexts = {
     en: '5 Skyscraper Żoliborz',
   },
   'service_description-5': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-5-5': {
     ua: 'Метраж 200 - 3000 m2',
@@ -346,10 +346,10 @@ const homeTexts = {
     en: '6 Mokotów',
   },
   'service_description-6': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-6-5': {
     ua: 'Метраж 200 - 3000 m2',
@@ -376,10 +376,10 @@ const homeTexts = {
     en: '7 Skyscraper Mokotów)',
   },
   'service_description-7': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-7-5': {
     ua: 'Метраж 200 - 3000 m2',
@@ -406,10 +406,10 @@ const homeTexts = {
     en: '8 Mokotów',
   },
   'service_description-8': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-8-5': {
     ua: 'Метраж 200 - 3000 m2',
@@ -436,10 +436,10 @@ const homeTexts = {
     en: '9 Centrum Warszawy',
   },
   'service_description-9': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-9-5': {
     ua: 'Метраж 200 - 3000 m2',
@@ -466,10 +466,10 @@ const homeTexts = {
     en: '10 Centrum Warszawy',
   },
   'service_description-10': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-10-5': {
     ua: 'Метраж 200 - 3000 m2',
@@ -496,10 +496,10 @@ const homeTexts = {
     en: '11 Skyscraper Śródmieście',
   },
   'service_description-11': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-11-5': {
     ua: 'Метраж 200 - 3000 m2',
@@ -526,10 +526,10 @@ const homeTexts = {
     en: '12 Skyscraper Śródmieście',
   },
   'service_description-12': {
-    ua: 'Оренда від одного офісу так і до кількох етажів або всієї будівлі',
-    ru: 'Аренда от одного офиса так и до нескольких этажей или всего здания',
-    pl: 'Wynajem biur na kilka pięter lub cały budynek',
-    en: 'Rent from one office to several floors or the entire building',
+    ua: 'Офісні приміщення в оренду',
+    ru: 'Офисные помещения в аренду',
+    pl: 'Powierzchnia biurowa do wynajęcia',
+    en: 'Office space for rent',
   },
   'service_description-12-5': {
     ua: 'Метраж 200 - 3000 m2',
@@ -659,8 +659,8 @@ const homeTexts = {
     en: 'I have successfully helped over 50 companies find office space for rent. And I will be happy to help you too!',
   },
   contacts_logo1: {
-    ua: 'Не знайшли що шукали? Зателефонуйте +48 735 775 810 і я вишлю вам в телеграм більшу кількість варіантів!',
-    ru: 'Не нашли, что искали? Позвоните по телефону +48 735 775 810 и я вышлю вам в телеграмм большее количество вариантов!',
+    ua: 'Не знайшли що шукали? Тоді зателефонуйте мені +48 735 775 810 і я вишлю вам в телеграм більшу кількість варіантів!',
+    ru: 'Не нашли, что искали? Тогда позвоните мне +48 735 775 810 и я вышлю вам в телеграмм большее количество вариантов!',
     pl: 'Nie znalazłeś tego, czego szukałeś? Zadzwoń pod numer +48 735 775 810, a wyślę Ci więcej opcji w Telegramie!',
     en: 'Didn`t find what you were looking for? Call +48 735 775 810 and I will send you more options in Telegram!',
   },
