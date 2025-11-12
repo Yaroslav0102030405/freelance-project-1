@@ -131,10 +131,10 @@ const homeTexts = {
     en: 'Skyscrapers',
   },
   'header_menu-about': {
-    ua: 'Про експерта',
-    ru: 'Об эксперте',
-    pl: 'O ekspercie',
-    en: 'About the expert',
+    ua: 'Про мене',
+    ru: 'Обо мне',
+    pl: 'O mnie',
+    en: 'About me',
   },
   'header_menu-cases': {
     ua: 'Кейси',
