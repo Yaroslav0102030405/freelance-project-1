@@ -31,6 +31,31 @@ const homeTexts = {
   //   pl: 'Yurii Bukhtii',
   //   en: 'Yurii Bukhtii',
   // },
+
+  'advantages_title-2': {
+    ua: 'Мої переваги',
+    ru: 'Мои преимущества',
+    pl: 'Moje zalety',
+    en: 'My advantages',
+  },
+  'advantages_pre-title-4': {
+    ua: 'Ексклюзивна база об`єктів',
+    ru: 'Эксклюзивная база объектов',
+    pl: 'Ekskluzywna baza danych obiektów',
+    en: 'Ekskluzywna baza danych obiektów',
+  },
+  'advantages_pre-title-5': {
+    ua: 'Персональний підбір',
+    ru: 'Персональный подбор',
+    pl: 'Wybór osobisty',
+    en: 'Personal selection',
+  },
+  'advantages_pre-title-6': {
+    ua: 'Без комісії для орендаря',
+    ru: 'Без комиссии для арендатора',
+    pl: 'Brak opłat dla najemcy',
+    en: 'No fee for the tenant',
+  },
   'portfolio-title': {
     ua: '#1 Кейс якій я закрив для іт компанії',
     ru: '#1 Кейс которой я закрыл для ит компании',
@@ -106,10 +131,10 @@ const homeTexts = {
     en: 'Skyscrapers',
   },
   'header_menu-about': {
-    ua: 'Про агента',
-    ru: 'Об агенте',
-    pl: 'O agencie',
-    en: 'Agent',
+    ua: 'Про експерта',
+    ru: 'Об эксперте',
+    pl: 'O ekspercie',
+    en: 'About the expert',
   },
   'header_menu-cases': {
     ua: 'Кейси',
@@ -136,10 +161,10 @@ const homeTexts = {
   //   en: 'Commercial real estate broker in Warsaw',
   // },
   'header_banner-pre-title': {
-    ua: 'Агент з оренди офісних приміщень у хмарочосах Варшави',
-    ru: 'Агент по аренде офисных помещений у небоскребах Варшавы',
-    pl: 'Agent ds. wynajmu powierzchni biurowych w warszawskich wieżowcach',
-    en: 'Office space rental agent in Warsaw skyscrapers',
+    ua: 'Оренда офісних приміщень у хмарочосах Варшави',
+    ru: 'Аренда офисных помещений в небоскребах Варшавы',
+    pl: 'Wynajem powierzchni biurowych w warszawskich wieżowcach',
+    en: 'Renting office space in Warsaw skyscrapers',
   },
   // 'header_banner-advantages-1': {
   //   ua: '✓ оренду офісу в Варшаві',
@@ -172,10 +197,10 @@ const homeTexts = {
     en: 'Or call +48 735 775 810',
   },
   service_title: {
-    ua: 'Оренда офісних приміщень у різних хмарочосах Варшави',
-    ru: 'Аренда офисных помещений в небоскребах Варшавы',
-    pl: 'Wynajem powierzchni biurowych w warszawskich wieżowcach',
-    en: 'Renting office space in Warsaw skyscrapers',
+    ua: 'Офісні приміщення хмарочосів Варшави',
+    ru: 'Офисные помещения небоскребов Варшавы',
+    pl: 'Przestrzenie biurowe warszawskich wieżowców',
+    en: 'Office spaces of Warsaw skyscrapers',
   },
   'service_pre-title-1': {
     ua: '1 Rondo Unii Europejskiej',
@@ -563,10 +588,10 @@ const homeTexts = {
     en: 'Who is it suitable for?',
   },
   'advantages_pre-title-1': {
-    ua: 'Стартапи та Малі/Середні Бізнеси, які починають роботу у Варшаві і потрібні офіси (100 - 500 м²)',
-    ru: 'Стартапы и Малые/Средние Бизнесы, начинающие работу в Варшаве и офисы (100 - 500 м²)',
-    pl: 'Startupy i małe/średnie firmy rozpoczynające działalność w Warszawie, potrzebujące biur (100 - 500 m²)',
-    en: 'Startups and Small/Medium Businesses starting their operations in Warsaw and need offices (100 - 500 m²)',
+    ua: 'Стартапи та Малі/Середні Бізнеси, які починають роботу у Варшаві і потрібні офіси',
+    ru: 'Стартапы и Малые/Средние Бизнесы, начинающие работу в Варшаве и офисы',
+    pl: 'Startupy i małe/średnie firmy rozpoczynające działalność w Warszawie, potrzebujące biur',
+    en: 'Startups and Small/Medium Businesses starting their operations in Warsaw and need offices',
   },
   'advantages_pre-title-2': {
     ua: 'Консалтингові та Креативні Агенції. Яким важлива унікальна та креативна атмосфера',
