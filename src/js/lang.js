@@ -161,10 +161,10 @@ const homeTexts = {
   //   en: 'Commercial real estate broker in Warsaw',
   // },
   'header_banner-pre-title': {
-    ua: 'Ріелтор з оренди офісних приміщень у хмарочосах Варшави',
-    ru: 'Риелтор по аренде офисных помещений в небоскребах Варшавы',
-    pl: 'Agent ds. wynajmu powierzchni biurowych w warszawskich wieżowcach',
-    en: 'Realtor for renting office space in Warsaw skyscrapers',
+    ua: 'Оренда офісних приміщень у хмарочосах Варшави',
+    ru: 'Аренда офисных помещений в небоскребах Варшавы',
+    pl: 'Wynajem powierzchni biurowych w warszawskich wieżowcach',
+    en: 'Renting office space in Warsaw skyscrapers',
   },
   // 'header_banner-advantages-1': {
   //   ua: '✓ оренду офісу в Варшаві',
@@ -197,10 +197,10 @@ const homeTexts = {
     en: 'Or call +48 735 775 810',
   },
   service_title: {
-    ua: 'Офісні приміщення хмарочосів та будівль Варшави',
-    ru: 'Офисные помещения небоскребов и зданий Варшавы',
-    pl: 'Przestrzenie biurowe wieżowców i budynków w Warszawie',
-    en: 'Office spaces of skyscrapers and buildings in Warsaw',
+    ua: 'Офісні приміщення хмарочосів Варшави',
+    ru: 'Офисные помещения небоскребов Варшавы',
+    pl: 'Przestrzenie biurowe warszawskich wieżowców',
+    en: 'Office spaces of Warsaw skyscrapers',
   },
   'service_pre-title-1': {
     ua: '1 Хмарочос Rondo',
