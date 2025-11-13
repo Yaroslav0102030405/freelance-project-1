@@ -161,10 +161,10 @@ const homeTexts = {
   //   en: 'Commercial real estate broker in Warsaw',
   // },
   'header_banner-pre-title': {
-    ua: 'Оренда офісних приміщень у хмарочосах Варшави',
-    ru: 'Аренда офисных помещений в небоскребах Варшавы',
-    pl: 'Wynajem powierzchni biurowych w warszawskich wieżowcach',
-    en: 'Renting office space in Warsaw skyscrapers',
+    ua: 'Ріелтор з оренди офісних приміщень у хмарочосах Варшави',
+    ru: 'Риелтор по аренде офисных помещений в небоскребах Варшавы',
+    pl: 'Agent ds. wynajmu powierzchni biurowych w warszawskich wieżowcach',
+    en: 'Realtor for renting office space in Warsaw skyscrapers',
   },
   // 'header_banner-advantages-1': {
   //   ua: '✓ оренду офісу в Варшаві',
