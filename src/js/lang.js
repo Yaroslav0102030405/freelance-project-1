@@ -44,10 +44,10 @@ const homeTexts = {
     en: 'No fee for the tenant',
   },
   'portfolio-title': {
-    ua: '# Кейс який я закрив для іт компанії',
-    ru: '# Кейс который я закрыл для ит компании',
-    pl: '# Sprawa, którą zamknąłem dla firmy IT',
-    en: '# A case I closed for an IT company',
+    ua: 'Кейс який я закрив для іт компанії',
+    ru: 'Кейс который я закрыл для ит компании',
+    pl: 'Sprawa, którą zamknąłem dla firmy IT',
+    en: 'A case I closed for an IT company',
   },
 
   'portfolio-title-2': {
@@ -63,10 +63,10 @@ const homeTexts = {
     en: 'I fulfilled all the requirements and the company was satisfied!',
   },
   'portfolio-title-21': {
-    ua: '# Кейс який я закрив для YouTube каналу',
-    ru: '# Кейс который я закрыл для канала YouTube',
-    pl: '# Sprawa, którą zamknąłem dla kanału YouTube',
-    en: '# The case I closed for the YouTube channel',
+    ua: 'Кейс який я закрив для YouTube каналу',
+    ru: 'Кейс который я закрыл для канала YouTube',
+    pl: 'Sprawa, którą zamknąłem dla kanału YouTube',
+    en: 'The case I closed for the YouTube channel',
   },
   'portfolio-title-22': {
     ua: 'Вимоги: Теплий дизайн офісу з меблями в хмарочоці та виглядом на палац культури і науки',
@@ -81,10 +81,10 @@ const homeTexts = {
     en: 'The company is very satisfied with my work!',
   },
   'portfolio-title-31': {
-    ua: '# Кейс який я закрив для іт стартапу',
-    ru: '# Кейс который я закрыл для ит стартапа',
-    pl: '# Sprawa, którą zamknąłem dla startupu IT',
-    en: '# A case I closed for an IT startup',
+    ua: 'Кейс який я закрив для іт стартапу',
+    ru: 'Кейс который я закрыл для ит стартапа',
+    pl: 'Sprawa, którą zamknąłem dla startupu IT',
+    en: 'A case I closed for an IT startup',
   },
   'portfolio-title-32': {
     ua: 'Вимоги: Офіс з меблями та домашньою атмосферою',
@@ -526,8 +526,8 @@ const homeTexts = {
   //   en: 'Free selection of office space in Warsaw skyscrapers to suit your individual needs',
   // },
   contacts_logo: {
-    ua: 'Загалом, я успішно допоміг понад 50 компаніям знайти офіс в оренду. Буду радий допомогти і Вам! Звертайтеся',
-    ru: 'В общем, я успешно помог более 50 компаниям найти офис в аренду. Буду рад помочь и вам! Обращайтесь',
+    ua: 'Загалом, я успішно допоміг вже 40 компаніям знайти офіс в оренду. Буду радий допомогти і Вам! Звертайтеся',
+    ru: 'В общем, я успешно помог уже 40 компаниям найти офис в аренду. Буду рад помочь и вам! Обращайтесь',
     pl: 'W sumie pomogłem ponad 50 firmom znaleźć biuro do wynajęcia. Chętnie pomogę również Tobie! Skontaktuj się ze mną',
     en: 'In total, I have successfully helped over 50 companies find an office for rent. I would be happy to help you too! Contact me',
   },

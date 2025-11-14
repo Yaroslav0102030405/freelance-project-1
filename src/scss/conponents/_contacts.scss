@@ -3,8 +3,8 @@
   background-color: $bg-2;
   @extend %section-padding;
 
-  background: linear-gradient(to right, #3e446457, #e4c9a23b),
-    url(/src/image/contacts/h-22.webp);
+  // background: linear-gradient(to right, #3e446457, #e4c9a23b),
+  //   url(/src/image/contacts/h-22.webp);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
