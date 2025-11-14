@@ -43,9 +43,9 @@ elementsToTrack.forEach(element => {
   observer.observe(element);
 });
 
-import './js/lang';
+// import './js/lang';
 import './js/hero-modal';
-import './js/modal';
+// import './js/modal';
 // import './js/modal-2';
 import './js/scrollPage';
 import './js/smoothscroll';
