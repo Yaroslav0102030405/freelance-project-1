@@ -20,10 +20,10 @@ function onClickButton2(e) {
 
 const homeTexts = {
   'advantages_title-2': {
-    ua: 'Чому обирають мене?',
-    ru: 'Почему выбирают меня?',
-    pl: 'Dlaczego warto mnie wybrać?',
-    en: 'Why choose me?',
+    ua: 'Мої переваги',
+    ru: 'Мои преимущества',
+    pl: 'Moje zalety',
+    en: 'My advantages',
   },
   'advantages_pre-title-4': {
     ua: 'Ексклюзивна база офісів',
@@ -106,10 +106,10 @@ const homeTexts = {
     en: 'Home',
   },
   'header_menu-advantages': {
-    ua: 'Щому я?',
-    ru: 'Почему я?',
-    pl: 'Ja?',
-    en: 'Why me?',
+    ua: 'Переваги',
+    ru: 'Преимущества',
+    pl: 'Zalety',
+    en: 'Advantages',
   },
   // 'header_menu-service': {
   //   ua: 'Хмарочоси',
@@ -118,10 +118,10 @@ const homeTexts = {
   //   en: 'Skyscrapers',
   // },
   'header_menu-about': {
-    ua: 'Послуги',
-    ru: 'Услуги',
-    pl: 'Usługi',
-    en: 'Services',
+    ua: 'Про мене',
+    ru: 'Обо мне',
+    pl: 'O mnie',
+    en: 'About me',
   },
   'header_menu-cases': {
     ua: 'Кейси',
@@ -160,10 +160,10 @@ const homeTexts = {
     en: 'Or call +48 735 775 810',
   },
   about_title: {
-    ua: 'Мої послуги',
-    ru: 'Мои услуги',
-    pl: 'Moje usługi',
-    en: 'My services',
+    ua: 'Про мене',
+    ru: 'Обо мне',
+    pl: 'O mnie',
+    en: 'About me',
   },
   about_description: {
     ua: 'Привіт! Я Юрій Бухтій',
