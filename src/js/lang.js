@@ -20,10 +20,10 @@ function onClickButton2(e) {
 
 const homeTexts = {
   'advantages_title-2': {
-    ua: 'Мої переваги',
-    ru: 'Мои преимущества',
-    pl: 'Moje zalety',
-    en: 'My advantages',
+    ua: 'Чому обирають мене?',
+    ru: 'Почему выбирают меня?',
+    pl: 'Dlaczego warto mnie wybrać?',
+    en: 'Why choose me?',
   },
   'advantages_pre-title-4': {
     ua: 'Ексклюзивна база офісів',
@@ -34,7 +34,7 @@ const homeTexts = {
   'advantages_pre-title-5': {
     ua: 'Персональний підбір',
     ru: 'Персональный подбор',
-    pl: 'Wybór osobisty',
+    pl: 'Personal selection',
     en: 'Personal selection',
   },
   'advantages_pre-title-6': {
@@ -100,16 +100,16 @@ const homeTexts = {
   },
   // меню header
   'header_menu-home': {
-    ua: 'Брокер',
-    ru: 'Брокер',
-    pl: 'Pośrednik',
-    en: 'Broker',
+    ua: 'Головна',
+    ru: 'Главная',
+    pl: 'Dom',
+    en: 'Home',
   },
   'header_menu-advantages': {
-    ua: 'Переваги',
-    ru: 'Преимущества',
-    pl: 'Zalety',
-    en: 'Advantages',
+    ua: 'Щому я?',
+    ru: 'Почему я?',
+    pl: 'Ja?',
+    en: 'Why me?',
   },
   // 'header_menu-service': {
   //   ua: 'Хмарочоси',
@@ -118,10 +118,10 @@ const homeTexts = {
   //   en: 'Skyscrapers',
   // },
   'header_menu-about': {
-    ua: 'Досвід',
-    ru: 'Опыт',
-    pl: 'Doświadczenie',
-    en: 'Experience',
+    ua: 'Послуги',
+    ru: 'Услуги',
+    pl: 'Usługi',
+    en: 'Services',
   },
   'header_menu-cases': {
     ua: 'Кейси',
@@ -160,10 +160,10 @@ const homeTexts = {
     en: 'Or call +48 735 775 810',
   },
   about_title: {
-    ua: 'Мій професійний брокерський досвід',
-    ru: 'Мой профессиональный брокерский опыт',
-    pl: 'Moje doświadczenie zawodowe w pośrednictwie',
-    en: 'My professional brokerage experience',
+    ua: 'Мої послуги',
+    ru: 'Мои услуги',
+    pl: 'Moje usługi',
+    en: 'My services',
   },
   about_description: {
     ua: 'Привіт! Я Юрій Бухтій',
@@ -172,10 +172,10 @@ const homeTexts = {
     en: 'Hello! My name is Yurii Bukhtii',
   },
   about_description2: {
-    ua: 'Eксперт з оренди комерційної нерухомості у Варшаві з досвідом 5 років. Я допомагаю іноземному бізнесу — від маленьких стартапів до великих корпорацій — знайти найкраще місце для введення бізнесу у Варшаві',
-    ru: 'Эксперт по аренде коммерческой недвижимости в Варшаве с опытом 5 лет. Я помогаю иностранному бизнесу – от маленьких стартапов до крупных корпораций – найти лучшее место для введения бизнеса в Варшаве',
-    pl: 'Ekspert w dziedzinie wynajmu nieruchomości komercyjnych w Warszawie z 5-letnim doświadczeniem. Pomagam zagranicznym firmom – od małych startupów po duże korporacje – znaleźć najlepsze miejsce na rozpoczęcie działalności w Warszawie',
-    en: 'An expert in commercial real estate leasing in Warsaw with 5 years of experience. I help foreign businesses — from small startups to large corporations — find the best place to launch their business in Warsaw',
+    ua: 'Брокер з оренди комерційної нерухомості у Варшаві з досвідом 5 років. Я допомагаю іноземному бізнесу — від маленьких стартапів до великих корпорацій — знайти ідеальний офіс під оренду для введення бізнесу у Варшаві',
+    ru: 'Брокер по аренде коммерческой недвижимости в Варшаве с опытом 5 лет. Я помогаю иностранному бизнесу – от маленьких стартапов до крупных корпораций – найти идеальный офис в аренду для введения бизнеса в Варшаве',
+    pl: 'Pośrednik w wynajmie nieruchomości komercyjnych w Warszawie z 5-letnim doświadczeniem. Pomagam zagranicznym firmom — od małych startupów po duże korporacje — znaleźć idealne biuro do wynajęcia, aby rozpocząć działalność w Warszawie',
+    en: 'Commercial real estate rental broker in Warsaw with 5 years of experience. I help foreign businesses — from small startups to large corporations — find the perfect office for rent to launch their business in Warsaw',
   },
   about_description3: {
     ua: 'Чим я корисний?',
@@ -234,7 +234,7 @@ const homeTexts = {
   form_title: {
     ua: 'Залиште свої контактні дані для отримання консультації',
     ru: 'Оставьте свои контактные данные для получения консультации',
-    pl: 'Zostaw swoje dane kontaktowe, aby umówić się na konsultację',
+    pl: 'Zostaw swoje dane kontaktowe',
     en: 'Leave your contact details for a consultation',
   },
   form_name: {
@@ -264,7 +264,7 @@ const homeTexts = {
   form_title2: {
     ua: 'Залиште свої контактні дані для отримання консультації',
     ru: 'Оставьте свои контактные данные для получения консультации',
-    pl: 'Zostaw swoje dane kontaktowe, aby umówić się na konsultację',
+    pl: 'Zostaw swoje dane kontaktowe',
     en: 'Leave your contact details for a consultation',
   },
   form_name2: {
