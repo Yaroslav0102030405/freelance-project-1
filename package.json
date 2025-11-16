@@ -9,7 +9,7 @@
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy -p"
+    "deploy": "netlify deploy -p && netlify deploy --prod --dir=dist"
   },
   "keywords": [],
   "author": "",
