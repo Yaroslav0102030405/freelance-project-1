@@ -9,7 +9,7 @@
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "netlify deploy -p && netlify deploy --prod --dir=dist"
+    "deploy": "netlify deploy -p"
   },
   "keywords": [],
   "author": "",
@@ -19,7 +19,6 @@
     "@parcel/transformer-sass": "^2.16.1",
     "@parcel/transformer-webmanifest": "^2.13.3",
     "buffer": "^6.0.3",
-    "netlify-cli": "^23.11.0",
     "parcel": "^2.13.3",
     "process": "^0.11.10",
     "sharp": "^0.33.5",
