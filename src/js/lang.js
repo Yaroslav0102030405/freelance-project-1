@@ -19,6 +19,42 @@ function onClickButton2(e) {
 }
 
 const homeTexts = {
+  'my-services_title-2': {
+    ua: 'Мої послуги',
+    ru: 'Мои услуги',
+    pl: 'Moje usługi',
+    en: 'My services',
+  },
+  'my-services-desc-1': {
+    ua: 'Підбір офісу для оренди з ремонтом',
+    ru: 'Подбор офиса для аренды с ремонтом',
+    pl: 'Wybór biura do wynajęcia z remontem',
+    en: 'Selection of an office for rent with renovation',
+  },
+  'my-services-desc-2': {
+    ua: 'Підбір офісу для оренди без ремонту',
+    ru: 'Подбор офиса для аренды без ремонта',
+    pl: 'Wybór biura do wynajęcia bez remontu',
+    en: 'Selection of an office for rent without renovation',
+  },
+  'my-services-desc-3': {
+    ua: 'Підбір офісу для оренди з меблями',
+    ru: 'Подбор офиса для аренды с мебелью',
+    pl: 'Wybór biura do wynajęcia z meblami',
+    en: 'Selection of an office for rent with furniture',
+  },
+  'my-services-desc-4': {
+    ua: 'Підбір офісу для оренди без меблів',
+    ru: 'Подбор офиса для аренды без мебели',
+    pl: 'Wybór biura do wynajęcia bez mebli',
+    en: 'Selecting an office for rent without furniture',
+  },
+  'my-services-desc-5': {
+    ua: 'Підбір офісу для оренди з індивідуальним ремонтом під орендаря',
+    ru: 'Подбор офиса для аренды с индивидуальным ремонтом под арендатора',
+    pl: 'Wybór biura do wynajęcia z indywidualnym remontem dla najemcy',
+    en: 'Selection of an office for rent with individual renovation for the tenant',
+  },
   'advantages_title-2': {
     ua: 'Мої переваги',
     ru: 'Мои преимущества',
@@ -111,17 +147,17 @@ const homeTexts = {
     pl: 'Zalety',
     en: 'Advantages',
   },
-  // 'header_menu-service': {
-  //   ua: 'Хмарочоси',
-  //   ru: 'Небоскребы',
-  //   pl: 'Wieżowce',
-  //   en: 'Skyscrapers',
-  // },
   'header_menu-about': {
     ua: 'Про мене',
     ru: 'Обо мне',
     pl: 'O mnie',
     en: 'About me',
+  },
+  'header_menu-service': {
+    ua: 'Послуги',
+    ru: 'Небоскребы',
+    pl: 'Wieżowce',
+    en: 'Skyscrapers',
   },
   'header_menu-cases': {
     ua: 'Кейси',
@@ -142,10 +178,10 @@ const homeTexts = {
     en: 'Yurii Bukhtii',
   },
   'header_banner-pre-title': {
-    ua: 'Брокер з підбору офісів у Варшаві',
-    ru: 'Брокер по подбору офисов в Варшаве',
-    pl: 'Broker ds. wyboru biur w Warszawie',
-    en: 'Office selection broker in Warsaw',
+    ua: 'Брокер з підбору офісів для оренди у Варшаві',
+    ru: 'Брокер с подбору офисов для аренды в Варшаве',
+    pl: 'Pośrednik w wyborze biur do wynajęcia w Warszawie',
+    en: 'Broker for selecting offices for rent in Warsaw',
   },
   'header_banner-button': {
     ua: 'Безкоштовна консультація',
