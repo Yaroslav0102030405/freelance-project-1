@@ -1,7 +1,3 @@
-new Splide('#slider1').mount();
-new Splide('#slider2').mount();
-new Splide('#slider3').mount();
-
 // document.addEventListener('DOMContentLoaded', function () {
 //   // Ініціалізація AOS (якщо вона там є, або перенесіть її сюди, щоб керувати порядком)
 //   // Якщо AOS.init() виконується в HTML, залиште тут тільки вашу логіку IntersectionObserver
@@ -73,6 +69,17 @@ elementsToTrack.forEach(element => {
 // new Splide('#slider1').mount();
 // new Splide('#slider2').mount();
 // new Splide('#slider3').mount();
+import Splide from '@splidejs/splide';
+document.addEventListener('DOMContentLoaded', function () {
+  // new Splide('#slider1').mount();
+  // new Splide('#slider2').mount();
+  // new Splide('#slider3').mount();
+
+  // Ініціалізація Splide відбувається тільки після паузи
+  new Splide('#slider1').mount();
+  new Splide('#slider2').mount();
+  new Splide('#slider3').mount();
+});
 
 import './js/lang';
 import './js/hero-modal';
