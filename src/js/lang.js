@@ -19,6 +19,12 @@ function onClickButton2(e) {
 }
 
 const homeTexts = {
+  // header_logo: {
+  //   ua: 'Брокер Yurii Bukhtii',
+  //   ru: 'Брокер Yurii Bukhtii',
+  //   pl: 'Agent Yurii Bukhtii',
+  //   en: 'Broker Yurii Bukhtii',
+  // },
   'header_banner-button-1': {
     ua: 'Залишити заявку',
     ru: 'Оставить заявку',
