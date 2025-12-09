@@ -38,8 +38,8 @@ const homeTexts = {
     en: 'Offices in business centers located in business districts and near transport hubs',
   },
   'my-services-desc-3': {
-    ua: 'Офіси у хмарочосах Варшави, які є найбільш престижними та мають панорамний вид на місто',
-    ru: 'Офисы в небоскребах Варшавы, наиболее престижные и имеющие панорамный вид на город',
+    ua: 'Офіси в хмарочосах Варшави, які є найбільш престижними та мають панорамні види на місто',
+    ru: 'Офисы в небоскребах Варшавы, наиболее престижные и имеющие панорамные виды на город',
     pl: 'Biura w warszawskich wieżowcach, które są najbardziej prestiżowe i oferują panoramiczne widoki na miasto',
     en: 'Offices in Warsaw`s skyscrapers, which are the most prestigious and have panoramic views of the city',
   },
