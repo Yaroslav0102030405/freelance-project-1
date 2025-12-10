@@ -53,7 +53,7 @@
   margin-bottom: 10px;
   color: $text-color;
   text-align: center;
-  font-size: clamp(31px, 3.25vw, 49px);
+  font-size: clamp(30px, 3.25vw, 48px);
   // font-size: 45px;
   // font-size: calc(29px + (16 + 16 * 0.7) * (100vw - 320px) / 1440px);
 
@@ -200,7 +200,7 @@
   height: 775px;
   z-index: -1;
   background: linear-gradient(to right, #17182157, #4650683b),
-    url(/src/image/hero/bg-0.webp);
+    url(/src/image/hero/hero-bg.webp);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -227,8 +227,8 @@
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
     rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 
-  background: linear-gradient(to right, #3e446457, #e4c9a23b),
-    url(/src/image/background/1aa.avif);
+  // background: linear-gradient(to right, #3e446457, #e4c9a23b),
+  //   url(/src/image/background/1aa.avif);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
