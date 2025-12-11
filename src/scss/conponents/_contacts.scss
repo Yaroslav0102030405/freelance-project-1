@@ -167,13 +167,13 @@ textarea:focus:valid {
   border-radius: 6px;
   box-shadow: 0 3px 8px #0000003d;
   font-size: clamp(14px, 4.25vw, 16px);
-  // border: 1px solid $text-color;
+  border: 1px solid $text-color;
 
-  // background: linear-gradient(to right, #3e446457, #e4c9a23b),
-  //   url(/src/image/background/2aa.avif);
-  // background-repeat: no-repeat;
-  // background-position: center top;
-  // background-size: cover;
+  background: linear-gradient(to right, #3e446457, #e4c9a23b),
+    url(/src/image/background/2aa.avif);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
   // cursor: text;
   // @media screen and (max-width: 580px) {
   //   font-size: 14px;
@@ -183,14 +183,12 @@ textarea:focus:valid {
 .contacts__text1 {
   text-align: center;
   font-weight: 600;
-  color: $text-color;
-  text-transform: uppercase;
+  color: $accent-text;
   // padding: 15px;
   // background-color: #454d71;
   // border-radius: 6px;
   // box-shadow: 0 3px 8px #0000003d;
-  font-size: clamp(25px, 5.25vw, 30px);
-  margin-bottom: 30px;
+  font-size: clamp(25px, 4.25vw, 42px);
   // border: 1px solid $text-color;
   // cursor: text;
   // @media screen and (max-width: 580px) {
@@ -225,9 +223,4 @@ textarea:focus:valid {
   @media screen and (max-width: 580px) {
     font-size: 14px;
   }
-}
-
-.maps {
-  display: flex;
-  justify-content: center;
 }
