@@ -8,15 +8,28 @@ body {
   padding: 0;
 
   // cursor: url("../images/cursor/cursor1.png"), auto;
-  font-family: Roboto, sans-serif;
+  // font-family: Roboto, sans-serif;
   // font-family: Bicubik, -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI',
   //   'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
   //   sans-serif;
+  // font-family: 'Ubuntu', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
   cursor: url('image/cursor/cursor-1.png'), auto;
   // cursor: url('image/cursor/curs-1.ani'), auto;
 }
+
+// <weight>: Use a value from 400 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+// .playfair-display-broker {
+//   font-family: 'Playfair Display', serif;
+//   font-optical-sizing: auto;
+//   font-style: normal;
+// }
 
 .show-modal {
   overflow: hidden;

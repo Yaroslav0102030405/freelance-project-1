@@ -38,10 +38,10 @@ const homeTexts = {
     en: 'Call',
   },
   service_title: {
-    ua: 'послуги',
-    ru: 'услуги',
-    pl: 'usługi',
-    en: 'services',
+    ua: 'Мої послуги',
+    ru: 'Мои услуги',
+    pl: 'Moje usługi',
+    en: 'My services',
   },
   'service_title-1': {
     ua: 'Підбір офісу у Варшаві для оренди',
@@ -177,10 +177,10 @@ const homeTexts = {
   },
 
   'my-services_title-2': {
-    ua: 'Щому обирають мене?',
-    ru: 'Почему выбирают меня?',
-    pl: 'Dlaczego warto mnie wybrać?',
-    en: 'Why choose me?',
+    ua: 'Чому я найкращий брокер',
+    ru: 'Почему я лучший брокер',
+    pl: 'Dlaczego jestem najlepszym brokerem',
+    en: 'Why I am the best broker',
   },
   'my-services-desc-1': {
     ua: 'Глибока експертиза на ринку комерційної нерухомості Варшави',
@@ -274,10 +274,10 @@ const homeTexts = {
     en: 'Yurii Bukhtii',
   },
   'header_banner-pre-title': {
-    ua: 'брокер з підбору офісів для оренди у варшаві',
-    ru: 'брокер по подбору офисов для аренды в Варшаве',
-    pl: 'pośrednik w doborze biur do wynajęcia w Warszawie',
-    en: 'broker for selecting offices for rent in Warsaw',
+    ua: 'Брокер з оренди офісів у варшаві',
+    ru: 'Брокер по аренде офисов в Варшаве',
+    pl: 'Pośrednik w wynajmie biur w Warszawie',
+    en: 'Office rental broker in Warsaw',
   },
   'header_banner-button': {
     ua: 'Безкоштовна консультація',
