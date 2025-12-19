@@ -72,6 +72,7 @@
   margin-top: 60px;
   display: flex;
   justify-content: center;
+  // border: 1px solid $text-color;
 }
 
 .form__input-name {
@@ -163,6 +164,7 @@ textarea:focus:valid {
 // }
 
 .contacts__text {
+  border: 1px solid $text-color;
   padding: 15px;
   background-color: #454d71;
   border-radius: 6px;

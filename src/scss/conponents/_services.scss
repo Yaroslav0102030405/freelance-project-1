@@ -25,6 +25,7 @@
 }
 
 .service__item {
+  border: 1px solid $text-color;
   position: relative;
   display: grid;
   grid-template-rows: auto auto auto auto auto 1fr;
