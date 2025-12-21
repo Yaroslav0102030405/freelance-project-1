@@ -388,10 +388,10 @@ const homeTexts = {
     en: 'Send an enquiry',
   },
   form_title2: {
-    ua: 'Залиште дані для зв`язку з вами',
-    ru: 'Оставьте данные для связи с вами',
+    ua: 'Залиште дані для зв`язку',
+    ru: 'Оставьте данные для связи',
     pl: 'Zostaw swoje dane kontaktowe',
-    en: 'Leave your contact information',
+    en: 'Leave your contact details',
   },
   form_name2: {
     ua: 'Ім`я*',
