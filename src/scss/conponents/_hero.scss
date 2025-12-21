@@ -53,7 +53,7 @@
   margin-bottom: 10px;
   color: $text-color;
   text-align: center;
-  font-size: clamp(36px, 5.25vw, 58px);
+  font-size: clamp(20px, 5.25vw, 40px);
   // font-size: 45px;
   // font-size: calc(29px + (16 + 16 * 0.7) * (100vw - 320px) / 1440px);
 
@@ -72,6 +72,11 @@
   // @media screen and (max-width: 580px) {
   //   font-size: 29px;
   // }
+}
+
+.header_desc {
+  color: $text-color;
+  font-size: clamp(14px, 3.25vw, 16px);
 }
 
 // .hero__advantages {
@@ -219,6 +224,7 @@
   // place-self: end;
   // place-self: end;
   padding: 15px;
+
   max-width: 520px;
   // backdrop-filter: blur(3px);
   // background-color: #74819630;
