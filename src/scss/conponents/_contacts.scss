@@ -166,7 +166,8 @@ textarea:focus:valid {
 .contacts__text {
   border: 1px solid $text-color;
   padding: 15px;
-  background-color: #454d71;
+  // background-color: #454d71;
+  background-image: linear-gradient(90deg, #20274c, #635d82);
   border-radius: 6px;
   box-shadow: 0 3px 8px #0000003d;
   font-size: clamp(14px, 4.25vw, 16px);
