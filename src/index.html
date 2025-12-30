@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-18WDYV4MC5"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-18WDYV4MC5');
+    </script>
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <!-- <meta name="theme-color" content="#3e4464" /> -->
+    <meta name="theme-color" content="#3e4464" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!-- <meta name="theme-color" content="#4285f4" /> -->
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#3e4464" />
+    <!-- IOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3e4464" />
+
+    <!-- <link rel="manifest" href="./manifest.json"> -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <!-- <link rel="manifest" href="./site.webmanifest" /> -->
+    <!-- 48 симвлолів -->
+    <title lang="ru" data-lang="home_page-title">
+      Yurii Bukhtii | Оренда офісів у Варшаві
+    </title>
+    <meta
+      name="description"
+      content="Допомагаю іноземному бізнесу — від маленьких стартапів до великих корпорацій — знайти найкращій офіс для введення бізнесу у Варшаві"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.scss" />
+  </head>
+  <body class="show-modal">
+    <header id="header" class="header">
+      <div class="container">
+        <a lang="en" class="logo" href="./index.html" data-lang="header_logo">
+          <img
+            loading="lazy"
+            class="logo__image"
+            width="50"
+            height="50"
+            src="./image/image-logo.webp"
+            alt="Юрій Бухтій"
+          />
+          Yurii Bukhtii</a
+        >
+
+        <nav class="nav">
+          <ul class="header__menu">
+            <li>
+              <a
+                class="active js-play-sound"
+                href="#header"
+                data-lang="header_menu-home"
+                >Брокер</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-play-sound"
+                href="#service"
+                data-lang="header_menu-service"
+                >Переваги</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-play-sound"
+                href="#advantages"
+                data-lang="header_menu-advantages"
+                >Досвід</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-play-sound"
+                href="#about"
+                data-lang="header_menu-about"
+                >Переваги</a
+              >
+            </li>
+            <li>
+              <a
+                class="js-play-sound"
+                href="#contacts"
+                data-lang="header_menu-contacts"
+                >Контакти</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero scroll">
+        <div class="hero__overlay"></div>
+        <div class="container">
+          <div class="hero__wrap">
+            <div class="hero__img" data-aos="zoom-out-up">
+              <picture>
+                <source
+                  type="image/png"
+                  srcset="./image/hero/250.png?as=webp&width=280"
+                  media="(max-width: 580px)"
+                />
+                <img
+                  loading="lazy"
+                  width="402"
+                  height="628"
+                  class="hero__image"
+                  src="./image/hero/broker-1.avif"
+                  alt="Юрій Бухтій"
+                />
+              </picture>
+            </div>
+            <div class="hero__content">
+              <h1 class="hero__pre-title" data-lang="header_banner-pre-title">
+                Брокер з підбору офісів у Варшаві
+              </h1>
+              <div class="hero__wrap-buttons">
+                <button
+                  class="button js-button flare-button js-play-sound"
+                  type="button"
+                  data-lang="header_banner-button-1"
+                >
+                  Безкоштовна консультація
+                </button>
+                <a
+                  href="tel:+48735775810"
+                  class="button expand__button js-play-sound"
+                  data-lang="header_banner-link-1"
+                >
+                  Подзвонити</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="service" class="service scroll">
+        <div class="container">
+          <h2
+            class="service__title"
+            data-lang="service_title"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            Я займаюся пошуком найкращих варіантів оренди для клієнтів
+          </h2>
+          <ul class="service__list cards">
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider1"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/s1.webp"
+                        alt="велике по розміру офісне приміщення на першому поверху як хол"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/s3.webp"
+                        alt="гостинна в офісній будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/s4.webp"
+                        alt="гостинна в офісний будівлі"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/s6.webp"
+                        alt="офісне приміщення з велики стеклянною стіною"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3
+                aria-label="заголовко послуги з оренди офісу в варшаві"
+                class="service__pre-title"
+                data-lang="service_title-1"
+              >
+                Оренда офісу в Варшаві
+              </h3>
+              <p
+                aria-label="описання для послуги з оренди офісу в варшаві"
+                class="service__description"
+                data-lang="service_desc-1-1"
+              >
+                Для Вас я знайду офіс в різних районах Варшави.
+              </p>
+              <p class="service__price" data-lang="service_desc-1-2">
+                Метраж від 50 до 30 000 мкв.
+              </p>
+
+              <p
+                class="service__price-2"
+                data-lang="service_desc-1-3"
+                style="margin-bottom: 0"
+              >
+                *Послуга повністю безкоштовна і немає прихованих комісій
+              </p>
+              <p class="service__price-2" data-lang="service_desc-1-4">
+                *Послуга повністю безкоштовна і немає прихованих комісій
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-1"
+              >
+                Безкоштовна консультація
+              </button>
+              <a
+                href="tel:+48735775810"
+                class="button expand__button js-play-sound"
+                data-lang="service_btn-1-2"
+              >
+                Подзвонити</a
+              >
+            </li>
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider2"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        width="510"
+                        height="270"
+                        src="./image/s2-1.webp"
+                        alt="стеклянна будівля хмарочос"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/s2-2.webp"
+                        alt="велике офісне приміщення зі багатьма стеклами"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/s2-3.webp"
+                        alt="вид на місто з офісного приміщення"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="service__pre-title" data-lang="service_title-2">
+                оренда приміщення під склад в варшаві
+              </h3>
+              <p class="service__description" data-lang="service_desc-2-1">
+                Я також займаюся орендою складів в Польщі.
+              </p>
+              <p class="service__price-1" data-lang="service_desc-2-2">
+                Метраж від 500 до 30 000 мкв.
+              </p>
+              <p
+                class="service__price-2"
+                data-lang="service_desc-2-3"
+                style="margin-bottom: 0"
+              >
+                *Послуга повністю безкоштовна і немає прихованих комісій
+              </p>
+              <p
+                class="service__price-2"
+                data-lang="service_desc-2-4"
+                style="margin-bottom: 0"
+              >
+                *Послуга повністю безкоштовна і немає прихованих комісій
+              </p>
+              <p class="service__price-2" data-lang="service_desc-2-5">
+                *Послуга повністю безкоштовна і немає прихованих комісій
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-2"
+              >
+                Безкоштовна консультація
+              </button>
+              <a
+                href="tel:+48735775810"
+                class="button expand__button js-play-sound"
+                data-lang="service_btn-2-2"
+              >
+                Подзвонити</a
+              >
+            </li>
+            <li
+              class="service__item"
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
+              <div
+                id="slider3"
+                class="splide"
+                role="group"
+                aria-label="Splide Basic HTML Example"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img
+                        class="img"
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/s-3.webp"
+                        alt="приміщення під тренажерний зал"
+                      />
+                    </li>
+
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/service-3.webp"
+                        alt="хмарочос"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        loading="lazy"
+                        width="510"
+                        height="270"
+                        src="./image/service-3.webp"
+                        alt="хмарочос"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="service__pre-title" data-lang="service_title-3">
+                реєстрації фірми в Польщі та супровід
+              </h3>
+              <p class="service__description" data-lang="service_desc-3-1">
+                Допомогаю в відкритті фірм в Польщі, повний супровід її
+                діяльності.
+              </p>
+              <p class="service__price-1" data-lang="service_desc-3-2">
+                Метраж від 500 до 30 000 мкв.
+              </p>
+              <p
+                class="service__price-2"
+                data-lang="service_desc-3-3"
+                style="margin-bottom: 0"
+              >
+                *Платна послуга
+              </p>
+              <p class="service__price-2" data-lang="service_desc-3-4">
+                *Платна послуга
+              </p>
+              <button
+                class="service__button js-button flare-button"
+                data-lang="service_btn-3"
+              >
+                Безкоштовна консультація
+              </button>
+              <a
+                href="tel:+48735775810"
+                class="button expand__button js-play-sound"
+                data-lang="service_btn-3-2"
+              >
+                Подзвонити</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="advantages" class="advantages scroll">
+        <div class="container">
+          <h2
+            class="advantages__title"
+            data-lang="my-services_title-2"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            Мої послуги
+          </h2>
+          <ul class="advantages__list">
+            <li class="advantages__item" data-aos="zoom-in">
+              <p class="a01">01</p>
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19"
+                height="19"
+                viewBox="0 0 19 19"
+                fill="none"
+              >
+                <path
+                  d="M9.5 0L12.0659 6.93414L19 9.5L12.0659 12.0659L9.5 19L6.93414 12.0659L0 9.5L6.93414 6.93414L9.5 0Z"
+                  fill="#ACC1D5"
+                ></path>
+              </svg> -->
+              <p class="advantages__text" data-lang="my-services-desc-1">
+                Підбір офісу для оренди з ремонтом
+              </p>
+            </li>
+            <li class="advantages__item" data-aos="zoom-in">
+              <p class="a01">02</p>
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19"
+                height="19"
+                viewBox="0 0 19 19"
+                fill="none"
+              >
+                <path
+                  d="M9.5 0L12.0659 6.93414L19 9.5L12.0659 12.0659L9.5 19L6.93414 12.0659L0 9.5L6.93414 6.93414L9.5 0Z"
+                  fill="#ACC1D5"
+                ></path>
+              </svg> -->
+              <p class="advantages__text" data-lang="my-services-desc-2">
+                Підбір офісу для оренди без ремонту
+              </p>
+            </li>
+            <li class="advantages__item" data-aos="zoom-in">
+              <p class="a01">03</p>
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19"
+                height="19"
+                viewBox="0 0 19 19"
+                fill="none"
+              >
+                <path
+                  d="M9.5 0L12.0659 6.93414L19 9.5L12.0659 12.0659L9.5 19L6.93414 12.0659L0 9.5L6.93414 6.93414L9.5 0Z"
+                  fill="#ffffff"
+                ></path>
+              </svg> -->
+              <p class="advantages__text" data-lang="my-services-desc-3">
+                Підбір офісу для оренди з меблями
+              </p>
+            </li>
+            <li class="advantages__item" data-aos="zoom-in">
+              <p class="a01">04</p>
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19"
+                height="19"
+                viewBox="0 0 19 19"
+                fill="none"
+              >
+                <path
+                  d="M9.5 0L12.0659 6.93414L19 9.5L12.0659 12.0659L9.5 19L6.93414 12.0659L0 9.5L6.93414 6.93414L9.5 0Z"
+                  fill="#ACC1D5"
+                ></path>
+              </svg> -->
+              <p class="advantages__text" data-lang="my-services-desc-4">
+                Підбір офісу для оренди без меблів
+              </p>
+            </li>
+            <li class="advantages__item" data-aos="zoom-in">
+              <p class="a01">05</p>
+              <!-- <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19"
+                height="19"
+                viewBox="0 0 19 19"
+                fill="none"
+              >
+                <path
+                  d="M9.5 0L12.0659 6.93414L19 9.5L12.0659 12.0659L9.5 19L6.93414 12.0659L0 9.5L6.93414 6.93414L9.5 0Z"
+                  fill="#ACC1D5"
+                ></path>
+              </svg> -->
+              <p class="advantages__text" data-lang="my-services-desc-5">
+                Підбір офісу для оренди з індивідуальним ремонтом під орендаря
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="about scroll">
+        <div class="container">
+          <h2
+            class="about__title"
+            data-lang="about_title"
+            data-aos="fade-up"
+            data-aos-duration="3000"
+          >
+            Мій професійний брокерський досвід
+          </h2>
+          <div class="about__wrap">
+            <div
+              class="about__content"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <p class="about__text" data-lang="about_description">
+                Привіт! Я Юрій Бухтій
+              </p>
+              <p class="about__text" data-lang="about_description2">
+                Eксперт з оренди комерційної нерухомості у Варшаві з досвідом 5
+                років. Я допомагаю іноземному бізнесу — від маленьких стартапів
+                до великих корпорацій — знайти найкраще місце для введення
+                бізнесу у Варшаві
+              </p>
+              <p class="about__text" data-lang="about_description3">
+                Чим я корисний?
+              </p>
+              <p class="about__text" data-lang="about_description4">
+                1. Я знаю ринок і постійно вивчаю пропозиції Варшави і завжди
+                пропоную лише актуальні та найвигідніші варіанти
+              </p>
+              <p class="about__text" data-lang="about_description5">
+                2. Я думаю про Ваш бізнес, а не просто шукаю квадратні метри. Я
+                розбираюся у Ваших потребах, щоб знайти місце, яке дійсно
+                допоможе Вашому бізнесу зрости
+              </p>
+              <p class="about__text" data-lang="about_description6">
+                3. Я супроводжую Вас від першої розмови до моменту, коли Ви
+                підписуєте договір оренди та після, якщо у вас виникнуть якісь
+                додаткові питання. Я завжди на зв`язку з вами і готовий
+                допомогти
+              </p>
+              <p class="about__text" data-lang="about_description7">
+                Я ваш надійним партнером у Варшаві. Якщо Ви готові щоб я знайшов
+                вам ідеальний офіс, просто зателефонуйте мені +48 735 775 810
+              </p>
+            </div>
+            <div
+              class="about__image"
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <img
+                loading="lazy"
+                width="681"
+                height="480"
+                src="./image/about/about.webp"
+                alt="Юрій Бухтій"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="contacts scroll">
+        <div class="container">
+          <h2 class="contacts__text1" data-lang="contacts_title">
+            Безкоштовний підбір офісів у Варшаві під ваші індивідуальні потреби
+          </h2>
+          <div class="contacts__wrap">
+            <div class="contacts__image" data-aos="zoom-in">
+              <a lang="en" class="form__logo-3 js-play-sound" href="#header">
+                <img
+                  loading="lazy"
+                  class="logo__image"
+                  width="50"
+                  height="50"
+                  src="./image/image-logo.webp"
+                  alt="Юрій Бухтій"
+                />
+                <p
+                  class="contacts__text"
+                  style="margin-bottom: 0"
+                  data-lang="contacts_logo"
+                >
+                  Загалом, я успішно допоміг вже 40 компаніям знайти офіс в
+                  оренду. Буду радий допомогти і Вам! Звертайтеся
+                </p>
+              </a>
+
+              <div class="maps">
+                <img src="./image/contacts/maps.avif" alt="карта" />
+              </div>
+            </div>
+            <div class="contacts__form" data-aos="zoom-in">
+              <form id="form1" class="form-1">
+                <a lang="en" class="form__logo-2 js-play-sound" href="#header">
+                  <img
+                    loading="lazy"
+                    class="logo__image"
+                    width="50"
+                    height="50"
+                    src="./image/image-logo.webp"
+                    alt="Юрій Бухтій"
+                  />
+                  Yurii Bukhtii</a
+                >
+                <div class="form__text1">
+                  <h3 class="form__title" data-lang="form_title">
+                    Залиште свої контактні дані для отримання консультації
+                  </h3>
+                  <label
+                    for="firstname"
+                    class="form__input-name"
+                    data-lang="form_name"
+                    >Ім`я*
+                  </label>
+                  <input
+                    id="firstname"
+                    class="form__1-input"
+                    type="text"
+                    name="name"
+                    autocomplete="off"
+                    minlength="3"
+                    maxlength="10"
+                    required
+                  />
+
+                  <label
+                    for="formtel"
+                    class="form__input-name"
+                    data-lang="form_tel"
+                    >Номер телефону*
+                  </label>
+                  <input
+                    id="formtel"
+                    class="form__1-input"
+                    type="tel"
+                    name="tel"
+                    autocomplete="off"
+                    title="The field must contain only a phone number (numbers)"
+                    pattern="[\+0-9]{9,15}"
+                    required
+                  />
+
+                  <label
+                    for="formcomment"
+                    class="form__input-name"
+                    data-lang="form_comment"
+                    >Повідомлення
+                  </label>
+                  <textarea
+                    id="formcomment"
+                    class="form__1-textarea"
+                    name="comment"
+                    id="comment"
+                    rows="5"
+                    autocomplete="off"
+                  ></textarea>
+
+                  <button
+                    data-lang="form_btn"
+                    class="button form__button js-play-sound"
+                    type="submit"
+                  >
+                    Відправити
+                  </button>
+                </div>
+                <div class="form_answer1">
+                  <p
+                    class="form__answer-text1"
+                    style="margin-bottom: 0"
+                    data-lang="form_answer1"
+                  >
+                    ✅ Повідомлення відправлено
+                  </p>
+                  <p class="form__answer-text" data-lang="form_answer12">
+                    Зв`яжуся з Вами протягом однієї години
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__line"></div>
+        <div class="footer__wrap">
+          <div class="logo__wrap">
+            <a class="logo js-play-sound" href="#header">
+              <img
+                loading="lazy"
+                class="logo__image"
+                width="50"
+                height="50"
+                src="./image/image-logo.webp"
+                alt="Юрій Бухтій"
+              />
+              Yurii Bukhtii</a
+            >
+          </div>
+
+          <ul class="footer__icons">
+            <li>
+              <a
+                class="js-play-sound"
+                aria-label="логотип телефоної трубки"
+                href="tel:+48735775810"
+              >
+                <img
+                  loading="lazy"
+                  class="icon"
+                  width="40"
+                  height="40"
+                  src="./image/footer/call-1.avif"
+                  alt="логотип телефоної трубки"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                class="js-play-sound"
+                aria-label="логотип фейсбук"
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://www.facebook.com/biuraimagazyny?rdid=HqlvQdRnyghUzO68&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DPLqqr8jK%2F#"
+              >
+                <img
+                  loading="lazy"
+                  class="icon"
+                  width="40"
+                  height="40"
+                  src="./image/footer/facebook-1.avif"
+                  alt="логотип фейсбук"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                class="js-play-sound"
+                aria-label="логотип телеграм"
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://telegram.im/@officeinwarsaw"
+              >
+                <img
+                  loading="lazy"
+                  class="icon"
+                  width="40"
+                  height="40"
+                  src="./image/footer/telegram-1.avif"
+                  alt="логотип телеграм"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop js-backdrop">
+      <div class="modal js-modal">
+        <a lang="en" class="logo js-play-sound" href="javascript:void(0);">
+          <img
+            loading="lazy"
+            class="logo__image"
+            width="50"
+            height="50"
+            src="./image/image-logo.webp"
+            alt="Юрій Бухтій"
+          />
+          Yurii Bukhtii
+        </a>
+        <h2 lang="en" class="modal__title">Website language</h2>
+        <ul class="modal__menu-btn js-container">
+          <li>
+            <button
+              lang="en"
+              aria-label="кнопка вибіру англійської мови"
+              class="modal__btn btn en js-play-sound"
+              data-btn="en"
+            >
+              EN
+            </button>
+          </li>
+          <li>
+            <button
+              lang="pl"
+              aria-label="кнопка вибіру польскої мови"
+              class="modal__btn btn pl js-play-sound"
+              data-btn="pl"
+            >
+              PL
+            </button>
+          </li>
+          <li>
+            <button
+              lang="ua"
+              aria-label="кнопка вибіру української мови"
+              class="modal__btn btn ua js-play-sound js-play-sound2"
+              data-btn="ua"
+            >
+              UA
+            </button>
+          </li>
+
+          <li>
+            <button
+              lang="ru"
+              aria-label="кнопка вибіру pocійської мови"
+              class="modal__btn btn ru js-play-sound"
+              data-btn="ru"
+            >
+              RU
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- модалька 2 -->
+    <div class="backdrop-2 js-backdrop-2 is-hidden-2">
+      <div class="modal-2 js-modal-2">
+        <div class="contacts__form">
+          <form id="form2" class="form-1 form-2">
+            <div class="form2__wrap-logo">
+              <a
+                lang="en"
+                class="form__logo-1 js-play-sound"
+                href="javascript:void(0);"
+              >
+                <img
+                  loading="lazy"
+                  class="logo__image"
+                  width="50"
+                  height="50"
+                  src="./image/image-logo.webp"
+                  alt="Юрій Бухтій"
+                />
+                Yurii Bukhtii
+              </a>
+              <button class="js-close-modal js-play-sound" type="button">
+                <svg
+                  class="icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="34px"
+                  viewBox="0 -960 960 960"
+                  width="34px"
+                >
+                  <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="form__text2">
+              <h3 class="form__title" data-lang="form_title2">
+                Залиште свої контактні дані для отримання консультації
+              </h3>
+              <label
+                for="firstname2"
+                class="form__input-name"
+                data-lang="form_name2"
+                >Ім`я*</label
+              >
+              <input
+                id="firstname2"
+                class="form__1-input"
+                type="text"
+                name="name"
+                autocomplete="off"
+                minlength="3"
+                maxlength="10"
+                required
+              />
+              <label
+                for="formtel2"
+                class="form__input-name"
+                data-lang="form_tel2"
+                >Номер телефону*
+              </label>
+              <input
+                id="formtel2"
+                class="form__1-input"
+                type="tel"
+                name="tel"
+                autocomplete="off"
+                title="Поле повинно містити лише номер телефону (цифри)"
+                pattern="[\+0-9]{9,15}"
+                required
+              />
+              <label
+                for="formcomment"
+                class="form__input-name"
+                data-lang="form_comment2"
+                >Повідомлення
+              </label>
+              <textarea
+                id="formcomment"
+                class="form__1-textarea"
+                name="comment"
+                id="comment-2"
+                rows="5"
+                autocomplete="off"
+              ></textarea>
+              <button
+                lang="en"
+                class="button form__button js-play-sound"
+                type="submit"
+                data-lang="form_btn2"
+              >
+                Відправити
+              </button>
+            </div>
+            <div class="form_answer2">
+              <p
+                class="form__answer-text2"
+                style="margin-bottom: 0"
+                data-lang="form_answer21"
+              >
+                ✅ Повідомлення відправлено
+              </p>
+              <p class="form__answer-text2" data-lang="form_answer22">
+                Зв`яжуся з Вами протягом однієї години
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"
+      integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
